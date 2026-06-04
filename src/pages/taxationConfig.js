@@ -14,7 +14,7 @@ const taxInvestigationImg = 'https://placehold.co/800x600?text=Tax+Investigation
 import capitalGainsTaxImg from '../assets/taxation-capital-gains-tax.png';
 import estatePropertyTaxImg from '../assets/taxation-estate-tax-planning.png';
 import taxAdvisorsImg from '../assets/taxation-tax-advisors.png';
-import nonUkResidentTaxationImg from '../../../images_old/non-uk-resident-taxation.png';
+import nonUkResidentTaxationImg from '../../images_old/non-uk-resident-taxation.png';
 // Reusing an existing taxation image for EMI and SEIS as no specific assets were provided for them in the list.
 import emiSeisPlaceholderImg from '../assets/taxation-company-tax-return.png';
 
