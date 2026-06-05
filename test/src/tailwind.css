@@ -1,0 +1,21 @@
+/* Tailwind v4 — skip preflight to avoid conflicts with Bootstrap CDN */
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+/* ─── Brand Design Tokens ─── */
+/* In Tailwind v4, @theme variables generate utility classes automatically:
+   --color-brand-dark  →  bg-brand-dark, text-brand-dark, border-brand-dark, etc.
+   --font-inter        →  font-inter
+*/
+@theme {
+  /* Colors */
+  --color-brand-dark:         #1d3c45;
+  --color-brand-darker:       #11252b;
+  --color-brand-orange:       #d2601a;
+  --color-brand-orange-light: #e8a274;
+  --color-brand-orange-dark:  #b8500e;
+
+  /* Font families — must use --font-* (NOT --font-family-*) for font-{name} utility */
+  --font-inter:   'Inter', sans-serif;
+  --font-outfit:  'Outfit', sans-serif;
+}
