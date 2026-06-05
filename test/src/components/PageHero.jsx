@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const PageHero = ({ title, subtitle, breadcrumbs, sidebarItems = [] }) => {
+const PageHero = ({ title, subtitle, breadcrumbs = [], sidebarItems = [] }) => {
     return (
         <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
             <div className="position-absolute w-100 h-100" style={{ backgroundImage: 'radial-gradient(circle at 80% 20%, rgba(210, 96, 26, 0.15) 0%, transparent 60%)', top: 0, left: 0, zIndex: 1 }}></div>

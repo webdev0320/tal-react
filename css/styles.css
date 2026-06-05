@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 :root {
     /* Premium Brand Colors using HSL */
     --brand-orange: hsl(25, 90%, 50%); /* Vibrant Orange */

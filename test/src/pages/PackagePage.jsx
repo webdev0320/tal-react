@@ -122,9 +122,15 @@ const packagesConfig = {
   }
 };
 
+import DynamicWpPage from './DynamicWpPage';
+
 const PackagePage = () => {
   const { slug } = useParams();
-  const pkg = packagesConfig[slug] || packagesConfig['ltd-company'];
+  const pkg = packagesConfig[slug];
+
+  if (!pkg) {
+    return <DynamicWpPage slug={`packages/${slug}`} />;
+  }
 
   return (
     <div>

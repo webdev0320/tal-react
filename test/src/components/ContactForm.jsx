@@ -2,9 +2,9 @@ const ContactForm = () => {
   return (
     <section className="py-5">
         <div className="container py-4">
-            <div className="row g-5">
+            <div className="d-flex flex-wrap" style={{ gap: '2rem' }}>
                 {/* Info column */}
-                <div className="col-lg-5">
+                <div style={{ flex: '1 1 45%', minWidth: '300px' }}>
                     <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Contact Nodes</span>
                     <h2 className="text-brand-dark display-5 mt-2 mb-4 brand-font">Get in Touch</h2>
                     <p className="text-secondary mb-4">Connect directly with our customer response desk or drop by our physical consultation offices.</p>
@@ -50,8 +50,8 @@ const ContactForm = () => {
                 </div>
                 
                 {/* Form Column */}
-                <div className="col-lg-7">
-                    <div className="card p-4 p-md-5 border-0 shadow-lg rounded-4 bg-white">
+                <div style={{ flex: '1 1 45%', minWidth: '300px' }}>
+                    <div className="card p-4 p-md-5 border-0 shadow-lg rounded-4 bg-white h-100">
                         <h3 className="mb-4 brand-font text-brand-dark">Send Us a Message</h3>
                         <form action="#" method="POST" onSubmit={(e) => e.preventDefault()}>
                             <div className="row g-3">

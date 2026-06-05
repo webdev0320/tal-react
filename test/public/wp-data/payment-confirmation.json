@@ -1,0 +1,4 @@
+{
+  "title": "Payment Confirmation",
+  "content": "<!-- wp:shortcode -->[simpay_payment_receipt]<!-- /wp:shortcode -->"
+}

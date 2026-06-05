@@ -5,12 +5,16 @@ import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import { taxationConfig } from './taxationConfig';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import DynamicWpPage from './DynamicWpPage';
 
 // Smooth interactive accordion item
 const TaxationSubPage = () => {
   const { slug } = useParams();
-  const service = taxationConfig[slug] || taxationConfig['personal-income-tax'];
-  console.log('DEBUG: slug=', slug, 'service=', service);
+  const service = taxationConfig[slug];
+
+  if (!service) {
+    return <DynamicWpPage slug={`taxation/${slug}`} />;
+  }
   
   // State for showing the figma mockup overlay
   const [showMockup, setShowMockup] = useState(false);

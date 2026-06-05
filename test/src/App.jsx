@@ -51,6 +51,7 @@ import PersonalIncomeTax from './pages/PersonalIncomeTax';
 import ConsolidatedAccounts from './pages/ConsolidatedAccounts';
 import SingleBlog from './pages/SingleBlog';
 import MainLayout from './components/Layout/MainLayout';
+import DynamicWpPage from './pages/DynamicWpPage';
 
 function App() {
   return (
@@ -124,6 +125,9 @@ function App() {
 
         {/* Dynamic Taxation Routes */}
         <Route path="/taxation/:slug" element={<MainLayout><TaxationSubPage /></MainLayout>} />
+
+        {/* Catch-all for imported WordPress Pages */}
+        <Route path="*" element={<MainLayout><DynamicWpPage /></MainLayout>} />
       </Routes>
     </Router>
   );

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import { industriesConfig } from '../data/industriesConfig';
+import DynamicWpPage from './DynamicWpPage';
 
 /* ─────────────────────────────────────────────
    SUB-COMPONENTS
@@ -206,7 +207,11 @@ const IndustryPage = ({ slug: propSlug }) => {
   const params = useParams();
   const slug = propSlug || params.slug;
 
-  const data = industriesConfig[slug] || industriesConfig['it-professionals'];
+  const data = industriesConfig[slug];
+
+  if (!data) {
+    return <DynamicWpPage slug={`industries/${slug}`} />;
+  }
 
   const [openAccordionId, setOpenAccordionId] = useState(1);
   const [openFaqId, setOpenFaqId] = useState(1);
