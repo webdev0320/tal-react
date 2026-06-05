@@ -27,7 +27,6 @@ const InheritanceTaxPlanning = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans text-slate-800">
-      <TaxationLinksBar />
 
       <PageHero
         title="Inheritance Tax Planning Advice"
@@ -63,6 +62,8 @@ const InheritanceTaxPlanning = () => {
             <p>That is why inheritance tax planning is rarely about “avoiding tax” in a simplistic sense. It is about understanding how an estate is actually structured before decisions become fixed and options become limited.</p>
           </section>
 
+          <TaxationLinksBar />
+
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div>
                 <h3 className="text-2xl font-bold mb-4">Inheritance Tax Planning Advisors for Individuals, Families, and Property Owners</h3>
@@ -90,8 +91,6 @@ const InheritanceTaxPlanning = () => {
               ))}
             </div>
           </section>
-
-          <TaxationLinksBar />
 
           <section className="grid md:grid-cols-2 gap-12 items-center">
               <img src="/placeholder-review-image.jpg" alt="Review" className="rounded-lg shadow-lg" />

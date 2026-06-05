@@ -81,7 +81,6 @@ const CompanyTaxReturn = () => {
 
   return (
     <div className="bg-light min-h-screen">
-      <TaxationLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
@@ -214,6 +213,8 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
+      <TaxationLinksBar />
+
       {/* ── SECTION 2: BUILT AROUND ACCURACY ── */}
       <section className="py-5 bg-light border-top border-bottom border-light">
         <div className="container">
@@ -253,11 +254,8 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 3: TAX BADGES NAV GRID (shared component) ── */}
-      <TaxationLinksBar />
-
       {/* ── SECTION 4: WHAT IT INVOLVES IN PRACTICE ── */}
-      <section className="py-5 bg-light border-top border-bottom border-light">
+      <section className="py-5 bg-white">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 order-2 order-lg-1">
@@ -300,10 +298,8 @@ const CompanyTaxReturn = () => {
         </div>
       </section>
 
-      {/* ── SECTION 5: CLIENTS AND PARTNERS ── */}
       <Partners />
 
-      {/* ── SECTION 6: LTD COMPANY RETURNS ── */}
       <section className="py-5 bg-white">
         <div className="container">
           <div className="row g-5 align-items-center">

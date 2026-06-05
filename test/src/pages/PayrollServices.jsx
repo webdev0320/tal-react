@@ -357,8 +357,6 @@ const PayrollServices = () => {
           </section>
         </div>
       </main>
-
-      </main>
     </div>
   );
 };

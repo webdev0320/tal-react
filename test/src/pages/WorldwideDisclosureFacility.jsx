@@ -1,15 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 
 const WorldwideDisclosureFacility = () => {
   return (
     <div className="bg-white min-h-screen text-gray-900 font-sans">
-      <TopBar />
-      <Navbar />
-      <TaxationLinksBar />
 
       {/* [COMPONENT INDEX 2]: Hero Section */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
@@ -109,8 +104,7 @@ const WorldwideDisclosureFacility = () => {
         </section>
 
         {/* [COMPONENT INDEX 5]: Pill Cloud (shared component) */}
-        <TaxationLinksBar />
-
+        
         {/* [COMPONENT INDEX 6]: Data Matrix */}
         <section className="py-16 px-4 bg-white mb-16">
             <div className="max-w-7xl mx-auto">
@@ -377,17 +371,6 @@ const WorldwideDisclosureFacility = () => {
             </div>
         </section>
       </div>
-
-      {/* [COMPONENT INDEX 20]: Absolute Footer Strip */}
-      <footer className="py-8 px-8 bg-gray-100 border-t-2">
-        <p><strong>Phone:</strong> 020 8127 0728</p>
-        <p><strong>Email Address:</strong> info@taxaccolega.co.uk</p>
-        <div className="flex gap-4 font-bold text-orange-600 mt-4">
-            <span className="hover:underline cursor-pointer">Facebook</span>
-            <span className="hover:underline cursor-pointer">Twitter</span>
-            <span className="hover:underline cursor-pointer">Google Reviews</span>
-        </div>
-      </footer>
     </div>
   );
 };

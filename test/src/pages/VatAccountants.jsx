@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
-import Footer from '../components/Footer';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 
 // Inline styled icons matching Lucide / SVG style
@@ -84,9 +81,6 @@ const VatAccountants = () => {
 
   return (
     <div className="bg-light min-h-screen">
-      <TopBar />
-      <Navbar />
-      <TaxationLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
@@ -788,8 +782,6 @@ const VatAccountants = () => {
 
       {/* ── SECTION 15: BOTTOM PARTNERS LOGOS ── */}
       <Partners />
-      
-      <Footer />
     </div>
   );
 };

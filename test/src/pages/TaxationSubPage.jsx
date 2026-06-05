@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import PageHero from '../components/PageHero';
-import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import { taxationConfig } from './taxationConfig';
@@ -25,10 +22,6 @@ const TaxationSubPage = () => {
 
   return (
     <div style={{ background: '#f8f9fa', minHeight: '100vh' }}>
-      <TopBar />
-      <Navbar />
-      <TaxationLinksBar />
-
       <PageHero
         title={service.title}
         subtitle={service.subtitle}
@@ -39,6 +32,8 @@ const TaxationSubPage = () => {
         ]}
         sidebarItems={Object.keys(taxationConfig).filter(k => k !== slug).slice(0, 3).map(k => ({ title: taxationConfig[k].title, link: `/taxation/${k}` }))}
       />
+
+      <TaxationLinksBar />
 
       {/* ── 2. Hero Core Intro Section ── */}
       <section className="py-5 bg-white">
@@ -493,8 +488,6 @@ const TaxationSubPage = () => {
       <div id="contact-section">
         <ContactForm />
       </div>
-
-      <Footer />
     </div>
   );
 };

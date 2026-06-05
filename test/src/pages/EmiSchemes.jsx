@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import PageHero from '../components/PageHero';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
-import { taxationConfig } from './taxationConfig';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import { taxationConfig } from './taxationConfig';
 
 const EmiSchemesPage = () => {
   const service = taxationConfig['emi-schemes'];
@@ -62,39 +62,6 @@ const EmiSchemesPage = () => {
         </div>
       </section>
 
-      {/* Scheme Definition */}
-      <section className="py-5 bg-light">
-        <div className="container">
-          <div className="row g-5 align-items-center">
-            <div className="col-lg-7">
-              <h2 className="fw-bold text-brand-dark mb-4">EMI Scheme Explained – What an EMI Scheme Actually Does</h2>
-              <p className="text-secondary mb-3">An EMI scheme allows qualifying UK businesses to grant selected employees the option to acquire shares in the company under tax-advantaged conditions. The full structure is known as the Enterprise Management Incentive scheme. Instead of issuing immediate shares outright, the business grants options that may be exercised later under defined conditions.</p>
-              
-              <h5 className="fw-bold text-brand-dark mb-2">This creates alignment between:</h5>
-              <ul className="list-unstyled mb-4">
-                <li>● company growth</li>
-                <li>● employee performance</li>
-                <li>● long-term value creation</li>
-                <li>● future business outcomes</li>
-              </ul>
-
-              <h5 className="fw-bold text-brand-dark mb-2">Target Audiences:</h5>
-              <ul className="list-unstyled mb-4">
-                <li>● startups</li>
-                <li>● scaling businesses</li>
-                <li>● founder-led companies</li>
-                <li>● technology businesses</li>
-                <li>● high-growth companies</li>
-                <li>● investment-backed businesses</li>
-              </ul>
-              <p className="text-secondary font-italic">"because these companies often need strong employee retention while preserving operational cash."</p>
-            </div>
-            <div className="col-lg-5 bg-secondary rounded-4" style={{ height: '300px' }}></div>
-          </div>
-        </div>
-      </section>
-
-      {/* Shared Navigation Pill Cloud */}
       <TaxationLinksBar />
 
       {/* Growth Strategy Dilemmas (Section 5) */}

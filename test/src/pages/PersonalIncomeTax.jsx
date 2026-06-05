@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/personal-income-tax/Hero';
 import MultiSourceIncome from '../components/personal-income-tax/MultiSourceIncome';
 import AccumulationAnalysis from '../components/personal-income-tax/AccumulationAnalysis';
-import TaxationLinksBar from '../components/TaxationLinksBar';
 import DirectorExtractions from '../components/personal-income-tax/DirectorExtractions';
 import PropertyTaxation from '../components/personal-income-tax/PropertyTaxation';
 import PropertyRiskTable from '../components/personal-income-tax/PropertyRiskTable';
@@ -22,6 +21,7 @@ import SummaryCTA from '../components/personal-income-tax/SummaryCTA';
 import IntakePanel from '../components/personal-income-tax/IntakePanel';
 import FAQSection from '../components/personal-income-tax/FAQSection';
 import LondonDirectory from '../components/personal-income-tax/LondonDirectory';
+import TaxationLinksBar from '../components/TaxationLinksBar';
 
 const PersonalIncomeTaxPage = () => {
   useEffect(() => {
@@ -30,7 +30,6 @@ const PersonalIncomeTaxPage = () => {
 
   return (
     <div className="bg-light min-h-screen">
-      <TaxationLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
@@ -100,10 +99,11 @@ const PersonalIncomeTaxPage = () => {
         </div>
       </div>
 
+      <TaxationLinksBar />
+
       <Hero />
       <MultiSourceIncome />
       <AccumulationAnalysis />
-      <TaxationLinksBar />
       <DirectorExtractions />
       <PropertyTaxation />
       <PropertyRiskTable />

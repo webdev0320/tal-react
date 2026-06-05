@@ -90,6 +90,8 @@ const LetPropertyCampaign = () => {
         </div>
       </div>
 
+      <TaxationLinksBar />
+
       <Section className="bg-white">
         <TwoColumnGrid 
           left={

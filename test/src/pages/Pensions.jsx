@@ -379,8 +379,10 @@ const Pensions = () => {
               </section>
 
               <Partners />
-              </div>
-              );
-              };
+            </div>
+          </main>
+        </div>
+      );
+    };
 
-              export default Pensions;
+    export default Pensions;
