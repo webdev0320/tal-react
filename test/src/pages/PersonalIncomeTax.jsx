@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/personal-income-tax/Footer';
 
 // Import local components
 import Hero from '../components/personal-income-tax/Hero';
@@ -33,8 +30,6 @@ const PersonalIncomeTaxPage = () => {
 
   return (
     <div className="bg-light min-h-screen">
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
@@ -126,7 +121,6 @@ const PersonalIncomeTaxPage = () => {
       <FAQSection />
       <LondonDirectory />
       
-      <Footer />
     </div>
   );
 };

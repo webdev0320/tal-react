@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import AccountsServiceGrid from '../components/AccountsServiceGrid';
 import { accountsLinks } from '../data/accountsLinks';
@@ -10,8 +7,6 @@ import { accountsLinks } from '../data/accountsLinks';
 const BookkeepingServices = () => {
   return (
     <div className="bg-light min-h-screen">
-      <TopBar />
-      <Navbar />
       <AccountsLinksBar />
 
       {/* SECTION 1: HERO BANNER */}
@@ -210,8 +205,6 @@ const BookkeepingServices = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

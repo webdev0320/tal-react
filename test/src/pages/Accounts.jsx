@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
 import Footer from '../components/Footer';
@@ -272,12 +270,6 @@ const ContactUs = () => {
 ───────────────────────────────────────────── */
 const Accounts = () => (
   <div>
-    {/* ── 1. Top bar ── */}
-    <TopBar />
-
-    {/* ── 2. Navbar ── */}
-    <Navbar />
-
     {/* ── 3. Page Hero Banner ── */}
     <header
       className="position-relative text-white d-flex align-items-center"
@@ -469,9 +461,6 @@ const Accounts = () => (
 
     {/* ── 14. Partners Strip ── */}
     <Partners />
-
-    {/* ── 15. Footer ── */}
-    <Footer />
   </div>
 );
 

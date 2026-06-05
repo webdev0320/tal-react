@@ -1,15 +1,10 @@
 import React from 'react';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import HeroBanner from '../components/HeroBanner';
 import ContactForm from '../components/ContactForm';
 
 const ReferAndEarn = () => {
   return (
     <div>
-      <TopBar />
-      <Navbar />
       <HeroBanner />
       
       <section className="py-5">
@@ -39,8 +34,6 @@ const ReferAndEarn = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

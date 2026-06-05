@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import ReviewsSlider from '../components/ReviewsSlider';
 
@@ -26,8 +23,6 @@ const ConsolidatedAccounts = () => {
 
   return (
     <div className="bg-white">
-      <TopBar />
-      <Navbar />
       <AccountsLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
@@ -471,7 +466,6 @@ const ConsolidatedAccounts = () => {
         </div>
       </main>
 
-      <Footer />
     </div>
   );
 };

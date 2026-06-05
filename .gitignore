@@ -45,4 +45,5 @@ Thumbs.db
 public/pages.xml
 *.zip
 *.tar.gz
-*.mp4
+*.mp4**/*pages.xml
+test/public/pages.xml

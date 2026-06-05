@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import Partners from '../components/Partners';
 
 const CheckIcon = () => (
@@ -16,9 +13,6 @@ const CharitiesPackage = () => {
 
   return (
     <div className="bg-light">
-      <TopBar />
-      <Navbar />
-
       {/* Hero */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)' }}>
         <div className="container position-relative py-4" style={{ zIndex: 2 }}>
@@ -173,8 +167,6 @@ const CharitiesPackage = () => {
           <Partners />
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

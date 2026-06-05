@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import PageHero from '../components/PageHero';
 import Partners from '../components/Partners';
-import Footer from '../components/Footer';
 import TaxationLinksBar from '../components/TaxationLinksBar';
-import { CheckCircle, ChevronDown, ChevronUp, MessageSquare, Star } from 'lucide-react';
+import { CheckCircle, ChevronDown, ChevronUp, Star } from 'lucide-react';
 
 const InheritanceTaxPlanning = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
@@ -30,8 +27,6 @@ const InheritanceTaxPlanning = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans text-slate-800">
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
 
       <PageHero
@@ -260,8 +255,6 @@ const InheritanceTaxPlanning = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

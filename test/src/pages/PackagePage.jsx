@@ -1,8 +1,5 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 import charitiesImg from '../assets/packages-contractor-ltd-pricing.png'; // Fallback
 import contractorImg from '../assets/packages-contractor-ltd-pricing.png';
@@ -131,8 +128,6 @@ const PackagePage = () => {
 
   return (
     <div>
-      <TopBar />
-      <Navbar />
 
       {/* Page Header */}
       <header
@@ -224,7 +219,6 @@ const PackagePage = () => {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 };

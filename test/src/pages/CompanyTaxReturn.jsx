@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
-import Footer from '../components/Footer';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 
 // Inline styled icons matching Lucide / SVG style
@@ -84,8 +81,6 @@ const CompanyTaxReturn = () => {
 
   return (
     <div className="bg-light min-h-screen">
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
@@ -983,8 +978,6 @@ const CompanyTaxReturn = () => {
 
       {/* ── SECTION 18: DOUBLE LOGOS GRID / CERTIFICATES ── */}
       <Partners />
-      
-      <Footer />
     </div>
   );
 };

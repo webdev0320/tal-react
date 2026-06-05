@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Section from '../components/Layout/Section';
 import TwoColumnGrid from '../components/Layout/TwoColumnGrid';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import TaxationLinksBar from '../components/TaxationLinksBar';
 
 const PlaceholderImage = () => <div className="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-500">Image Placeholder</div>;
@@ -31,8 +28,6 @@ const LetPropertyCampaign = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
       
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
@@ -375,8 +370,6 @@ const LetPropertyCampaign = () => {
           ))}
         </div>
       </Section>
-
-      <Footer />
     </div>
   );
 };

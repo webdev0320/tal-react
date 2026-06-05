@@ -1,15 +1,10 @@
 import React from 'react';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import HeroBanner from '../components/HeroBanner';
 import ContactSection from '../components/ContactSection';
 
 const CompanySecretarial = () => {
   return (
     <div>
-      <TopBar />
-      <Navbar />
       <HeroBanner />
       
       <section className="py-5">
@@ -42,7 +37,6 @@ const CompanySecretarial = () => {
       </section>
 
       <ContactSection />
-      <Footer />
     </div>
   );
 };

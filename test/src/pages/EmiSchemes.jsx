@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import PageHero from '../components/PageHero';
-import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import { taxationConfig } from './taxationConfig';
@@ -18,8 +15,6 @@ const EmiSchemesPage = () => {
 
   return (
     <div style={{ background: '#f8f9fa', minHeight: '100vh' }}>
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
 
       <PageHero
@@ -349,8 +344,6 @@ const EmiSchemesPage = () => {
               </div>
           </div>
       </section>
-
-      <Footer />
     </div>
   );
 };

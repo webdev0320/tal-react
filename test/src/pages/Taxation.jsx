@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
-import Footer from '../components/Footer';
 import ExpertTaxServices from '../components/ExpertTaxServices';
 
 const tagRoutes = {
@@ -335,12 +332,6 @@ const ContactUs = () => {
 ───────────────────────────────────────────── */
 const Taxation = () => (
   <div>
-    {/* ── 1. Top bar ── */}
-    <TopBar />
-
-    {/* ── 2. Navbar ── */}
-    <Navbar />
-
     {/* ── 3. Page Hero Banner ── */}
     <header
       className="position-relative text-white d-flex align-items-center"
@@ -527,9 +518,6 @@ const Taxation = () => (
 
     {/* ── 15. Partners strip ── */}
     <Partners />
-
-    {/* ── 16. Footer ── */}
-    <Footer />
   </div>
 );
 

@@ -12,25 +12,6 @@ const FilmTaxRelief = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900">
-      {/* Component Index 1: Global Navigation Bar Container */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-teal-900">Taxaccolega</div>
-          <nav>
-            <ul className="flex space-x-6 text-gray-700">
-              <li><a href="#" className="hover:text-teal-900">Home</a></li>
-              <li><a href="#" className="hover:text-teal-900">Services</a></li>
-              <li><a href="#" className="hover:text-teal-900">Who we Asset</a></li>
-              <li><a href="#" className="hover:text-teal-900">Packages</a></li>
-              <li><a href="#" className="hover:text-teal-900">Blog</a></li>
-              <li><a href="#" className="hover:text-teal-900">Contact Us</a></li>
-              <li><a href="#" className="hover:text-teal-900">About Us</a></li>
-            </ul>
-          </nav>
-          <button className="bg-teal-900 text-white px-4 py-2 rounded">Search</button>
-        </div>
-      </header>
-
       <main className="pt-20">
         {/* Component Index 2: Main Page Banner Context */}
         <section className="relative w-full h-80 bg-teal-900 flex items-center justify-center">

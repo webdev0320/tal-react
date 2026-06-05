@@ -36,8 +36,6 @@ const Pensions = () => {
 
   return (
     <div className="bg-white">
-      <TopBar />
-      <Navbar />
 
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
       <header className="position-relative text-white overflow-hidden py-5" style={{ background: 'linear-gradient(135deg, #1d3c45 0%, #11252b 100%)', minHeight: '380px' }}>
@@ -365,6 +363,7 @@ const Pensions = () => {
           <section className="py-5">
             <div className="container" id="contact-block">
               <ReviewsSlider />
+              <ReviewsSlider />
               <div className="row mt-5">
                 <div className="col-md-6">
                   <h3>Request a Tailored Pension Proposal</h3>
@@ -376,14 +375,12 @@ const Pensions = () => {
                   </form>
                 </div>
               </div>
-            </div>
-          </section>
-        </div>
-      </main>
+              </div>
+              </section>
 
-      <Footer />
-    </div>
-  );
-};
+              <Partners />
+              </div>
+              );
+              };
 
-export default Pensions;
+              export default Pensions;

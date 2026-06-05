@@ -1,9 +1,6 @@
 import { useState } from 'react';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
-import Footer from '../components/Footer';
 
 /* ─────────────────────────────────────────────
    SUB-COMPONENTS
@@ -151,12 +148,6 @@ const ContactUs = () => {
 ───────────────────────────────────────────── */
 const Banks = () => (
   <div>
-    {/* ── 1. Top bar ── */}
-    <TopBar />
-
-    {/* ── 2. Navbar ── */}
-    <Navbar />
-
     {/* ── 3. Page Hero Banner ── */}
     <header
       className="position-relative text-white d-flex align-items-center"
@@ -350,9 +341,6 @@ const Banks = () => (
 
     {/* ── 12. Partners Strip ── */}
     <Partners />
-
-    {/* ── 13. Footer ── */}
-    <Footer />
   </div>
 );
 

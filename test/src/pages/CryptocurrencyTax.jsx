@@ -8,8 +8,6 @@ import TaxationLinksBar from '../components/TaxationLinksBar';
 const CryptocurrencyTax = () => {
   return (
     <div className="w-full bg-white text-gray-800">
-      <TopBar />
-      <Navbar />
       <TaxationLinksBar />
       
       {/* ── HERO SECTION WITH SIDEBAR OVERLAP ── */}
@@ -336,9 +334,6 @@ const CryptocurrencyTax = () => {
             ))}
         </div>
       </section>
-
-      {/* Component Index 19: Absolute Viewport Base Footer */}
-      <Footer />
     </div>
   );
 };

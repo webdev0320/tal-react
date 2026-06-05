@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import TopBar from '../components/TopBar';
-import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
-import Footer from '../components/Footer';
 import { industriesConfig } from '../data/industriesConfig';
 
 /* ─────────────────────────────────────────────
@@ -249,29 +246,6 @@ const IndustryPage = ({ slug: propSlug }) => {
 
   return (
     <div>
-      {/* ── 1. Top bar ── */}
-      <TopBar />
-
-      {/* ── 2. Navbar ── */}
-      <Navbar />
-
-      {/* ── 3. Page Hero Banner ── */}
-      <header
-        className="position-relative text-white d-flex align-items-center justify-content-center"
-        style={{
-          minHeight: '280px',
-          backgroundImage: "url('/images/young-asian.webp')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="position-absolute top-0 start-0 w-100 h-100 bg-brand-dark" style={{ opacity: 0.75, zIndex: 1 }} />
-        <div className="container position-relative py-5 text-center" style={{ zIndex: 2 }}>
-          <h1 className="display-3 fw-bold text-white mb-1">{data.title}</h1>
-          <p className="lead text-white-50">{data.subtitle}</p>
-        </div>
-      </header>
-
       {/* ── 4. Breadcrumbs ── */}
       <div className="bg-white border-bottom py-2">
         <div className="container">
@@ -463,9 +437,6 @@ const IndustryPage = ({ slug: propSlug }) => {
 
       {/* ── 12. Partners Strip ── */}
       <Partners />
-
-      {/* ── 13. Footer ── */}
-      <Footer />
     </div>
   );
 };
