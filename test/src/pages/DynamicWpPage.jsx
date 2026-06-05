@@ -13,33 +13,30 @@ const stripTags = (html) =>
 
 /**
  * Extracts the heading text to use in the PageHero.
- * Priority:
- *  1. First <h1> that wraps an <a> link (WordPress post title pattern)
- *  2. First bare <h1>
- *  3. null (caller falls back to data.title)
+ * ONLY uses the <h1><a href="...">Title</a></h1> pattern — this is
+ * uniquely the WordPress post title injected by the theme template.
+ * Bare <h1> tags inside content are section headings, not page titles,
+ * so we leave them alone and fall back to data.title instead.
  */
 const extractHeading = (html) => {
   const linkedH1 = html.match(/<h1[^>]*>\s*<a[^>]*>([\s\S]*?)<\/a>\s*<\/h1>/i);
   if (linkedH1) return stripTags(linkedH1[1]);
-
-  const firstH1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  if (firstH1) return stripTags(firstH1[1]);
-
   return null;
 };
 
 /**
  * Cleans raw WordPress HTML for display:
- * - Removes the linked <h1> title (already shown in PageHero)
+ * - Removes the linked <h1><a> title block (shown in PageHero instead)
  * - Removes WP shortcodes
- * - Removes theme-injected subtitles
+ * - Removes theme-injected "Your path to success" subtitle
  * - Removes leading empty <p> tags
+ * Bare <h1> section headings are left untouched.
  */
 const cleanContent = (html) => {
   let c = html;
 
-  // Remove the linked h1 title block (shown in hero instead)
-  c = c.replace(/<h1[^>]*>\s*<a[^>]*>[\s\S]*?<\/a>\s*<\/h1>/i, '');
+  // Remove ONLY the linked-anchor h1 (WordPress post title — shown in hero)
+  c = c.replace(/<h1[^>]*>\s*<a[^>]*>[\s\S]*?<\/a>\s*<\/h1>/gi, '');
 
   // WP shortcodes
   c = c.replace(/\[rank_math_breadcrumb\]/g, '');
