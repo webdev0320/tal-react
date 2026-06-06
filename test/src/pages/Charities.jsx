@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Partners from '../components/Partners';
 
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,12 +42,7 @@ const Charities = () => {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-3xl font-bold mb-8">Our Clients and Collaborative Partners</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-          {partners.map((partner, index) => (
-            <img key={index} src={`https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/${partner}.webp`} alt={partner} className="w-full" />
-          ))}
-        </div>
+        <Partners />
       </section>
 
       <section className="mb-12">
@@ -78,37 +74,6 @@ const Charities = () => {
         <p><strong>Email:</strong> info@taxaccolega.co.uk</p>
         <p><strong>Address:</strong> 187a London Road, Croydon, Surrey, CR0 2RJ</p>
       </section>
-
-      <button 
-        onClick={() => setIsModalOpen(true)}
-        className="fixed bottom-10 left-5 bg-orange-600 text-white p-4 rounded-lg shadow-lg z-50"
-      >
-        ID Verification
-      </button>
-
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-          <div className="bg-white p-6 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-            <button className="float-right text-2xl" onClick={() => setIsModalOpen(false)}>&times;</button>
-            <h2 className="text-2xl font-bold mb-4 text-orange-600">ID Verification Form</h2>
-            {/* Simple step representation */}
-            <form className="space-y-4">
-                {step === 0 && (
-                    <div>
-                        <h3 className="font-bold">Personal Details</h3>
-                        <label className="block">Fornames * <input type="text" className="border w-full p-2" required /></label>
-                        <label className="block">Last Name * <input type="text" className="border w-full p-2" required /></label>
-                    </div>
-                )}
-                {/* ... other steps ... */}
-                <div className="flex justify-between mt-4">
-                    <button type="button" onClick={() => setStep(Math.max(0, step - 1))}>Back</button>
-                    <button type="button" onClick={() => setStep(Math.min(6, step + 1))}>Next</button>
-                </div>
-            </form>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

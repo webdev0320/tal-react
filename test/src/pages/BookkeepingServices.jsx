@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import AccountsServiceGrid from '../components/AccountsServiceGrid';
 import { accountsLinks } from '../data/accountsLinks';
+import Partners from '../components/Partners';
 
 const BookkeepingServices = () => {
   return (
@@ -186,25 +187,11 @@ const BookkeepingServices = () => {
         </section>
 
         {/* SECTION 14: FAQ */}
-        <section className="mb-5">
-          <div className="row">
-            <div className="col-md-4"><h2>When You Should Consider a Bookkeeper</h2></div>
-            <div className="col-md-8 accordion">
-              {['What is the primary difference between a Bookkeeper and an Accountant?', 'Can I utilize remote bookkeeping services under UK Making Tax Digital law?', 'How are monthly bookkeeping pricing tiers structured?'].map((q, i) => <div key={i} className="accordion-item p-3 border mb-2"><h6>{q}</h6></div>)}
-            </div>
-          </div>
-        </section>
+        <FAQSection />
       </div>
 
       {/* SECTION 8: PARTNER STRIP (Placed before footer) */}
-      <section className="py-4 text-white" style={{ backgroundColor: '#0F4C5C' }}>
-        <div className="container text-center">
-          <h4 className="mb-4">Our Clients and Collaborative Partners</h4>
-          <div className="d-flex justify-content-between">
-            {['Xero', 'QuickBooks', 'Sage', 'Receipt Bank', 'Dext', 'Stripe'].map(p => <span key={p} className="fw-bold">{p}</span>)}
-          </div>
-        </div>
-      </section>
+      <Partners />
     </div>
   );
 };

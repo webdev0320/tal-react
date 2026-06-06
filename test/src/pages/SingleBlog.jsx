@@ -22,11 +22,8 @@ const SingleBlog = () => {
           const patternsToRemove = [
             'Book a free Consultancy',
             'Related Posts',
-            'ID Verification',
-            'ID Verification Form For Companies House',
             'Personal Details',
             'Fornames',
-            'ID verification button',
             'id="openPopupBtn"',
             'id=openPopupBtn'
           ];

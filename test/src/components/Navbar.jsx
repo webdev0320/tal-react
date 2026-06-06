@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import MegaMenu from './MegaMenu';
 
 const Navbar = () => {
-  return (
-    <>
-      <style>{`
+    const [showMegaMenu, setShowMegaMenu] = useState(false);
+    return (
+        <>
+            <style>{`
         /* Professional Navbar Overrides */
         .navbar {
           border-bottom: 1px solid #e2e8f0;
@@ -61,39 +64,29 @@ const Navbar = () => {
           }
         }
       `}</style>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2">
-        <div className="container">
-            <Link className="navbar-brand" to="/">
-                <img src="/images/2023/06/TAL_Logo-149x34-1.webp" alt="Taxaccolega Logo" height="40" />
-            </Link>
-            <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="mainNav">
-                <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Home</Link>
-                    </li>
+            <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2">
+                <div className="container">
+                    <Link className="navbar-brand" to="/">
+                        <img src="/images/2023/06/TAL_Logo-149x34-1.webp" alt="Taxaccolega Logo" height="40" />
+                    </Link>
+                    <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="mainNav">
+                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/">Home</Link>
+                            </li>
 
-                    {/* Services Dropdown */}
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul className="dropdown-menu" style={{ width: '250px' }}>
-                            {[
-                                { to: '/taxation', title: 'Taxation' },
-                                { to: '/accounts', title: 'Accounts' },
-                                { to: '/legal', title: 'Legal' },
-                                { to: '/software', title: 'Software' },
-                                { to: '/banks', title: 'Banks' }
-                            ].map((service) => (
-                                <li key={service.to}><Link className="dropdown-item" to={service.to}>{service.title}</Link></li>
-                            ))}
-                        </ul>
-                    </li>
+                            {/* Services Dropdown */}
+                            <li className="nav-item dropdown position-relative" onMouseEnter={() => setShowMegaMenu(true)} onMouseLeave={() => setShowMegaMenu(false)}>
+                                <a className="nav-link dropdown-toggle" href="#" role="button" aria-expanded={showMegaMenu}>
+                                    Services
+                                </a>
+                                {showMegaMenu && <MegaMenu />}
+                            </li>
 
-                    {/* Who We Assist */}
+                            {/* Who We Assist */}
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Who We Assist

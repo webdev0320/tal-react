@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const HeroBanner = () => {
   return (
     <header className="position-relative text-white d-flex align-items-center" style={{ minHeight: "600px", backgroundImage: "url('/images/young-asian.webp')", backgroundRepeat: "no-repeat", backgroundPosition: "center center", backgroundSize: "cover" }}>
@@ -9,7 +12,7 @@ const HeroBanner = () => {
                     <h1 className="display-3 fw-bold mb-4 brand-font" style={{ lineHeight: 1.15 }}>Your Dedicated Online Accounting Firm</h1>
                     <p className="lead mb-4 text-white-50 fs-5">Save time, reduce stress, and maximize tax efficiency with certified UK Chartered Accountants who handle spreadsheets while you build your dream.</p>
                     <div className="d-flex flex-wrap gap-3">
-                        <a href="https://www.taxaccolega.co.uk/contact-us/" className="btn btn-brand btn-lg px-4 py-3">Book Free Consultancy</a>
+                        <Link to="/contact-us/" className="btn btn-brand btn-lg px-4 py-3">Book Free Consultancy</Link>
                         <a href="#expertise" className="btn btn-outline-light btn-lg px-4 py-3">Explore Our Services</a>
                     </div>
                 </div>

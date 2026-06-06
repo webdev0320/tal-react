@@ -22,7 +22,6 @@ const CompanySecretarial = () => {
                 <li><strong>Corporate Governance:</strong> Expert management of governance tasks and statutory records.</li>
                 <li><strong>Filing Compliance:</strong> Timely filing of all necessary documents and annual returns.</li>
                 <li><strong>Statutory Management:</strong> Maintaining your company's official records accurately.</li>
-                <li><strong>ID Verification Support:</strong> Assistance with the latest UK requirements for Director and PSC identity verification.</li>
               </ul>
             </div>
             <div className="col-lg-4">

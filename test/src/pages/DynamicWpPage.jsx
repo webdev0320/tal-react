@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import PageHero from '../components/PageHero';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
+import FAQSection from '../components/FAQSection';
 import './wp-content.css';
 
 /**
@@ -31,6 +32,7 @@ const extractHeading = (html) => {
  * - Removes theme-injected "Your path to success" subtitle
  * - Removes leading empty <p> tags
  * Bare <h1> section headings are left untouched.
+ * Also removes broken hardcoded FAQ section.
  */
 const cleanContent = (html) => {
   let c = html;
@@ -48,6 +50,9 @@ const cleanContent = (html) => {
 
   // Leading empty paragraphs
   c = c.replace(/^(\s*<p[^>]*>\s*<\/p>\s*)*/i, '');
+
+  // Remove FAQ section
+  c = c.replace(/<h2>FAQs<\/h2>[\s\S]*?<a href="tel:02081270728"/gi, '<a href="tel:02081270728"');
 
   return c.trim();
 };
@@ -138,6 +143,8 @@ const DynamicWpPage = ({ slug: propSlug }) => {
           </div>
         </div>
       </section>
+
+      <FAQSection />
 
       <div id="contact-form">
         <ContactForm />
