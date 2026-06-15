@@ -1,0 +1,3 @@
+Title: Thank You
+
+[wpec_thank_you]

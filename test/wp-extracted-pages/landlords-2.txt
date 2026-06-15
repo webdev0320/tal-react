@@ -1,0 +1,249 @@
+Title: Landlords
+
+<style>/*! elementor - v3.14.0 - 18-06-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2>Landlords</h2>		
+			<style>/*! elementor - v3.14.0 - 18-06-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style>		
+		[rpt name="landlords"]
+				<table>
+					<thead>
+						<tr>
+													<th colspan="1" >
+																Turnover
+							</th>
+													<th colspan="1" >
+																Essential
+							</th>
+													<th colspan="1" >
+																Advanced
+							</th>
+													<th colspan="1" >
+																Supreme
+							</th>
+													<th colspan="1" >
+																Buy Now
+							</th>
+												</tr>
+					</thead>
+					<tbody>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">upto £25k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£25</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£32.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£40.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£26k - £50k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£35</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£45.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£60.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£51k - £85k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£45</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£63.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£80.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£86k to £150k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£85</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£120.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£155.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£151k to £300k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£110</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£145.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£200.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£301k to £500k</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£135</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£175.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£245.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£501k to £1m</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£275</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£365.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£450.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign Up</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">£1.1 - £2.5m</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£395</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£499.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">£625.00</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Sign up</a>
+							</td>
+											</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+													<th colspan="1" >
+																Essential
+							</th>
+													<th colspan="1" >
+																Extensive
+							</th>
+													<th colspan="1" >
+																Supreme
+							</th>
+												</tr>
+					</thead>
+					<tbody>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">Rental Accounts</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Essential Package Services</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Extensive Package Services</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">Employment Income, Including Pension, Benefits &amp; Expenses</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Bookkeeping up to 100 Transactions a month</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Setting up Accounting System</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">Self Assessment Tax Return</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Quarterly VAT returns if required</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Business Health Meetings (up to 2)</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">64-8 authority – Dealing with HMRC</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Unlimited Telephonic, Whatsapp &amp; Email Support</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">-</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">General Advice on Income Tax Liabilities &amp; Deadlines</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Standard Tax Planning Advice</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">-</a>
+							</td>
+													<tr colspan="" rowspan="">
+							</tr>
+													<td colspan="1" rowspan="1">
+															<a href="">Online Submission to HMRC</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">Dedicated Accountant upon request</a>
+							</td>
+													<td colspan="1" rowspan="1">
+															<a href="">-</a>
+							</td>
+											</tbody>
+				</table>

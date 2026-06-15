@@ -1,0 +1,529 @@
+Title: Home
+
+<p>[rank_math_breadcrumb]</p>		
+															<img width="512" height="512" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo.png 512w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-300x300.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-100x100.png 100w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															
+					<h2>Google</h2>				
+			<meta itemprop="worstRating" content="0">
+			<meta itemprop="bestRating" content="5">
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+		<p><strong>5.0</strong></p><p>Based on <strong>187</strong> Reviews</p>		
+					<h2>T</h2>				
+					<h2>Trustpilot</h2>				
+			<meta itemprop="worstRating" content="0">
+			<meta itemprop="bestRating" content="5">
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+					<svg aria-hidden="true" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				
+		<p><strong>4.9</strong></p><p>Based on <strong>80</strong> Reviews</p><p>Services</p>		
+					<h2>Why Choose Us</h2>				
+							<h2>
+				Our Expertise				</h2>
+					<h3>We are the largest online firm of accountants in London, United Kingdom.</h3>				
+				<a href="/accounts/hmrc-self-assessment-tax-returns-accountant" tabindex="-1" aria-label="Self Assessment Tax Accountant">
+								</a>
+									<h3>
+						<a href="/accounts/hmrc-self-assessment-tax-returns-accountant" >
+							Self Assessment Tax Accountant						</a>
+					</h3>
+									<p>
+						Login 
+made easy. Get help with registering and filing your self-assessment tax return accurately and on time.					</p>
+				<a href="/accounts/payrol-services-for-small-and-medium-business" tabindex="-1" aria-label="Payroll Services">
+								</a>
+									<h3>
+						<a href="/accounts/payrol-services-for-small-and-medium-business" >
+							Payroll Services						</a>
+					</h3>
+									<p>
+						Stress-free online payroll outsourcing services for small and medium businesses. Accurate and Compliant.					</p>
+				<a href="/taxation/personal-income-tax-professionals-and-chartered-accountants" tabindex="-1" aria-label="Income Tax Accountant">
+								</a>
+									<h3>
+						<a href="/taxation/personal-income-tax-professionals-and-chartered-accountants" >
+							Income Tax Accountant						</a>
+					</h3>
+									<p>
+						Expert personal income tax accountant services. Top professionals ensuring accurate tax filing and maximum saving.					</p>
+				<a href="/taxation/inheritance-tax-planning-advisors" tabindex="-1" aria-label="Inheritance Tax Planning">
+								</a>
+									<h3>
+						<a href="/taxation/inheritance-tax-planning-advisors" >
+							Inheritance Tax Planning						</a>
+					</h3>
+									<p>
+						Expert inheritance tax advice near you to protect your wealth. Personalised estate planning tips for your family’s future.
+					</p>
+				<a href="/worldwide-disclosure-facility" tabindex="-1" aria-label="Worldwide Disclosure Facility">
+				<svg aria-hidden="true" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M128 148v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12zm140 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12zm-128 96h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12zm128 0h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12zm-76 84v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm76 12h40c6.6 0 12-5.4 12-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12zm180 124v36H0v-36c0-6.6 5.4-12 12-12h19.5V24c0-13.3 10.7-24 24-24h337c13.3 0 24 10.7 24 24v440H436c6.6 0 12 5.4 12 12zM79.5 463H192v-67c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v67h112.5V49L80 48l-.5 415z"></path></svg>				</a>
+									<h3>
+						<a href="/worldwide-disclosure-facility" >
+							Worldwide Disclosure Facility						</a>
+					</h3>
+									<p>
+						Expert HMRC tax accountant advice to help you safely disclose offshore income in the UK and avoid penalties.					</p>
+				<svg aria-hidden="true" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2zm96 261a8 8 0 0 1-8 8h-56v56a8 8 0 0 1-8 8h-48a8 8 0 0 1-8-8v-56h-56a8 8 0 0 1-8-8v-48a8 8 0 0 1 8-8h56v-56a8 8 0 0 1 8-8h48a8 8 0 0 1 8 8v56h56a8 8 0 0 1 8 8zm186.69-139.72l-255.94-226a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59z"></path></svg>				
+									<h3>
+							Let Property Campaign						
+					</h3>
+									<p>
+						Clear and trusted tax advice to help you disclose your rental income to HMRC, handle submissions and stay penalty-free					</p>
+				<svg aria-hidden="true" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M488 192H336v56c0 39.7-32.3 72-72 72s-72-32.3-72-72V126.4l-64.9 39C107.8 176.9 96 197.8 96 220.2v47.3l-80 46.2C.7 322.5-4.6 342.1 4.3 357.4l80 138.6c8.8 15.3 28.4 20.5 43.7 11.7L231.4 448H368c35.3 0 64-28.7 64-64h16c17.7 0 32-14.3 32-32v-64h8c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24zm147.7-37.4L555.7 16C546.9.7 527.3-4.5 512 4.3L408.6 64H306.4c-12 0-23.7 3.4-33.9 9.7L239 94.6c-9.4 5.8-15 16.1-15 27.1V248c0 22.1 17.9 40 40 40s40-17.9 40-40v-88h184c30.9 0 56 25.1 56 56v28.5l80-46.2c15.3-8.9 20.5-28.4 11.7-43.7z"></path></svg>				
+									<h3>
+							Non- UK Resident Taxation						
+					</h3>
+									<p>
+						Advice by expert taxation accountants, guiding Non-UK resients for compliance and helping them in UK tax rules.					</p>
+				<a href="/film-tax-relief" tabindex="-1" aria-label="film-tax-relief">
+								</a>
+									<h3>
+						<a href="/film-tax-relief" >
+							film-tax-relief						</a>
+					</h3>
+									<p>
+						Empowering creativity, boosting growth, ensuring your production qualifies and helping you claim UK film tax credits.					</p>
+				<a href="http://cryptocurrency" tabindex="-1" aria-label="Cryptocurrency">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"></path></svg>				</a>
+									<h3>
+						<a href="http://cryptocurrency" >
+							Cryptocurrency						</a>
+					</h3>
+									<p>
+						Trusted accountants helping you report transactions, calculate tax on crypto gains while staying in line with Crypto tax rules.					</p>
+				<a href="/taxation/capital-gains-tax-accountant" tabindex="-1" aria-label="Capital Gain Tax">
+								</a>
+									<h3>
+						<a href="/taxation/capital-gains-tax-accountant" >
+							Capital Gain Tax						</a>
+					</h3>
+									<p>
+						Get expert capital gains tax advice from trusted and specialist accountants for minimising liabilities and letting relief.					</p>
+				<a href="/taxation/seed-enterprise-investment-scheme-tax-relief" tabindex="-1" aria-label="SEIS/EIS Tax Relief">
+								</a>
+									<h3>
+						<a href="/taxation/seed-enterprise-investment-scheme-tax-relief" >
+							SEIS/EIS Tax Relief						</a>
+					</h3>
+									<p>
+						Save money, claim tax relief, and grow your investments with SEIS tax relief advice and support by expert EIS accountants.
+					</p>
+				<a href="http://ht/taxation/estate-and-property-tax-planning-accountants" tabindex="-1" aria-label="Estate Tax Planning">
+								</a>
+									<h3>
+						<a href="http://ht/taxation/estate-and-property-tax-planning-accountants" >
+							Estate Tax Planning						</a>
+					</h3>
+									<p>
+						Structure your wealth the best, reduce liabilities, and secure your family's financial future with our expert estate tax accountants.
+					</p>
+					<h2>Our Clients and Collaborative Partners</h2>				
+								<figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/1.png" alt="1" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/2.png" alt="2" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/3.png" alt="3" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/4.png" alt="4" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/5.png" alt="5" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/6.png" alt="6" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/7.png" alt="7" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/8.png" alt="8" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/9.png" alt="9" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/10.png" alt="10" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/11.png" alt="11" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/12.png" alt="12" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/13.png" alt="13" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/14.png" alt="14" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/15.png" alt="15" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/16.png" alt="16" /></figure>			
+				Your Tax, Our Expertise				
+		<p>Our Promise to Clients</p>		
+					<h2>The promptest response is <br><p style="color: #d2601a">Guaranteed.</p> 
+</h2>				
+		<p>We understand that tax matters often take place at the last minute near the deadline dates. Taxaccolega can still accommodate you even at short notice. Nevertheless, this haste, our top-rated tax experts can still outdo and save handsome sums of money for you.</p>		
+					<h2>Get in Touch</h2>				
+		<p> </p><p>Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don't have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity.</p><p> </p><p><b>What’s next?</b> Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders.</p>		
+							<ul>
+							<li>
+											<a href="tel:02083929375">
+										020 8392 9375
+											</a>
+									</li>
+								<li>
+											<a href="mailto:info@taxaccolega.co.uk">
+										info@taxaccolega.co.uk
+											</a>
+									</li>
+								<li>
+											<a href="https://wa.me/07471170484">
+										074 7117 0484
+											</a>
+									</li>
+						</ul>
+					<a role="button">
+									Get In Touch
+					</a>
+																<a href="https://www.google.com/search?q=taxaccolega+google+reviews&#038;sca_esv=297d5f19dea10a07&#038;sca_upv=1&#038;sxsrf=ADLYWIJ23bi6HGNvbxp15gnfhlga0Kxqeg%3A1720107419671&#038;source=hp&#038;ei=m8GGZvarJpaH7NYP1v-p2AE&#038;iflsig=AL9hbdgAAAAAZobPq_DmNkAfESl5SRggHQUhI1c0qF5J&#038;ved=0ahUKEwi25eO9242HAxWWA9sEHdZ_ChsQ4dUDCBU&#038;uact=5&#038;oq=taxaccolega+google+reviews&#038;gs_lp=Egdnd3Mtd2l6Ihp0YXhhY2NvbGVnYSBnb29nbGUgcmV2aWV3czIFECEYoAFIySBQAFjgHnAAeACQAQCYAY8CoAH-K6oBBDItMjW4AQPIAQD4AQGYAhmgAs8swgIQEC4YgAQYxwEYJxiKBRivAcICBBAjGCfCAgoQIxiABBgnGIoFwgIREC4YgAQYkQIY0QMYxwEYigXCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIFEAAYgATCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIFEC4YgATCAgcQABiABBgKwgILEC4YgAQYxwEYrwHCAggQABiABBiiBMICChAuGNEDGMcBGB7CAgQQABgewgIHECEYoAEYCpgDAJIHBDItMjWgB5-3AQ&#038;sclient=gws-wiz#lrd=0x48760640814ce7b7:0x4899b8fae2b5b21a,1,,,,">
+							<img width="489" height="75" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1.png 489w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1-300x46.png 300w" sizes="(max-width: 489px) 100vw, 489px" />								</a>
+					<h1>Top Rated Chartered Accountants in London - Local Tax &amp; Accounting Firm</h1>				
+		<h3><strong>Discover Simple and Effective Accounting Solutions with Taxaccolega.</strong></h3><p>Taxaccolega wasn’t built to be just another accountancy firm. Since we don't just do the numbers, so it grew from a simple belief: real support goes beyond spreadsheets. It means promptly answering the call when a client’s unsure. It means patiently explaining things without using jargons. And it means celebrating growth, not just tracking it.</p>		
+					<a href="/about-us/">
+									About-Us
+					</a>
+															<img width="2301" height="2540" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png 2301w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-600x662.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-272x300.png 272w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-928x1024.png 928w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-768x848.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1391x1536.png 1391w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1855x2048.png 1855w" sizes="(max-width: 2301px) 100vw, 2301px" />															
+		<p>Chartered Accountants are financial professionals with specialised knowledge and expertise in tax laws, accounting, and financial management. They’re an essential resource for anyone seeking to optimise their tax efficiency and financial performance. Below, we’ll explore the different types of individuals and businesses who can benefit from chartered accountant services:</p>		
+															<img width="800" height="800" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1.jpg 1008w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-300x300.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-100x100.jpg 100w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-600x600.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-150x150.jpg 150w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-768x768.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+					<h3>Our Achievements</h3>				
+					<h2>Taxaccolega — Award-Winning. Accredited. Trusted.
+</h2>				
+		<p>From prestigious ACCA and ICAEW certifications and accreditations to honours from mayors, media, business networks, and industry leaders, Taxaccolega is more than just an accountancy firm. Being the top-rated, we are a symbol of trust, professional excellence and community-driven impact. Our accreditations, recognitions, and awards have backend stories of commitment. They reflect years of dedication to our clients, the people we proudly serve, and our craft. Whether you're a budding startup, a growing business, managing wealth, or an opportunistic like a seasoned investor, you're in safe and certified hands backed by top-rated chartered accountants and a team that will always go the extra mile for you.</p>		
+					<a href="/awards-accolades-accreditations/">
+									Achievements
+					</a>
+								<figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Team-2-1.jpg" alt="Team-2.jpg" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Team-3-1.jpg" alt="Team-3.jpg" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/cosmetologist-1-2.jpg" alt="cosmetologist-1-2.jpg" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-36.png" alt="gallery-36.png" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-35.png" alt="gallery-35.png" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-34.png" alt="gallery-34.png" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.29.50_7903bb51-1152x1536.jpg" alt="WhatsApp Image 2025-02-28 at 14.29.50_7903bb51" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.31.06_6acc2339-1536x1152.jpg" alt="WhatsApp Image 2025-02-28 at 14.31.06_6acc2339" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Post-4.jpg" alt="Post-4.jpg" /></figure><figure><img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/Team-2-1.jpg" alt="Team-2.jpg" /></figure>			
+					<h2>The UK's Largest Online Accountants</h2>				
+		<p>Taxaccolega isn’t your average accounting firm. We’re a team of passionate online accountants dedicated to empowering businesses in the UK with the tools and support they need to thrive.</p><p>We are the largest online accounting company in the United Kingdom, leveraging technology to provide a seamless and efficient experience for our clients.</p><p>But size doesn’t mean impersonal service. At Taxaccolega, you’ll get a dedicated accountant who understands your unique business needs.</p><p>To learn more about how we can help you grow your business, <strong><a href="/contact-us/">contact us today</a></strong>:</p>		
+																<a href="https://www.trustpilot.com/review/taxaccolega.co.uk">
+							<img width="800" height="123" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1024x157.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1024x157.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-600x92.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-300x46.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-768x118.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1536x236.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+																<a href="https://www.google.com/search?q=taxaccolega+google+reviews&#038;sca_esv=297d5f19dea10a07&#038;sca_upv=1&#038;sxsrf=ADLYWIJ23bi6HGNvbxp15gnfhlga0Kxqeg%3A1720107419671&#038;source=hp&#038;ei=m8GGZvarJpaH7NYP1v-p2AE&#038;iflsig=AL9hbdgAAAAAZobPq_DmNkAfESl5SRggHQUhI1c0qF5J&#038;ved=0ahUKEwi25eO9242HAxWWA9sEHdZ_ChsQ4dUDCBU&#038;uact=5&#038;oq=taxaccolega+google+reviews&#038;gs_lp=Egdnd3Mtd2l6Ihp0YXhhY2NvbGVnYSBnb29nbGUgcmV2aWV3czIFECEYoAFIySBQAFjgHnAAeACQAQCYAY8CoAH-K6oBBDItMjW4AQPIAQD4AQGYAhmgAs8swgIQEC4YgAQYxwEYJxiKBRivAcICBBAjGCfCAgoQIxiABBgnGIoFwgIREC4YgAQYkQIY0QMYxwEYigXCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIFEAAYgATCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIFEC4YgATCAgcQABiABBgKwgILEC4YgAQYxwEYrwHCAggQABiABBiiBMICChAuGNEDGMcBGB7CAgQQABgewgIHECEYoAEYCpgDAJIHBDItMjWgB5-3AQ&#038;sclient=gws-wiz#mpd=~13810665085480211432/customers/reviews">
+							<img width="800" height="123" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-600x92.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-768x118.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1536x236.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															<img width="800" height="560" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic.png 1000w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-600x420.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-300x210.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-768x538.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+					<h2>Get in Touch</h2>				
+				<a href="tel:02081270728" tabindex="-1" aria-label="Phone Number">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>				</a>
+									<h3>
+						<a href="tel:02081270728" >
+							Phone Number						</a>
+					</h3>
+									<p>
+						020 8127 0728					</p>
+				<a href="https://wa.me/07471170484" tabindex="-1" aria-label="Whatsapp">
+				<svg aria-hidden="true" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>				</a>
+									<h3>
+						<a href="https://wa.me/07471170484" >
+							Whatsapp						</a>
+					</h3>
+									<p>
+						074 7117 0484					</p>
+				<a href="mailto:info@taxaccolega.co.uk" tabindex="-1" aria-label="Email">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>				</a>
+									<h3>
+						<a href="mailto:info@taxaccolega.co.uk" >
+							Email						</a>
+					</h3>
+									<p>
+						info@taxaccolega.co.uk					</p>
+				<svg aria-hidden="true" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>				
+									<h3>
+							Address						
+					</h3>
+									<p>
+						187a London Road, Croydon, Surrey, CR0 2RJ					</p>
+			<iframe loading="lazy"
+					src="https://maps.google.com/maps?q=187a%20London%20Road%2C%20Croydon%2C%20Surrey%2C%20CR0%202RJ&#038;t=m&#038;z=11&#038;output=embed&#038;iwloc=near"
+					title="187a London Road, Croydon, Surrey, CR0 2RJ"
+					aria-label="187a London Road, Croydon, Surrey, CR0 2RJ"
+			></iframe>
+					<h2>Send Us a Message</h2>				
+							<form method="post" name="New Form" page="Home-old" page_id="12" novalidate>
+			<input type="hidden" name="post_id" value="12"/>
+			<input type="hidden" name="form_id" value="9633850"/>
+			<input type="hidden" name="referer_title" value="" />
+														<label for="form-field-name">
+									Name								</label>
+							<input size="1 "type="text" name="form_fields[name]" id="form-field-name" placeholder="Name">					
+														<label for="form-field-email">
+									Email								</label>
+							<input size="1 "type="email" name="form_fields[email]" id="form-field-email" placeholder="Email" required="required" aria-required="true">					
+														<label for="form-field-message">
+									Message								</label>
+							<textarea name="form_fields[message]" id="form-field-message" rows="7" placeholder="Message"></textarea>					
+							<button type="submit">
+																Send
+			</button>
+		</form>
+							<h2>
+				Who Do WE Help				</h2>
+															<img width="300" height="267" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-600x534.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1024x912.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-768x684.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1536x1368.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-2048x1824.png 2048w" sizes="(max-width: 300px) 100vw, 300px" />															
+				<a href="/industries/it-professionals/" tabindex="-1" aria-label="IT Professional">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/it-professionals/" >
+							IT Professional						</a>
+					</h3>
+				<a href="/industries/construction/" tabindex="-1" aria-label="Construction">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/construction/" >
+							Construction						</a>
+					</h3>
+				<a href="/industries/hospitality/" tabindex="-1" aria-label="Hospitality">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/hospitality/" >
+							Hospitality						</a>
+					</h3>
+				<a href="/industries/automobile/" tabindex="-1" aria-label="Auto Mobile">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/automobile/" >
+							Auto Mobile						</a>
+					</h3>
+				<a href="/industries/non-uk-resident-taxation/" tabindex="-1" aria-label="Non-UK-Resident">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/non-uk-resident-taxation/" >
+							Non-UK-Resident						</a>
+					</h3>
+				<a href="/industries/real-estate/" tabindex="-1" aria-label="Real Estate">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/real-estate/" >
+							Real Estate						</a>
+					</h3>
+				<a href="/industries/restaurants/" tabindex="-1" aria-label="Restaurants">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/restaurants/" >
+							Restaurants						</a>
+					</h3>
+				<a href="/industries/real-estate/" tabindex="-1" aria-label="Real Estate">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/real-estate/" >
+							Real Estate						</a>
+					</h3>
+				<a href="/industries/ecommerce/" tabindex="-1" aria-label="Ecommerce">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/ecommerce/" >
+							Ecommerce						</a>
+					</h3>
+				<a href="/industries/healthcare-professionals/" tabindex="-1" aria-label="Health Care">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/healthcare-professionals/" >
+							Health Care						</a>
+					</h3>
+				<a href="/industries/charity/" tabindex="-1" aria-label="Charity">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/charity/" >
+							Charity						</a>
+					</h3>
+				<a href="/industries/wholesellers-retailers/" tabindex="-1" aria-label="Wholesale &amp; Retailers">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/wholesellers-retailers/" >
+							Wholesale &amp; Retailers						</a>
+					</h3>
+				<a href="/industries/expatriates/" tabindex="-1" aria-label="Expatriates">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/expatriates/" >
+							Expatriates						</a>
+					</h3>
+				<a href="/industries/leisure-industry/" tabindex="-1" aria-label="Leisure Industry">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/leisure-industry/" >
+							Leisure Industry						</a>
+					</h3>
+				<a href="/industries/logistics/" tabindex="-1" aria-label="Logistics">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/logistics/" >
+							Logistics						</a>
+					</h3>
+				<a href="/industries/non-uk-resident-taxation/" tabindex="-1" aria-label="Non-UK-Resident">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg>				</a>
+									<h3>
+						<a href="/industries/non-uk-resident-taxation/" >
+							Non-UK-Resident						</a>
+					</h3>
+		<p>If your current accountant / accounting firm is unable to compile your accounts and figures or not being up to the mark that you expect, it may be time for a change. Though changing accountants might be intimidating, we follow the correct procedures and make it simple, stress-free, and profitable for your company.</p><p>Top-rated Chartered Accountants at Taxaccolega, with professional accounting experience serving UK clients since 2011, make the entire transition process of changing an accountant easy for you. Whether you are upset due to poor communication, no tax-saving ideas, or hidden costs, our accounting is transparent, proactive, and client-centered.</p><p>Don’t settle for mediocre service. Switch today! Get in touch for a smooth, stress-free transition.</p>		
+					<a href="/switch-accountant/">
+									Switch Account
+					</a>
+			Project Completed			
+				1
+				+
+			Client Satisfication			
+				1
+				+
+			Business Consultant			
+				1
+				+
+			Awards			
+				1
+				+
+							<h2>
+				Speak To the UK's				</h2>
+					<h2> Top Rated Chartered Accountant Today
+ </h2>				
+															<img width="2500" height="2227" src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png 2500w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-600x534.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-300x267.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1024x912.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-768x684.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1536x1368.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-2048x1824.png 2048w" sizes="(max-width: 2500px) 100vw, 2500px" />															
+		<h3><br />Are you looking for a local accountant you can trust?</h3><p>Our expert tax consultants, tax specialists, and chartered accountants at Taxaccolega are top-rated in the UK. Whether you need online accountant services or prefer a face-to-face meeting with an accountant in London, consider us always at your doorstep.</p><p>Book a call or video meeting with one of our experienced and specialist UK accountants today. Whether you’re looking for an online accountant in Croydon or a chartered accountant in London, UK, get to know how our personalized solutions can take your business off,</p><p>Let’s talk - schedule your free consultation now!</p>		
+					<a href="/schedule-a-phone-call-or-video-meeting/">
+									Book a call &amp; Meeting
+					</a>
+					<h2>Our Recent Google Reviews</h2>				
+					<figure><img width="300" height="46" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png" alt="" /></figure><h3>5.0  |  187 reviews</h3>				
+		[trustindex no-registration=google]		
+							<h2>
+				SOFTWARES				</h2>
+					<button id="e-n-tab-title-1562800161" aria-selected="true" data-tab-index="1" role="tab" tabindex="0" aria-controls="e-n-tab-content-1562800161" style="--n-tabs-title-order: 1;">
+				QUICKBOOKS			
+		</button>
+				<button id="e-n-tab-title-1562800162" aria-selected="false" data-tab-index="2" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800162" style="--n-tabs-title-order: 2;">
+				SAGE			
+		</button>
+				<button id="e-n-tab-title-1562800163" aria-selected="false" data-tab-index="3" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800163" style="--n-tabs-title-order: 3;">
+				BTC SOFTWARE			
+		</button>
+				<button id="e-n-tab-title-1562800164" aria-selected="false" data-tab-index="4" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800164" style="--n-tabs-title-order: 4;">
+				VT SOFTWARE			
+		</button>
+				<button id="e-n-tab-title-1562800165" aria-selected="false" data-tab-index="5" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800165" style="--n-tabs-title-order: 5;">
+				TAXCALC			
+		</button>
+				<button id="e-n-tab-title-1562800166" aria-selected="false" data-tab-index="6" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800166" style="--n-tabs-title-order: 6;">
+				FREEAGENT			
+		</button>
+				<button id="e-n-tab-title-1562800167" aria-selected="false" data-tab-index="7" role="tab" tabindex="-1" aria-controls="e-n-tab-content-1562800167" style="--n-tabs-title-order: 7;">
+				XERO			
+		</button>
+									<h3><strong>QUICKBOOKS</strong></h3><p>Taxaccolega sees QuickBooks not only as a tool but as a One Stop Solution for organizing the finances of your company. One can envision smoothly managing payroll, automatically handling VAT returns, and easily tracking costs, all simultaneously. QuickBooks makes your accounting work easier whether you are a freelancer or an expanding SME, so you can focus on growing your company. Taxaccolega being QuickBooks certified accountants customizes the software for you, therefore guaranteeing your tax filing, financial reports always on target, and providing current insights. Let us demonstrate to you how QuickBooks might revolutionize your company&#8217;s workflow. <a href="/quickbooks/"><strong>Read More</strong></a></p>								
+									<h3><strong>SAGE</strong></h3><p>Your Finances with Advanced Software Solutions</p><p>As a leading Chartered Accounting firm in London, we specialise in Xero Accounting software. We provide comprehensive accounting and tax advisory services for startups, small businesses, and eCommerce vendors. As Xero Platinum Partners, we simplify financial processes, offer expert migration assistance, and recommend third-party Xero apps. Enhance your business with our personalised support and cutting-edge solutions today!</p>								
+									<h3><strong>BTC SOFTWARE</strong></h3><p>BTC, an Ideal accounting software for companies searching for a complete tax and accounting solution in Croydon and London. At Taxaccolega, our BTC Software accountants make it easy for businesses to negotiate capital allowances, company tax returns, and tax compliance chores. Our BTC Software professionals guarantee compliance with HMRC regardless of handling regular accounting tasks or automating tax return.</p><p>Streamlining your tax returns for dependable and efficient financial management, BTC Software integrates effortlessly with HMRC. We help to optimize your tax savings and make certain seamless operation by means of Custom BTC Software Help that our team offers. Trust and try the top-rated chartered accountant at Taxaccolega to assist you to maximize the use of BTC Software for effective and secure financial management and you will not be let down. <a href="/btc-softwares/"><strong>Read More</strong></a></p>								
+									<h3><strong>VT SOFTWARE</strong></h3><p>Running a small business in London or Croydon entails managing several balls simultaneously. VT Software takes your place as your unobtrusive assistant in budgeting, tax returns, and financial reports running. It is the tool that runs in the background keeping everything in order when your business is on the front or in center. VT Software enables you to manage the basics with least effort and utmost effectiveness, whether you run a startup or work as a freelancer.</p><p>Taxaccolega accountants save your time even more than you probably want to save. This is why we walk you through the easy installation of VT Software so you can start running soon. Having access to live financial information, you can surely handle VAT returns and keep up with your tax duties. We will show you how VT Software may be the unobtrusive, behind-the-scenes solution that helps your company run smoothly and stress-free. <a href="/vt-softwares/"><strong>Read More</strong></a></p>								
+									<h3><strong>TAXCALC</strong></h3><p>Running a small business in London or Croydon entails managing several balls simultaneously. VT Software takes your place as your unobtrusive assistant in budgeting, tax returns, and financial reports running. It is the tool that runs in the background keeping everything in order when your business is on the front or in center. VT Software enables you to manage the basics with least effort and utmost effectiveness, whether you run a startup or work as a freelancer.</p><p>Taxaccolega accountants save your time even more than you probably want to save. This is why we walk you through the easy installation of VT Software so you can start running soon. Having access to live financial information, you can surely handle VAT returns and keep up with your tax duties. We will show you how VT Software may be the unobtrusive, behind-the-scenes solution that helps your company run smoothly and stress-free. <a href="/vt-softwares/"><strong>Read More</strong></a></p>								
+															<img width="800" height="534" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-600x400.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-300x200.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+									<h3><strong>FREEAGENT</strong></h3><p>We are accredited accountants serving small businesses and contractors throughout the UK. Our core belief is in enhancing your business’s financial transparency, achieved through award-winning cloud accounting software, Free Agent. As accredited Free Agent accountants for 2022, we offer seamless services to both existing Free Agent users and newcomers. We efficiently synchronise all your financial transactions onto our platform and provide complimentary training to ensure proficiency with Free Agent accounting software. Switching to our services is hassle-free, with a streamlined process that assures a swift and straightforward transfer of your financial data, eliminating data loss risks. From day one, we are well-prepared to manage your financial records, making it easy for us to collaborate and address any accounting challenges.</p>								
+									<h3><strong>XERO</strong></h3><p>Imagine having the power to control and steer your finances, not just manage them. Xero serves as a financial control center, not just accounting software for companies in London and Croydon. Xero offers you a coherent, up-to-date picture of the financial condition of your company regardless of whether you&#8217;re reconciling your bank accounts, monitoring cash flow, or getting ready for VAT returns. Perfect for companies that rely on efficiency and invention, it integrates effortlessly with third-party applications. </p><p>Taxaccolega changes the way you use Xero; we don&#8217;t just get you started with it. With our expertise in Xero software, we assist you go deep into the program, revealing sophisticated capabilities such project tracking, multi-currency support, and automatic invoicing. Taxaccolega lets Xero be more than just a tool; it is your growth partner who gives you active information from your numbers and enables you to make better business decisions more quickly. <a href="/xero/"><strong>Read More</strong></a></p>								
+		<h3><strong>QUICKBOOKS</strong></h3><p>Taxaccolega sees QuickBooks not only as a tool but as a One Stop Solution for organizing the finances of your company. One can envision smoothly managing payroll, automatically handling VAT returns, and easily tracking costs, all simultaneously. QuickBooks makes your accounting work easier whether you are a freelancer or an expanding SME, so you can focus on growing your company. Taxaccolega being QuickBooks certified accountants customizes the software for you, therefore guaranteeing your tax filing, financial reports always on target, and providing current insights. Let us demonstrate to you how QuickBooks might revolutionize your company's workflow. <a href="/quickbooks/"><strong>Read More</strong></a></p><h3><strong>SAGE</strong></h3><p>Your Finances with Advanced Software Solutions</p><p>As a leading Chartered Accounting firm in London, we specialise in Xero Accounting software. We provide comprehensive accounting and tax advisory services for startups, small businesses, and eCommerce vendors. As Xero Platinum Partners, we simplify financial processes, offer expert migration assistance, and recommend third-party Xero apps. Enhance your business with our personalised support and cutting-edge solutions today!</p><h3><strong>BTC SOFTWARE</strong></h3><p>BTC, an Ideal accounting software for companies searching for a complete tax and accounting solution in Croydon and London. At Taxaccolega, our BTC Software accountants make it easy for businesses to negotiate capital allowances, company tax returns, and tax compliance chores. Our BTC Software professionals guarantee compliance with HMRC regardless of handling regular accounting tasks or automating tax return.</p><p>Streamlining your tax returns for dependable and efficient financial management, BTC Software integrates effortlessly with HMRC. We help to optimize your tax savings and make certain seamless operation by means of Custom BTC Software Help that our team offers. Trust and try the top-rated chartered accountant at Taxaccolega to assist you to maximize the use of BTC Software for effective and secure financial management and you will not be let down. <a href="/btc-softwares/"><strong>Read More</strong></a></p><h3><strong>VT SOFTWARE</strong></h3><p>Running a small business in London or Croydon entails managing several balls simultaneously. VT Software takes your place as your unobtrusive assistant in budgeting, tax returns, and financial reports running. It is the tool that runs in the background keeping everything in order when your business is on the front or in center. VT Software enables you to manage the basics with least effort and utmost effectiveness, whether you run a startup or work as a freelancer.</p><p>Taxaccolega accountants save your time even more than you probably want to save. This is why we walk you through the easy installation of VT Software so you can start running soon. Having access to live financial information, you can surely handle VAT returns and keep up with your tax duties. We will show you how VT Software may be the unobtrusive, behind-the-scenes solution that helps your company run smoothly and stress-free. <a href="/vt-softwares/"><strong>Read More</strong></a></p><h3><strong>TAXCALC</strong></h3><p>Running a small business in London or Croydon entails managing several balls simultaneously. VT Software takes your place as your unobtrusive assistant in budgeting, tax returns, and financial reports running. It is the tool that runs in the background keeping everything in order when your business is on the front or in center. VT Software enables you to manage the basics with least effort and utmost effectiveness, whether you run a startup or work as a freelancer.</p><p>Taxaccolega accountants save your time even more than you probably want to save. This is why we walk you through the easy installation of VT Software so you can start running soon. Having access to live financial information, you can surely handle VAT returns and keep up with your tax duties. We will show you how VT Software may be the unobtrusive, behind-the-scenes solution that helps your company run smoothly and stress-free. <a href="/vt-softwares/"><strong>Read More</strong></a></p>		
+															<img width="800" height="534" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg" alt="" srcset="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-600x400.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-300x200.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+		<h3><strong>FREEAGENT</strong></h3><p>We are accredited accountants serving small businesses and contractors throughout the UK. Our core belief is in enhancing your business’s financial transparency, achieved through award-winning cloud accounting software, Free Agent. As accredited Free Agent accountants for 2022, we offer seamless services to both existing Free Agent users and newcomers. We efficiently synchronise all your financial transactions onto our platform and provide complimentary training to ensure proficiency with Free Agent accounting software. Switching to our services is hassle-free, with a streamlined process that assures a swift and straightforward transfer of your financial data, eliminating data loss risks. From day one, we are well-prepared to manage your financial records, making it easy for us to collaborate and address any accounting challenges.</p><h3><strong>XERO</strong></h3><p>Imagine having the power to control and steer your finances, not just manage them. Xero serves as a financial control center, not just accounting software for companies in London and Croydon. Xero offers you a coherent, up-to-date picture of the financial condition of your company regardless of whether you're reconciling your bank accounts, monitoring cash flow, or getting ready for VAT returns. Perfect for companies that rely on efficiency and invention, it integrates effortlessly with third-party applications. </p><p>Taxaccolega changes the way you use Xero; we don't just get you started with it. With our expertise in Xero software, we assist you go deep into the program, revealing sophisticated capabilities such project tracking, multi-currency support, and automatic invoicing. Taxaccolega lets Xero be more than just a tool; it is your growth partner who gives you active information from your numbers and enables you to make better business decisions more quickly. <a href="/xero/"><strong>Read More</strong></a></p>		
+					<h2>Get in touch with the Taxaccolega Chartered Accountants team</h2>				
+		<p>Managing your finances is now easier. With years of expertise in accountancy and finance, Taxaccolega Chartered Accountants are here to eliminate the complexities of running your business. This ensures you can focus on your core activities worry-free. Your peace of mind is our priority, and our seasoned team of contractor accountants is ready to assist you with any accounting concerns.</p><p>You can stay on top of relevant industry news by checking out our blog page, where we discuss topical subjects to further help you answer any questions you may have regarding your accounts. If you wish to calculate your take-home pay, we provide a contractor tax calculator that will easily and quickly give you accurate results. To learn more about how we can help you grow your business, contact us today:</p>		
+					<a href="https://www.taxaccolega.co.uk/contact-us/">
+									Contact Us Today
+					</a>
+					<h2>Refer and Earn with Taxaccolega
+</h2>				
+		<p>Know someone who could benefit from expert accounting services or is probably unhappy or apprehensive with his/her current accountant? You can refer them to Taxaccolega and earn quite a handsome sum of money out of that payment! Whether you're a client, visitor, or a friend, our Refer and Earn programme is your nice chance to make some extra money reliably.</p><ol><li>It’s easy! Just refer a new client to us, and once they sign up, you’ll receive a handsome percentage as a thank you for your referral. No limits, no complicated rules — just a straightforward way to earn for helping others. Start earning today by referring your friends, family, or colleagues to Taxaccolega. We’re here to take care of the numbers while you enjoy the rewards. </li></ol>		
+					<a href="https://www.taxaccolega.co.uk/refer-and-earn">
+									Refer &amp; Earn
+					</a>
+					<h2>FAQs</h2>				
+					<h3 id="elementor-tab-title-1301" data-tab="1" role="button" aria-controls="elementor-tab-content-1301" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">What is the process for non-domiciled tax filings?</a>
+					</h3>
+					<p>Non-domiciled individuals first report UK income and can choose to pay tax on foreign income only when the income is brought in to the UK. From April 2025 new rules will apply. so it’s worth checking your tax status, as new arrivals qualify for 100% tax relief on foreign income and gains during their first 4 years in the UK.</p>
+					<h3 id="elementor-tab-title-1302" data-tab="2" role="button" aria-controls="elementor-tab-content-1302" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">What should I do if I’ve missed a tax deadline?</a>
+					</h3>
+					<p>Act quickly file or pay as immediately to avoid penalties and interest. Then contact HMRC or your tax consultant to discuss late filing or paying.</p>
+					<h3 id="elementor-tab-title-1303" data-tab="3" role="button" aria-controls="elementor-tab-content-1303" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">What’s the difference between tax avoidance and tax evasion?</a>
+					</h3>
+					<p><strong>Tax avoidance</strong> occurs within legal confines to reduce taxation whereas <strong>tax evasion</strong> is illegal and involves deliberately hiding income or falsifying information. We guide to help you to stay in compliance and legality.</p>
+					<h3 id="elementor-tab-title-1304" data-tab="4" role="button" aria-controls="elementor-tab-content-1304" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">How can I reduce my tax bill legally?</a>
+					</h3>
+					<p>You can reduce tax by using allowances, structuring income efficiently, claiming expenses, and timing income or asset sales smartly. We provide personalised tax planning to help you do this legally.</p>
+					<h3 id="elementor-tab-title-1305" data-tab="5" role="button" aria-controls="elementor-tab-content-1305" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">What should I do if I disagree with a tax bill or HMRC assessment?</a>
+					</h3>
+					<p>You have the right to <strong>appeal</strong> or <strong>request a review</strong>. Start by contacting HMRC or your tax adviser quickly. We can help with appeals, negotiations, and representing you if needed.</p>
+					<h3 id="elementor-tab-title-1306" data-tab="6" role="button" aria-controls="elementor-tab-content-1306" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">How can I protect my business from future tax audits or disputes?</a>
+					</h3>
+					<p>Maintain accurate records, stay compliant with reporting rules, and check your tax strategy regularly. We offer <strong>audit protection</strong>, risk evaluation, and ongoing support to keep you prepared.</p>
+					<h3 id="elementor-tab-title-1307" data-tab="7" role="button" aria-controls="elementor-tab-content-1307" aria-expanded="false">
+															<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+								<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
+												<a tabindex="0">How do I ensure compliance with the IR35 rules?</a>
+					</h3>
+					<p>IR35 applies if you&#8217;re hired through a limited company but are actually an employee. Regular checking of your contracts and your employment status is important. We can examine your arrangements and advise you on compliance.</p>
+				<a href="tel:02081270728" tabindex="-1" aria-label="&lt;b&gt;Phone:&lt;/b&gt;">
+				<svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>				</a>
+									<p>
+						<a href="tel:02081270728" >
+							<b>Phone:</b>						</a>
+					</p>
+									<p>
+						<a href="tel:02081270728" style="text-decoration: none"> 020 8127 0728</a>
+					</p>
+				<a href="mailto:info@taxaccolega.co.uk" tabindex="-1" aria-label="&lt;b&gt;Email Address:&lt;/b&gt;">
+								</a>
+									<h3>
+						<a href="mailto:info@taxaccolega.co.uk" >
+							<b>Email Address:</b>						</a>
+					</h3>
+									<p>
+						<a href="mailto:info@taxaccolega.co.uk" style="text-decoration: none">info@taxaccolega.co.uk</a>
+					</p>
+					<a href="https://www.facebook.com/Taxaccolega" target="_blank">
+						Facebook
+						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+					<a href="https://twitter.com/Taxaccolega" target="_blank">
+						Twitter
+						<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+					<a href="https://plus.google.com/u/0/100672948850520944033" target="_blank">
+						Jki-google-plus-g
+											</a>
+							<h2>
+				Contact - Us				</h2>
+									<h3>
+							Address						
+					</h3>
+									<p>
+						187a London Road, Croydon, Surrey,  CR0 2RJ					</p>
+									<h3>
+							Email						
+					</h3>
+									<p>
+						<a href="mailto:info@taxaccolega.co.uk" style="text-decoration: none">info@taxaccolega.co.uk</a>
+					</p>
+									<h3>
+							Phone No						
+					</h3>
+									<p>
+						<a href="tel:02081270728" style="text-decoration: none"> 020 8127 0728</a> <br>
+<a href="https://wa.me/447471170484" style="text-decoration: none" target="_blank">074 7117 0484</a>
+					</p>
+									<h3>
+							Opening Hours						
+					</h3>
+									<p>
+						Monday - Friday
+<br>
+9:00 am - 5:00 pm					</p>
+							<form method="post" name="New Form" page="Home-old" page_id="12" novalidate>
+			<input type="hidden" name="post_id" value="12"/>
+			<input type="hidden" name="form_id" value="977bb50"/>
+			<input type="hidden" name="referer_title" value="" />
+														<label for="form-field-name">
+									Name								</label>
+							<input size="1 "type="text" name="form_fields[name]" id="form-field-name" placeholder="Name">					
+														<label for="form-field-email">
+									Email								</label>
+							<input size="1 "type="email" name="form_fields[email]" id="form-field-email" placeholder="Email" required="required" aria-required="true">					
+														<label for="form-field-message">
+									Message								</label>
+							<textarea name="form_fields[message]" id="form-field-message" rows="7" placeholder="Message"></textarea>					
+							<button type="submit">
+																Send
+			</button>
+		</form>
+							<h2>
+				Blog				</h2>

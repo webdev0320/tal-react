@@ -1,0 +1,5 @@
+Title: Thank You
+
+<p>Thank you for your payment. Your unique reference number is #TXC-{{UNIQUE_ID}}.
+We have received your request and the process is underway. A confirmation email, including the details of your submission, will be sent to you shortly.
+If you don’t receive the email within 10 minutes, please check your spam/junk folder or contact our support team quoting your reference number.</p>
