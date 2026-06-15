@@ -10,27 +10,27 @@ const menuData = {
       {
         title: 'Corporate & Business Tax',
         items: [
-          { label: 'Corporation Tax', desc: 'Compliance & returns', to: '/taxation/corporation-tax' },
-          { label: 'Value Added Tax', desc: 'VAT registration & filings', to: '/taxation/vat' },
-          { label: 'Tax Investigation', desc: 'Expert defense & guidance', to: '/taxation/tax-investigation' },
-          { label: 'Research & Development', desc: 'Incentives & claims', to: '/taxation/randd' },
-          { label: 'Tax Advisory', desc: 'Strategic planning advice', to: '/taxation/tax-advisory' },
-          { label: 'EMI Scheme', desc: 'Employee share plans', to: '/taxation/emi' },
-          { label: 'SEIS and EIS Accountants', desc: 'Investment scheme support', to: '/taxation/seis-eis' },
+          { label: 'Corporation Tax', desc: 'Compliance & returns', to: '/taxation/company-tax-return-accountants' },
+          { label: 'Value Added Tax', desc: 'VAT registration & filings', to: '/taxation/vat-accountants' },
+          { label: 'Tax Investigation', desc: 'Expert defense & guidance', to: '/taxation/tax-investigation-insurance' },
+          { label: 'Research & Development', desc: 'Incentives & claims', to: 'https://www.taxaccolega.co.uk/taxation/rd/' },
+          { label: 'Tax Advisory', desc: 'Strategic planning advice', to: '/taxation/tax-advisors' },
+          { label: 'EMI Scheme', desc: 'Employee share plans', to: '/taxation/emi-schemes' },
+          { label: 'SEIS and EIS Accountants', desc: 'Investment scheme support', to: '/taxation/seis-tax-relief' },
           { label: 'Film Tax Relief', desc: 'Relief & compliance', to: '/taxation/film-tax-relief' },
         ]
       },
       {
         title: 'Private & Personal Tax',
         items: [
-          { label: 'Inheritance Tax', desc: 'Strategic wealth planning', to: '/taxation/inheritance-tax' },
-          { label: 'Capital Gains Tax', desc: 'Asset disposal planning', to: '/taxation/capital-gains-tax' },
-          { label: 'Estate Tax Planning', desc: 'Future security planning', to: '/taxation/estate-tax' },
-          { label: 'Non-UK Resident', desc: 'Expat tax solutions', to: '/taxation/non-uk-resident' },
-          { label: 'LET Property Campaign', desc: 'Property income compliance', to: '/taxation/let-property' },
-          { label: 'Worldwide Disclosure Facility', desc: 'Offshore compliance', to: '/taxation/worldwide-disclosure' },
+          { label: 'Inheritance Tax', desc: 'Strategic wealth planning', to: '/taxation/inheritance-tax-planning' },
+          { label: 'Capital Gains Tax', desc: 'Asset disposal planning', to: '/taxation/capital-gains-tax-accountants' },
+          { label: 'Estate Tax Planning', desc: 'Future security planning', to: '/taxation/estate-property-tax-planning' },
+          { label: 'Non-UK Resident', desc: 'Expat tax solutions', to: '/taxation/non-uk-resident-taxation' },
+          { label: 'LET Property Campaign', desc: 'Property income compliance', to: '/taxation/let-property-campaign' },
+          { label: 'Worldwide Disclosure Facility', desc: 'Offshore compliance', to: '/taxation/worldwide-disclosure-facility' },
           { label: 'Cryptocurrency', desc: 'Digital asset tax advice', to: '/taxation/cryptocurrency' },
-          { label: 'Income Tax', desc: 'Personal tax efficiency', to: '/taxation/income-tax' },
+          { label: 'Income Tax', desc: 'Personal tax efficiency', to: '/taxation/personal-income-tax' },
         ]
       }
     ]
