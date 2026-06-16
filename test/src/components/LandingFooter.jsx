@@ -4,6 +4,10 @@ const LandingFooter = () => {
   return (
     <footer className="py-8 px-8 bg-brand-teal text-white flex justify-between items-center">
       <div className="flex space-x-4">
+        <img src="/images/logo/tal-logo.png" alt="Taxaccolega Logo" height="30" />
+      </div>
+      
+      <div className="flex space-x-4">
         <span>Phone: 020 8127 0728</span>
         <span>Email Address: info@taxaccolega.co.uk</span>
       </div>

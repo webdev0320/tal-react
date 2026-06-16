@@ -1,3 +1,5 @@
+import React from 'react';
+
 const FAQSection = ({ faqs: propFaqs }) => {
   const defaultFaqs = [
     { id: "faq1", question: "What is the process for non-domiciled tax filings?", answer: "Non-domiciled individuals first report UK income and can choose to pay tax on foreign income only when the income is brought in to the UK. From April 2025 new rules will apply. so it’s worth checking your tax status, as new arrivals qualify for 100% tax relief on foreign income and gains during their first 4 years in the UK." },
@@ -12,30 +14,60 @@ const FAQSection = ({ faqs: propFaqs }) => {
   const faqs = propFaqs || defaultFaqs;
 
   return (
-    <section className="py-20 bg-slate-50">
-        <div className="container max-w-5xl mx-auto px-6">
+    <section className="py-16 lg:py-24 bg-slate-50 overflow-x-hidden">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
-                <span className="text-orange-600 font-bold tracking-[0.2em] uppercase text-[11px]">Frequently Asked Questions</span>
-                <h2 className="text-4xl font-bold text-slate-900 mt-3 mb-6">Common Inquiries</h2>
-                <div className="h-1 w-20 bg-orange-500 mx-auto rounded-full"></div>
+                <h2 className="text-4xl font-bold text-slate-900 mt-3 mb-6">Frequently Asked Questions</h2>
+                <div className="h-1 w-20 bg-[#d2601a] mx-auto rounded-full"></div>
             </div>
 
-            <div className="space-y-4">
-                {faqs.map((faq, index) => (
-                    <div key={faq.id} className="bg-white border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-orange-200">
-                        <details className="group">
-                            <summary className="flex items-center justify-between p-6 font-semibold text-slate-800 cursor-pointer list-none text-lg">
-                                {faq.question}
-                                <span className="transition group-open:rotate-180 text-orange-600">
-                                    <svg fill="none" height="20" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg>
-                                </span>
-                            </summary>
-                            <div className="px-6 pb-6 text-slate-600 leading-relaxed pt-0 border-t border-slate-100 pt-4">
-                                {faq.answer}
+            <div className="grid lg:grid-cols-12 gap-12 items-start">
+                {/* FAQ Column (8/12) */}
+                <div className="lg:col-span-8 space-y-4">
+                    {faqs.map((faq) => (
+                        <div key={faq.id} className="bg-white border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-md hover:border-[#d2601a]/30">
+                            <details className="group">
+                                <summary className="flex items-center justify-between p-6 font-semibold text-slate-800 cursor-pointer list-none text-lg">
+                                    {faq.question}
+                                    <span className="transition group-open:rotate-180 text-[#d2601a]">
+                                        <svg fill="none" height="20" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="20"><path d="M6 9l6 6 6-6"></path></svg>
+                                    </span>
+                                </summary>
+                                <div className="px-6 pb-6 text-slate-600 leading-relaxed pt-0 border-t border-slate-100 pt-4">
+                                    {faq.answer}
+                                </div>
+                            </details>
+                        </div>
+                    ))}
+                </div>
+
+                {/* Contact Column (4/12) */}
+                <div className="lg:col-span-4">
+                    <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+                        <h3 className="text-2xl font-bold text-slate-900 mb-8">Need Further Assistance?</h3>
+                        
+                        <div className="space-y-6">
+                            <div>
+                                <p className="text-slate-500 text-xs uppercase tracking-wider mb-1 font-semibold">Phone</p>
+                                <a href="tel:02081270728" className="text-lg font-bold text-[#1D3C45] hover:text-[#d2601a] transition-colors">020 8127 0728</a>
                             </div>
-                        </details>
+                            
+                            <div>
+                                <p className="text-slate-500 text-xs uppercase tracking-wider mb-1 font-semibold">Email Address</p>
+                                <a href="mailto:info@taxaccolega.co.uk" className="text-lg font-bold text-[#1D3C45] hover:text-[#d2601a] transition-colors">info@taxaccolega.co.uk</a>
+                            </div>
+
+                            <div className="pt-6 border-t border-slate-100">
+                                <p className="text-slate-500 text-xs uppercase tracking-wider mb-4 font-semibold">Connect With Us</p>
+                                <div className="flex gap-4">
+                                    <a href="#" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-twitter"></i></a>
+                                    <a href="#" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-[#d2601a] text-[#1D3C45] hover:text-white transition-all"><i className="fab fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                ))}
+                </div>
             </div>
         </div>
     </section>

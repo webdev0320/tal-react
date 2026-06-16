@@ -26,7 +26,7 @@ const TeamRefer = () => {
                             <p className="text-secondary small" style={{ lineHeight: 1.7 }}>Know someone who could benefit from expert accounting services or is probably unhappy or apprehensive with his/her current accountant? You can refer them to Taxaccolega and earn quite a handsome sum of money out of that payment! Whether you’re a client, visitor, or a friend, our Refer and Earn programme is your nice chance to make some extra money reliably.</p>
                             <p className="text-secondary small mt-3" style={{ lineHeight: 1.7 }}>It’s easy! Just refer a new client to us, and once they sign up, you’ll receive a handsome percentage as a thank you for your referral. No limits, no complicated rules — just a straightforward way to earn for helping others.</p>
                         </div>
-                        <a href="https://www.taxaccolega.co.uk/refer-and-earn/" className="btn btn-outline-warning btn-lg mt-4 align-self-start py-3 px-4">Refer & Earn</a>
+                        <a href="https://www.taxaccolega.co.uk/refer-and-earn/" className="btn btn-lg mt-4 align-self-start py-3 px-4 text-white" style={{ backgroundColor: "#d2601a", borderColor: "#d2601a" }}>Refer & Earn</a>
                     </div>
                 </div>
             </div>

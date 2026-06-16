@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Partners from '../components/Partners';
+import ContactForm from '../components/ContactForm';
 
 // Icon for checkmarks
 const CheckIcon = () => (
@@ -151,10 +152,10 @@ const LtdCompanyPackage = () => {
       {/* Partners Section */}
       <section className="py-5 bg-light border-top">
         <div className="container text-center">
-          <h2 className="text-brand-dark mb-5 fw-bold" style={{ fontFamily: "'Outfit', sans-serif" }}>Our Clients and Collaborative Partners</h2>
           <Partners />
         </div>
       </section>
+      <ContactForm />
     </div>
   );
 };

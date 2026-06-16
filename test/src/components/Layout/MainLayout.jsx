@@ -1,6 +1,7 @@
 import TopBar from '../TopBar';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import FloatingConsultationButton from '../FloatingConsultationButton';
 
 function MainLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ function MainLayout({ children }) {
         {children}
       </main>
       <Footer />
+      <FloatingConsultationButton />
     </>
   );
 }

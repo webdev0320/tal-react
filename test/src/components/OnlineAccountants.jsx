@@ -3,8 +3,7 @@ const OnlineAccountants = () => {
     <section className="py-5 bg-light">
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
-                <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Nationwide Presence</span>
-                <h2 className="mt-2 text-brand-dark display-5">The UK's Largest Online Accountants</h2>
+                <h2 className="mt-2 inline-block bg-[#1D3C45] text-white text-2xl lg:text-3xl px-6 py-2 rounded-lg whitespace-nowrap">The UK's Largest Online Accountants</h2>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
             </div>
             
@@ -20,7 +19,11 @@ const OnlineAccountants = () => {
                     </a>
                 </div>
                 <div className="col-lg-5">
-
+                    <img 
+                        src="/images/2025/08/CEO--1024x715.webp" 
+                        alt="CEO of Taxaccolega" 
+                        className="img-fluid rounded-3 shadow-lg" 
+                    />
                 </div>
             </div>
         </div>

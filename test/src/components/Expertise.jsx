@@ -22,7 +22,6 @@ const Expertise = () => {
     <section id="expertise" className="py-5 mt-5">
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
-                <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Professional Capabilities</span>
                 <h2 className="mt-2 text-brand-dark display-5">Our Expertise</h2>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
                 <p className="text-secondary lead fs-6">We are the largest online firm of accountants in London, United Kingdom.</p>
@@ -31,15 +30,15 @@ const Expertise = () => {
             <div className="row g-4">
               {services.map((service, index) => (
                 <div key={index} className="col-md-6 col-lg-4">
-                    <div className="card h-100 shadow-sm service-card p-4 d-flex flex-column justify-content-between">
+                    <div className="card h-100 shadow-sm service-card p-4 d-flex flex-column justify-content-between transition-all duration-300 hover:bg-[#1D3C45] group">
                         <div>
-                            <div className="bg-brand-orange text-white rounded-circle d-flex align-items-center justify-content-center mb-4" style={{ width: "60px", height: "60px", fontSize: "1.5rem" }}>
+                            <div className="bg-brand-orange text-white rounded-circle d-flex align-items-center justify-content-center mb-4 transition-colors duration-300" style={{ width: "60px", height: "60px", fontSize: "1.5rem" }}>
                                 <i className={service.icon}></i>
                             </div>
-                            <h4 className="card-title text-brand-dark h5 mb-3">{service.title}</h4>
-                            <p className="card-text text-secondary small">{service.description}</p>
+                            <h4 className="card-title text-brand-dark h5 mb-3 transition-colors duration-300 group-hover:!text-white">{service.title}</h4>
+                            <p className="card-text text-secondary small transition-colors duration-300 group-hover:!text-white">{service.description}</p>
                         </div>
-                        <Link to={service.link} className="text-brand-orange fw-bold text-decoration-none small mt-4 d-inline-block">Read More <i className="fas fa-arrow-right ms-1"></i></Link>
+                        <Link to={service.link} className="text-brand-orange fw-bold text-decoration-none small mt-4 d-inline-block transition-colors duration-300 group-hover:!text-white">Read More <i className="fas fa-arrow-right ms-1"></i></Link>
                     </div>
                 </div>
               ))}

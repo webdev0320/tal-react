@@ -67,7 +67,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
-                        <img src="/images/2023/06/TAL_Logo-149x34-1.webp" alt="Taxaccolega Logo" height="40" />
+                        <img src="/images/logo/tal-logo.png" alt="Taxaccolega Logo" height="60" />
                     </Link>
                     <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

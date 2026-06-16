@@ -23,15 +23,19 @@ const TargetSegments = () => {
         <div className="container py-4">
             <div className="row align-items-center g-5">
                 <div className="col-lg-4 text-center text-lg-start">
-                    <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Target Segments</span>
                     <h2 className="text-brand-dark display-5 mt-2 mb-4 brand-font">Who Do We Help</h2>
                     <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/Who-Do-We-help-300x268.webp" alt="Who we assist collage illustration" className="img-fluid rounded-4 shadow-sm bg-white p-2 border border-light mt-3" style={{ maxHeight: "220px" }} />
                 </div>
                 <div className="col-lg-8">
-                    <div className="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                    <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                         {industries.map((industry, index) => (
-                            <Link key={index} to={industry.link} className="industry-badge d-inline-flex align-items-center border px-3 py-2 rounded text-decoration-none" style={{ color: '#1a2332', background: '#fff', borderColor: '#eee', transition: 'all 0.2s' }}>
-                                <i className={`${industry.icon} me-2 text-brand-orange`}></i> {industry.name}
+                            <Link 
+                                key={index} 
+                                to={industry.link} 
+                                className="group inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-white border border-slate-200 text-slate-800 hover:!bg-[#d2601a] hover:!text-white hover:!border-[#d2601a] transition-all duration-300 shadow-sm hover:shadow-md font-semibold text-sm"
+                            >
+                                <i className={`${industry.icon} text-[#d2601a] transition-colors duration-300 group-hover:!text-white`}></i> 
+                                {industry.name}
                             </Link>
                         ))}
                     </div>
