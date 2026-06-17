@@ -17,17 +17,43 @@ const HeroBanner = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center gap-4">
-            <Link to="/contact-us/" className="px-6 py-3 text-sm bg-[#d2601a] text-white font-semibold rounded-full hover:bg-[#b55216] transition-all duration-300 shadow-md hover:shadow-lg text-center">
-              Get an Instant Quote
-            </Link>
-            <a href="https://calendly.com/taxaccolega/book-a-meeting" target="_blank" rel="noreferrer" className="px-6 py-3 text-sm border-2 border-slate-200 text-slate-700 font-semibold rounded-full hover:border-[#d2601a] hover:text-[#d2601a] hover:bg-slate-50 transition-all duration-300 text-center">
-              Book a Free Consultation
-            </a>
-            <a href="tel:+447912357096" className="px-6 py-3 text-sm bg-slate-900 text-white font-semibold rounded-full hover:bg-slate-700 transition-all duration-300 shadow-md hover:shadow-lg text-center">
-              Call at +447912357096
-            </a>
-          </div>
+         {/* CTA Buttons Row 1 */}
+         <div className="flex flex-nowrap items-center gap-2">
+           <Link 
+             to="/contact-us/" 
+             className="flex-1 px-4 py-2 text-sm bg-[#d2601a] text-white font-semibold rounded-full hover:bg-[#b55216] transition-all duration-300 shadow-md hover:shadow-lg text-center no-underline"
+           >
+             <i className="fas fa-quote-right me-2"></i> Get an Instant Quote
+           </Link>
+
+           <a 
+             href="https://calendly.com/taxaccolega/book-a-meeting" 
+             target="_blank" 
+             rel="noreferrer" 
+             className="flex-1 px-4 py-2 text-sm border-2 border-slate-200 text-slate-700 font-semibold rounded-full hover:border-[#d2601a] hover:text-[#d2601a] hover:bg-slate-50 transition-all duration-300 text-center no-underline"
+           >
+             <i className="fas fa-calendar-alt me-2"></i> Book Consultation
+           </a>
+         </div>
+
+         {/* CTA Buttons Row 2 */}
+         <div className="flex flex-nowrap items-center gap-2">
+           <a 
+             href="tel:+02081270728" 
+             className="flex-1 px-4 py-2 text-sm bg-slate-900 text-white font-semibold rounded-full hover:bg-slate-700 transition-all duration-300 shadow-md hover:shadow-lg text-center no-underline"
+           >
+             <i className="fas fa-phone-alt me-2"></i> Call Us
+           </a>
+
+           <a 
+             href="https://wa.me/447471170484" 
+             target="_blank" 
+             rel="noreferrer" 
+             className="flex-1 px-4 py-2 text-sm bg-green-600 text-white font-semibold rounded-full hover:bg-green-700 transition-all duration-300 shadow-md hover:shadow-lg text-center no-underline"
+           >
+             <i className="fab fa-whatsapp me-2"></i> WhatsApp
+           </a>
+         </div>
 
           {/* Trust Footer */}
           <div className="pt-6 border-t border-slate-100 flex flex-col gap-3">

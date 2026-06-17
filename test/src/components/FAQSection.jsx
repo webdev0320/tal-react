@@ -14,7 +14,7 @@ const FAQSection = ({ faqs: propFaqs }) => {
   const faqs = propFaqs || defaultFaqs;
 
   return (
-    <section className="py-16 lg:py-24 bg-slate-50 overflow-x-hidden">
+    <section className="py-8 lg:py-16 bg-slate-50 overflow-x-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
                 <h2 className="text-4xl font-bold text-slate-900 mt-3 mb-6">Frequently Asked Questions</h2>

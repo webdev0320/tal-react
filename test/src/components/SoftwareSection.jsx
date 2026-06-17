@@ -42,9 +42,11 @@ const SoftwareSection = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-slate-50">
+    <section className="py-0 lg:py-16 bg-slate-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-12 text-center uppercase tracking-wider">Softwares</h2>
+
+                    <h2 className="text-brand-dark display-5 mt-2 mb-4 text-center whitespace-nowrap">Softwares</h2>
+                  <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
         
         {/* Tabs */}
         <div className="flex flex-nowrap justify-center gap-1.5 mb-10">

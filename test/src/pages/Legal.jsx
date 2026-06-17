@@ -202,7 +202,7 @@ const Legal = () => (
               Our team of seasoned legal experts provides a broad range of services, including regulatory compliance, dispute resolution, and contract drafting and review. We offer our clients strategic advice and representation that is intended to safeguard their interests and promote their long-term success because we are aware of the unique legal difficulties they face.
             </p>
             <a
-              href="https://www.taxaccolega.co.uk/contact-us/"
+              href="/contact-us/"
               className="btn btn-lg px-5 btn-brand"
             >
               Contact Us
@@ -243,7 +243,7 @@ const Legal = () => (
                 Creating your legal entity in the UK is easy with Taxaccolega's expert team. We simplify business setup, from selecting the right structure to registering with authorities. Our services include drafting legal documents, obtaining licences, and ensuring regulatory compliance. Focus on growing your business while we handle the company formation process efficiently and accurately. Contact us today for seamless business setup!
               </p>
               <a
-                href="https://www.taxaccolega.co.uk/contact-us/"
+                href="/contact-us/"
                 className="btn px-4 py-2"
                 style={{ background: '#e07b39', color: '#fff', fontWeight: 600, borderRadius: '4px' }}
               >
@@ -353,7 +353,7 @@ const Legal = () => (
               Discover the benefits of our Registered Address services today and give your business the professional edge it deserves.
             </p>
             <a
-              href="https://www.taxaccolega.co.uk/contact-us/"
+              href="/contact-us/"
               className="btn px-4 py-2"
               style={{ background: '#e07b39', color: '#fff', fontWeight: 600, borderRadius: '4px' }}
             >
@@ -373,3 +373,4 @@ const Legal = () => (
     );
 
 export default Legal;
+

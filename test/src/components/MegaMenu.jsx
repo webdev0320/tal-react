@@ -13,7 +13,7 @@ const menuData = {
           { label: 'Corporation Tax', desc: 'Compliance & returns', to: '/taxation/company-tax-return-accountants' },
           { label: 'Value Added Tax', desc: 'VAT registration & filings', to: '/taxation/vat-accountants' },
           { label: 'Tax Investigation', desc: 'Expert defense & guidance', to: '/taxation/tax-investigation-insurance' },
-          { label: 'Research & Development', desc: 'Incentives & claims', to: 'https://www.taxaccolega.co.uk/taxation/rd/' },
+          { label: 'Research & Development', desc: 'Incentives & claims', to: '/taxation/rd/' },
           { label: 'Tax Advisory', desc: 'Strategic planning advice', to: '/taxation/tax-advisors' },
           { label: 'EMI Scheme', desc: 'Employee share plans', to: '/taxation/emi-schemes' },
           { label: 'SEIS and EIS Accountants', desc: 'Investment scheme support', to: '/taxation/seis-tax-relief' },
@@ -147,3 +147,4 @@ const MegaMenu = () => {
 };
 
 export default MegaMenu;
+

@@ -19,7 +19,7 @@ const Expertise = () => {
   ];
 
   return (
-    <section id="expertise" className="py-5 mt-5">
+    <section id="expertise" className="mt-0">
         <div className="container py-4">
             <div className="text-center max-w-xl mx-auto mb-5">
                 <h2 className="mt-2 text-brand-dark display-5">Our Expertise</h2>

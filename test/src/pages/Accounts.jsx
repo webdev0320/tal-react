@@ -20,7 +20,7 @@ const primaryServices = [
     title: 'Bookkeeping',
     img: '/images/2024/07/bookkeeping-1.jpg',
     desc: 'Our specialised team of certified accountants is dedicated to enhancing your business\'s performance by managing your accounts efficiently and profitably. We offer comprehensive bookkeeping solutions tailored to your business needs.',
-    link: 'https://www.taxaccolega.co.uk/accounts/bookkeeping-services/',
+    link: '/accounts/bookkeeping-services/',
   },
   {
     title: 'Statutory Accounts',
@@ -32,7 +32,7 @@ const primaryServices = [
     title: 'Management Accounts',
     img: '/images/2024/07/16.jpg',
     desc: 'Taxaccolega transforms your financial data into valuable insights through our Management Accounts services. Our experts ensure your financial data is clear and actionable, facilitating strategic decision-making.',
-    link: 'https://www.taxaccolega.co.uk/accounts/management-accounts/',
+    link: '/accounts/management-accounts/',
   },
 ];
 
@@ -41,19 +41,19 @@ const secondaryServices = [
     title: 'Payroll Services',
     img: '/images/2024/07/06-1.jpg',
     desc: 'Taxaccolega streamlines your payroll processes, ensuring timely and accurate payroll management. Our experts handle all aspects of payroll, from calculating wages and deductions to HMRC real-time information filings.',
-    link: 'https://www.taxaccolega.co.uk/accounts/payroll-services/',
+    link: '/accounts/payroll-services/',
   },
   {
     title: 'Self-Assessment & Tax Return',
     img: '/images/2024/07/14-1.jpg',
     desc: 'Taxaccolega simplifies the process of self-assessment and tax returns, ensuring accuracy and compliance. Our experts meticulously record and interpret your financial data, minimising tax liabilities and ensuring timely submission.',
-    link: 'https://www.taxaccolega.co.uk/accounts/hmrc-self-assessment-tax-returns-accountant/',
+    link: '/accounts/hmrc-self-assessment-tax-returns-accountant/',
   },
   {
     title: 'Pension & auto Enrolment',
     img: '/images/2024/07/17.jpg',
     desc: 'Taxaccolega manages workplace pension schemes and auto-enrolment compliance, helping businesses fulfill their legal obligations while handling assessment, calculations, and communications.',
-    link: 'https://www.taxaccolega.co.uk/accounts/auto-enrolment-pension-contributions/',
+    link: '/accounts/auto-enrolment-pension-contributions/',
   },
 ];
 
@@ -356,7 +356,7 @@ const Accounts = () => (
               Our team of experienced chartered accountants and financial consultants offers solutions that go beyond mere bookkeeping, delivering insight, visibility, and control over all financial records.
             </p>
             <a
-              href="https://www.taxaccolega.co.uk/contact-us/"
+              href="/contact-us/"
               className="btn btn-lg px-5 btn-brand"
             >
               Contact Us
@@ -465,3 +465,4 @@ const Accounts = () => (
 );
 
 export default Accounts;
+

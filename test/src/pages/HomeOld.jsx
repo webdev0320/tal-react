@@ -117,21 +117,21 @@ const HomeOld = () => {
   ];
 
   const clientLogos = Array.from({ length: 16 }).map((_, i) => ({
-    src: `https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/${i + 1}.png`,
+    src: `/wp-content/uploads/2024/11/${i + 1}.png`,
     alt: `Client ${i + 1}`,
   }));
 
   const achievementImages = [
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Team-2-1.jpg", alt: "Team 2" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Team-3-1.jpg", alt: "Team 3" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/cosmetologist-1-2.jpg", alt: "Cosmetologist" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-36.png", alt: "Gallery 36" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-35.png", alt: "Gallery 35" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/gallery-34.png", alt: "Gallery 34" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.29.50_7903bb51-1152x1536.jpg", alt: "WhatsApp Image 1" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.31.06_6acc2339-1536x1152.jpg", alt: "WhatsApp Image 2" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Post-4.jpg", alt: "Post 4" },
-    { src: "https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/Team-2-1.jpg", alt: "Team 2" },
+    { src: "/wp-content/uploads/2025/04/Team-2-1.jpg", alt: "Team 2" },
+    { src: "/wp-content/uploads/2025/04/Team-3-1.jpg", alt: "Team 3" },
+    { src: "/wp-content/uploads/2025/03/cosmetologist-1-2.jpg", alt: "Cosmetologist" },
+    { src: "/wp-content/uploads/2025/03/gallery-36.png", alt: "Gallery 36" },
+    { src: "/wp-content/uploads/2025/03/gallery-35.png", alt: "Gallery 35" },
+    { src: "/wp-content/uploads/2025/03/gallery-34.png", alt: "Gallery 34" },
+    { src: "/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.29.50_7903bb51-1152x1536.jpg", alt: "WhatsApp Image 1" },
+    { src: "/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-28-at-14.31.06_6acc2339-1536x1152.jpg", alt: "WhatsApp Image 2" },
+    { src: "/wp-content/uploads/2025/04/Post-4.jpg", alt: "Post 4" },
+    { src: "/wp-content/uploads/2025/03/Team-2-1.jpg", alt: "Team 2" },
   ];
 
   const industriesWeHelp = [
@@ -195,8 +195,8 @@ const HomeOld = () => {
         <>
           <h3 className="text-xl font-bold mb-2"><strong>FREEAGENT</strong></h3>
           <p className="mb-4">We are accredited accountants serving small businesses and contractors throughout the UK. Our core belief is in enhancing your business’s financial transparency, achieved through award-winning cloud accounting software, Free Agent. As accredited Free Agent accountants for 2022, we offer seamless services to both existing Free Agent users and newcomers. We efficiently synchronise all your financial transactions onto our platform and provide complimentary training to ensure proficiency with Free Agent accounting software. Switching to our services is hassle-free, with a streamlined process that assures a swift and straightforward transfer of your financial data, eliminating data loss risks. From day one, we are well-prepared to manage your financial records, making it easy for us to collaborate and address any accounting challenges.</p>
-          <img width="800" height="534" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg" alt="Free agent software"
-            srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent.jpg 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-600x400.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-300x200.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Free-agent-768x512.jpg 768w"
+          <img width="800" height="534" src="/wp-content/uploads/2024/07/Free-agent.jpg" alt="Free agent software"
+            srcSet="/wp-content/uploads/2024/07/Free-agent.jpg 1024w, /wp-content/uploads/2024/07/Free-agent-600x400.jpg 600w, /wp-content/uploads/2024/07/Free-agent-300x200.jpg 300w, /wp-content/uploads/2024/07/Free-agent-768x512.jpg 768w"
             sizes="(max-width: 800px) 100vw, 800px"
             className="my-4 rounded-lg shadow-md"
           />
@@ -258,9 +258,9 @@ const HomeOld = () => {
         <img
           width="512"
           height="512"
-          src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo.png"
+          src="/wp-content/uploads/2025/03/google-logo.png"
           alt="Google logo"
-          srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo.png 512w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-300x300.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-100x100.png 100w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/03/google-logo-150x150.png 150w"
+          srcSet="/wp-content/uploads/2025/03/google-logo.png 512w, /wp-content/uploads/2025/03/google-logo-300x300.png 300w, /wp-content/uploads/2025/03/google-logo-100x100.png 100w, /wp-content/uploads/2025/03/google-logo-150x150.png 150w"
           sizes="(max-width: 512px) 100vw, 512px"
           className="mx-auto mb-4 w-32 h-32 object-contain"
         />
@@ -341,7 +341,7 @@ const HomeOld = () => {
         </div>
         <div className="text-center">
           <a href="https://www.google.com/search?q=taxaccolega+google+reviews&#038;sca_esv=297d5f19dea10a07&#038;sca_upv=1&#038;sxsrf=ADLYWIJ23bi6HGNvbxp15gnfhlga0Kxqeg%3A1720107419671&#038;source=hp&#038;ei=m8GGZvarJpaH7NYP1v-p2AE&#038;iflsig=AL9hbdgAAAAAZobPq_DmNkAfESl5SRggHQUhI1c0qF5J&#038;ved=0ahUKEwi25eO9242HAxWWA9sEHdZ_ChsQ4dUDCBU&#038;uact=5&#038;oq=taxaccolega+google+reviews&#038;gs_lp=Egdnd3Mtd2l6Ihp0YXhhY2NvbGVnYSBnb29nbGUgcmV2aWV3czIFECEYoAFIySBQAFjgHnAAeACQAQCYAY8CoAH-K6oBBDItMjW4AQPIAQD4AQGYAhmgAs8swgIQEC4YgAQYxwEYJxiKBRivAcICBBAjGCfCAgoQIxiABBgnGIoFwgIREC4YgAQYkQIY0QMYxwEYigXCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIFEAAYgATCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIFEC4YgATCAgcQABiABBgKwgILEC4YgAQYxwEYrwHCAggQABiABBiiBMICChAuGNEDGMcBGB7CAgQQABgewgIHECEYoAEYCpgDAJIHBDItMjWgB5-3AQ&#038;sclient=gws-wiz#lrd=0x48760640814ce7b7:0x4899b8fae2b5b21a,1,,,," target="_blank" rel="noopener noreferrer">
-            <img width="489" height="75" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1.png" alt="Google reviews" srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1.png 489w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/google-1-300x46.png 300w" sizes="(max-width: 489px) 100vw, 489px" className="mx-auto" />
+            <img width="489" height="75" src="/wp-content/uploads/2024/07/google-1.png" alt="Google reviews" srcSet="/wp-content/uploads/2024/07/google-1.png 489w, /wp-content/uploads/2024/07/google-1-300x46.png 300w" sizes="(max-width: 489px) 100vw, 489px" className="mx-auto" />
           </a>
         </div>
       </section>
@@ -362,9 +362,9 @@ const HomeOld = () => {
           <img
             width="2301"
             height="2540"
-            src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png"
+            src="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png"
             alt="About Us Section Image"
-            srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png 2301w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-600x662.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-272x300.png 272w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-928x1024.png 928w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-768x848.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1391x1536.png 1391w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1855x2048.png 1855w"
+            srcSet="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-07.png 2301w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-600x662.png 600w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-272x300.png 272w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-928x1024.png 928w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-768x848.png 768w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1391x1536.png 1391w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-07-1855x2048.png 1855w"
             sizes="(max-width: 2301px) 100vw, 2301px"
             className="rounded-lg shadow-md"
           />
@@ -382,9 +382,9 @@ const HomeOld = () => {
           <img
             width="800"
             height="800"
-            src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1.jpg"
+            src="/wp-content/uploads/2025/04/TAL-Website-1.jpg"
             alt="Taxaccolega Website Illustration"
-            srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1.jpg 1008w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-300x300.jpg 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-100x100.jpg 100w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-600x600.jpg 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-150x150.jpg 150w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/TAL-Website-1-768x768.jpg 768w"
+            srcSet="/wp-content/uploads/2025/04/TAL-Website-1.jpg 1008w, /wp-content/uploads/2025/04/TAL-Website-1-300x300.jpg 300w, /wp-content/uploads/2025/04/TAL-Website-1-100x100.jpg 100w, /wp-content/uploads/2025/04/TAL-Website-1-600x600.jpg 600w, /wp-content/uploads/2025/04/TAL-Website-1-150x150.jpg 150w, /wp-content/uploads/2025/04/TAL-Website-1-768x768.jpg 768w"
             sizes="(max-width: 800px) 100vw, 800px"
             className="rounded-lg shadow-md"
           />
@@ -425,18 +425,18 @@ const HomeOld = () => {
         </p>
         <div className="flex flex-col md:flex-row gap-4 mb-8">
           <a href="https://www.trustpilot.com/review/taxaccolega.co.uk" target="_blank" rel="noopener noreferrer" className="block">
-            <img width="800" height="123" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1024x157.png" alt="Trustpilot reviews" srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1024x157.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-600x92.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-300x46.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-768x118.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-1536x236.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Trustpilot-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" className="rounded-lg shadow-md" />
+            <img width="800" height="123" src="/wp-content/uploads/2024/07/Trustpilot-1024x157.png" alt="Trustpilot reviews" srcSet="/wp-content/uploads/2024/07/Trustpilot-1024x157.png 1024w, /wp-content/uploads/2024/07/Trustpilot-600x92.png 600w, /wp-content/uploads/2024/07/Trustpilot-300x46.png 300w, /wp-content/uploads/2024/07/Trustpilot-768x118.png 768w, /wp-content/uploads/2024/07/Trustpilot-1536x236.png 1536w, /wp-content/uploads/2024/07/Trustpilot-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" className="rounded-lg shadow-md" />
           </a>
           <a href="https://www.google.com/search?q=taxaccolega+google+reviews&#038;sca_esv=297d5f19dea10a07&#038;sca_upv=1&#038;sxsrf=ADLYWIJ23bi6HGNvbxp15gnfhlga0Kxqeg%3A1720107419671&#038;source=hp&#038;ei=m8GGZvarJpaH7NYP1v-p2AE&#038;iflsig=AL9hbdgAAAAAZobPq_DmNkAfESl5SRggHQUhI1c0qF5J&#038;ved=0ahUKEwi25eO9242HAxWWA9sEHdZ_ChsQ4dUDCBU&#038;uact=5&#038;oq=taxaccolega+google+reviews&#038;gs_lp=Egdnd3Mtd2l6Ihp0YXhhY2NvbGVnYSBnb29nbGUgcmV2aWV3czIFECEYoAFIySBQAFjgHnAAeACQAQCYAY8CoAH-K6oBBDItMjW4AQPIAQD4AQGYAhmgAs8swgIQEC4YgAQYxwEYJxiKBRivAcICBBAjGCfCAgoQIxiABBgnGIoFwgIREC4YgAQYkQIY0QMYxwEYigXCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIFEAAYgATCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIFEC4YgATCAgcQABiABBgKwgILEC4YgAQYxwEYrwHCAggQABiABBiiBMICChAuGNEDGMcBGB7CAgQQABgewgIHECEYoAEYCpgDAJIHBDItMjWgB5-3AQ&#038;sclient=gws-wiz#mpd=~13810665085480211432/customers/reviews" target="_blank" rel="noopener noreferrer" className="block">
-            <img width="800" height="123" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png" alt="Google reviews" srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-600x92.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-768x118.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1536x236.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" className="rounded-lg shadow-md" />
+            <img width="800" height="123" src="/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png" alt="Google reviews" srcSet="/wp-content/uploads/2024/07/Googleeeeeeeeeeee-1024x157.png 1024w, /wp-content/uploads/2024/07/Googleeeeeeeeeeee-600x92.png 600w, /wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png 300w, /wp-content/uploads/2024/07/Googleeeeeeeeeeee-768x118.png 768w, /wp-content/uploads/2024/07/Googleeeeeeeeeeee-1536x236.png 1536w, /wp-content/uploads/2024/07/Googleeeeeeeeeeee-2048x314.png 2048w" sizes="(max-width: 800px) 100vw, 800px" className="rounded-lg shadow-md" />
           </a>
         </div>
         <img
           width="800"
           height="560"
-          src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic.png"
+          src="/wp-content/uploads/2024/07/about-us-with-pic.png"
           alt="About us with picture"
-          srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic.png 1000w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-600x420.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-300x210.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/about-us-with-pic-768x538.png 768w"
+          srcSet="/wp-content/uploads/2024/07/about-us-with-pic.png 1000w, /wp-content/uploads/2024/07/about-us-with-pic-600x420.png 600w, /wp-content/uploads/2024/07/about-us-with-pic-300x210.png 300w, /wp-content/uploads/2024/07/about-us-with-pic-768x538.png 768w"
           sizes="(max-width: 800px) 100vw, 800px"
           className="mt-8 rounded-lg shadow-md"
         />
@@ -526,9 +526,9 @@ const HomeOld = () => {
         <img
           width="300"
           height="267"
-          src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png"
+          src="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png"
           alt="Illustration of professionals"
-          srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-600x534.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1024x912.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-768x684.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1536x1368.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-2048x1824.png 2048w"
+          srcSet="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-300x267.png 300w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-600x534.png 600w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1024x912.png 1024w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-768x684.png 768w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-1536x1368.png 1536w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-05-2048x1824.png 2048w"
           sizes="(max-width: 300px) 100vw, 300px"
           className="mx-auto my-8 rounded-lg shadow-md"
         />
@@ -601,9 +601,9 @@ const HomeOld = () => {
           <img
             width="2500"
             height="2227"
-            src="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png"
+            src="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png"
             alt="Taxaccolega About Us Section"
-            srcSet="https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png 2500w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-600x534.png 600w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-300x267.png 300w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1024x912.png 1024w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-768x684.png 768w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1536x1368.png 1536w, https://www.taxaccolega.co.uk/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-2048x1824.png 2048w"
+            srcSet="/wp-content/uploads/2025/04/Tal-About-us-Section-Image-03.png 2500w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-600x534.png 600w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-300x267.png 300w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1024x912.png 1024w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-768x684.png 768w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-1536x1368.png 1536w, /wp-content/uploads/2025/04/Tal-About-us-Section-Image-03-2048x1824.png 2048w"
             sizes="(max-width: 2500px) 100vw, 2500px"
             className="rounded-lg shadow-md"
           />
@@ -614,7 +614,7 @@ const HomeOld = () => {
       <section className="my-12 text-center bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-4xl font-extrabold mb-4">Our Recent Google Reviews</h2>
         <figure className="mb-4">
-          <img width="300" height="46" src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png" alt="Google logo" className="mx-auto" />
+          <img width="300" height="46" src="/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png" alt="Google logo" className="mx-auto" />
         </figure>
         <h3 className="text-2xl font-bold mb-4">5.0 | 187 reviews</h3>
         <div className="text-gray-600">[Trustindex Google Reviews Widget Placeholder]</div>
@@ -654,7 +654,7 @@ const HomeOld = () => {
         <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
           You can stay on top of relevant industry news by checking out our blog page, where we discuss topical subjects to further help you answer any questions you may have regarding your accounts. If you wish to calculate your take-home pay, we provide a contractor tax calculator that will easily and quickly give you accurate results. To learn more about how we can help you grow your business, contact us today:
         </p>
-        <a href="https://www.taxaccolega.co.uk/contact-us/" className="inline-block bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors">
+        <a href="/contact-us/" className="inline-block bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors">
           Contact Us Today
         </a>
       </section>
@@ -669,7 +669,7 @@ const HomeOld = () => {
           <li>It’s easy! Just refer a new client to us, and once they sign up, you’ll receive a handsome percentage as a thank you for your referral. No limits, no complicated rules — just a straightforward way to earn for helping others. Start earning today by referring your friends, family, or colleagues to Taxaccolega. We’re here to take care of the numbers while you enjoy the rewards. </li>
         </ol>
         <div className="text-center">
-          <a href="https://www.taxaccolega.co.uk/refer-and-earn" className="inline-block bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors">
+          <a href="/refer-and-earn" className="inline-block bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition-colors">
             Refer &amp; Earn
           </a>
         </div>

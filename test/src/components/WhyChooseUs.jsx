@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
   return (
     <section className="py-12 lg:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
+        <div className="grid lg:grid-cols-12 gap-12 items-center">
           {/* Image Column */}
           <div className="lg:col-span-6">
             <img
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
           {/* Accordion Column */}
           <div className="lg:col-span-6">
             <div className="mb-8">
-              <span className="text-[#d2601a] font-semibold tracking-wide uppercase text-sm italic font-serif">Services</span>
+              <span style={{ fontFamily: '"Pinyon Script", Sans-serif', fontSize: '30px', fontWeight: 400, color: '#1D3C45', textAlign: 'start', columns: 1 }}>Services</span>
               <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mt-2">Why Choose Us</h2>
             </div>
 

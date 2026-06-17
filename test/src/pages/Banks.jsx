@@ -203,7 +203,7 @@ const Banks = () => (
               In addition, we offer strategic planning services, where we offer professional guidance on market entry, growth strategies, and competitive positioning. We also provide operational efficiency solutions, which assist banks in streamlining their operations, enhancing customer support, and cutting expenses. We help our clients meet their strategic goals, stay in compliance with regulations, and improve their financial performance by providing them with individualised and all-inclusive banking solutions.
             </p>
             <a
-              href="https://www.taxaccolega.co.uk/contact-us/"
+              href="/contact-us/"
               className="btn px-4 py-2 text-white"
               style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
             >
@@ -252,7 +252,7 @@ const Banks = () => (
                 What sets Anna Bank apart is our commitment to delivering personalised service and expert guidance to navigate the financial landscape. As your trusted financial ally, we're here to help your business thrive. We ensure that you have the tools and support you need to succeed in today's dynamic business world.
               </p>
               <a
-                href="https://www.taxaccolega.co.uk/contact-us/"
+                href="/contact-us/"
                 className="btn px-4 py-2 text-white"
                 style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
               >
@@ -345,3 +345,4 @@ const Banks = () => (
 );
 
 export default Banks;
+

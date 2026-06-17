@@ -193,7 +193,7 @@ const Software = () => {
                 Our group of skilled IT consultants and software developers provides a variety of services, including system integration and support as well as software development and implementation. We guarantee that our clients have the resources necessary to maintain their competitiveness in their industry by utilizing cutting-edge technologies and industry best practices.
               </p>
               <a
-                href="https://www.taxaccolega.co.uk/contact-us/"
+                href="/contact-us/"
                 className="btn px-4 py-2 text-white"
                 style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
               >
@@ -280,7 +280,7 @@ const Software = () => {
                   As a leading Chartered Accounting firm in London, we specialise in Xero Accounting software. We provide comprehensive accounting and tax advisory services for startups, small businesses, and eCommerce vendors. As Xero Platinum Partners, we simplify financial processes, offer expert migration assistance, and recommend third-party Xero apps. Enhance your business with our personalised support and cutting-edge solutions today!
                 </p>
                 <a
-                  href="https://www.taxaccolega.co.uk/contact-us/"
+                  href="/contact-us/"
                   className="btn px-4 py-2 text-white"
                   style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
                 >
@@ -380,7 +380,7 @@ const Software = () => {
                   At Taxaccolega, we're committed to providing best-in-class solutions to meet your tax needs, which is why we proudly utilise TaxCalc Software. This powerful tax software is designed to streamline and simplify taxation, ensuring efficient tax return preparation, compliance, and accurate calculations, all while meeting tax deadlines with ease. The user-friendly interface makes it accessible to individuals, businesses, and professionals, allowing for seamless collaboration and precise financial management. Our team of tax experts is well-versed in TaxCalc, ensuring your financial affairs are in capable hands. Join us in embracing this cutting-edge solution to navigate your tax journey effortlessly.
                 </p>
                 <a
-                  href="https://www.taxaccolega.co.uk/contact-us/"
+                  href="/contact-us/"
                   className="btn px-4 py-2 text-white"
                   style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
                 >
@@ -402,3 +402,4 @@ const Software = () => {
 };
 
 export default Software;
+

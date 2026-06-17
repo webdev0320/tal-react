@@ -8,6 +8,7 @@ import ContactSection from './components/ContactSection';
 import Achievements from './components/Achievements';
 import OnlineAccountants from './components/OnlineAccountants';
 import ContactForm from './components/ContactForm';
+import CharteredAccountantInfo from './components/CharteredAccountantInfo';
 import TargetSegments from './components/TargetSegments';
 import SwitchAccountantsCTA from './components/SwitchAccountantsCTA';
 import StatsCounter from './components/StatsCounter';
@@ -27,6 +28,7 @@ function Home() {
       <Partners />
       <ContactSection />
       <AboutUsSection />      
+      <CharteredAccountantInfo />      
       <Achievements />
       <OnlineAccountants />
       <ContactForm />
@@ -34,6 +36,7 @@ function Home() {
       <SwitchAccountantsCTA />
       <StatsCounter />
       <TopRatedCTA />
+
       <ReviewsSlider />
       <SoftwareSection />
       <TeamRefer />

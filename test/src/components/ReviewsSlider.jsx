@@ -25,7 +25,7 @@ const ReviewsSlider = () => {
                 <h2 className="mt-2 text-brand-dark display-5">Our Recent Google Reviews</h2>
                 <div className="bg-brand-orange mx-auto my-3" style={{ width: "80px", height: "3px" }}></div>
                 <div className="d-flex align-items-center justify-content-center gap-2">
-                    <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Google-2-300x45.webp" alt="Google 5 star reviews" style={{ maxHeight: "30px" }} />
+                    <img src="/wp-content/uploads/2023/06/Google-2-300x45.webp" alt="Google 5 star reviews" style={{ maxHeight: "30px" }} />
                     <span className="fw-semibold text-brand-dark">5.0  |  193 reviews</span>
                 </div>
             </div>
@@ -57,3 +57,4 @@ const ReviewsSlider = () => {
 };
 
 export default ReviewsSlider;
+

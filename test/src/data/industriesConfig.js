@@ -14,7 +14,7 @@ export const industriesConfig = {
     sec2: {
       title: 'Why Our IT Accounting Services Stand Out',
       para: 'We don\'t just file returns; we act as your financial partner. Our proactive advice on IR35 status, combined with our expertise in claiming software and hardware expenses, helps you stay ahead. We focus on tax-efficient structures, ensuring you maintain a healthy cash flow while adhering to HMRC requirements.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Talk to an Expert',
       btnLink: '#contact-form'
     },
@@ -41,7 +41,7 @@ export const industriesConfig = {
       title: 'Expert Real Estate Tax & Accounting Services',
       para1: 'Managing property portfolios requires precision. Taxaccolega offers tailored tax management for landlords and real estate investors, focusing on maximizing returns through strategic planning.',
       para2: 'Whether you are dealing with Capital Gains Tax (CGT), Stamp Duty Land Tax (SDLT), or deciding between corporate versus personal holding structures, our experts ensure your portfolio is tax-efficient and fully compliant.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Secure My Portfolio',
       btnLink: '#contact-form'
     },
@@ -82,7 +82,7 @@ export const industriesConfig = {
     sec2: {
       title: 'Streamlining Your Digital Retail Finances',
       para: 'We leverage technology to automate your bookkeeping, ensuring multi-currency transactions and high-volume sales are accurately reconciled. We help you stay on top of inventory valuation and global VAT obligations with ease.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Learn About Integrations',
       btnLink: '#contact-form'
     },
@@ -105,14 +105,14 @@ export const industriesConfig = {
       title: 'Expert CIS & Construction Accounting',
       para1: 'Construction businesses require specific financial expertise, from CIS compliance to domestic reverse charge VAT. Taxaccolega ensures your business operations remain compliant and tax-efficient.',
       para2: 'We help you track subcontractor tax deductions, manage gross payment status, and accurately handle reverse charge VAT, giving you peace of mind while you focus on your projects.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/accounts-1-1-1024x713.webp',
+      img: '/wp-content/uploads/2024/06/accounts-1-1-1024x713.webp',
       btnText: 'Manage My CIS Compliance',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Keeping Your Construction Projects Profitable',
       para: 'Our construction accounting services focus on project costing and efficient subcontractor management. We help you maintain meticulous financial records, ensuring all tax obligations are met while maximizing potential deductions.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Get Financial Clarity',
       btnLink: '#contact-form'
     },
@@ -135,14 +135,14 @@ export const industriesConfig = {
       title: 'Specialized Accounting for Motor Dealers',
       para1: 'Automobile dealerships face unique tax and financial challenges. Taxaccolega provides expert guidance on margin schemes, stock valuations, and capital allowances for machinery.',
       para2: 'From tracking dealership overheads to applying second-hand margin schemes for vehicle sales, we ensure your business remains tax-efficient and fully compliant.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/bank-1-1-1024x713.webp',
+      img: '/wp-content/uploads/2024/06/bank-1-1-1024x713.webp',
       btnText: 'Optimize My Dealership',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Managing Complex Motor Trade Finances',
       para: 'We help you maintain meticulous financial records, essential for tax compliance, while proactively tracking expenses and capital investments to maximize your profits.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Discuss My Finances',
       btnLink: '#contact-form'
     },
@@ -172,7 +172,7 @@ export const industriesConfig = {
     sec2: {
       title: 'Streamlining Restaurant Operations',
       para: 'By integrating your POS systems with cloud accounting, we ensure daily sales, wastage, and overheads are tracked in real-time, giving you clear insights into your gross margins.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Get Financial Insights',
       btnLink: '#contact-form'
     },
@@ -195,14 +195,14 @@ export const industriesConfig = {
       title: 'Specialized Accounting for Wholesale & Retail',
       para1: 'Managing supply chain costs and complex inventory is critical for wholesale and retail success. Taxaccolega helps you track margins and stay compliant.',
       para2: 'From FIFO/LIFO inventory auditing to import/export VAT and duties compliance, we ensure your financial reporting accurately reflects your operational performance.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/book-a-call-or-meeting.webp',
+      img: '/wp-content/uploads/2025/08/book-a-call-or-meeting.webp',
       btnText: 'Improve My Margins',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Optimizing Inventory & Profitability',
       para: 'We help you track costs, manage supplier credit, and perform detailed profit margin analysis, ensuring your business stays profitable and fully tax compliant.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Discuss Inventory Strategy',
       btnLink: '#contact-form'
     },
@@ -232,7 +232,7 @@ export const industriesConfig = {
     sec2: {
       title: 'Comprehensive Financial Planning for Healthcare',
       para: 'We provide proactive tax planning, helping you maximize reliefs, manage pension allowances, and ensure accurate financial reporting for your practice.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Talk to a Medical Specialist',
       btnLink: '#contact-form'
     },
@@ -255,14 +255,14 @@ export const industriesConfig = {
       title: 'Accounting for the Leisure Sector',
       para1: 'From managing seasonal cash flow to complex membership billing, the leisure industry requires expert financial oversight. Taxaccolega is here to help.',
       para2: 'We provide specialized support for asset depreciation, event-specific tax regulations, and membership compliance, ensuring your leisure venue is profitable and efficient.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp',
+      img: '/wp-content/uploads/2024/06/Taxation.webp',
       btnText: 'Maximize Leisure Profits',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Managing Seasonal Revenue & Assets',
       para: 'Our services focus on robust financial planning for seasonal revenue, effective asset depreciation tracking, and streamlined membership management.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Find Out More',
       btnLink: '#contact-form'
     },
@@ -285,14 +285,14 @@ export const industriesConfig = {
       title: 'Expert Support for Non-UK Residents',
       para1: 'Living abroad doesn\'t exempt you from UK tax obligations. Taxaccolega offers expert support for non-resident landlords, directors, and investors.',
       para2: 'We help you navigate the Statutory Residence Test (SRT), the Non-Resident Landlord (NRL) scheme, and double taxation treaties to ensure your UK income is compliant.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp',
+      img: '/wp-content/uploads/2024/06/Taxation.webp',
       btnText: 'Manage My UK Tax',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Minimizing Tax for Non-Residents',
       para: 'Our experts ensure you take advantage of double taxation treaties and manage your UK income (like property rentals or dividends) in the most tax-efficient manner.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Discuss My Residency',
       btnLink: '#contact-form'
     },
@@ -315,14 +315,14 @@ export const industriesConfig = {
       title: 'Specialized Accounting for Logistics',
       para1: 'Logistics businesses face complex demands, from fleet capital allowances to multi-jurisdictional compliance. Taxaccolega supports your operations.',
       para2: 'We help you track fuel duty, manage fleet capital allowances, and ensure compliance for your drivers/couriers, keeping your logistics business moving.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/accounts-1-1-1024x713.webp',
+      img: '/wp-content/uploads/2024/06/accounts-1-1-1024x713.webp',
       btnText: 'Optimize Logistics Finances',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Managing Fleet Costs & Compliance',
       para: 'We specialize in fuel duty tracking, multi-jurisdictional compliance, and efficient payroll setups for drivers, ensuring your operational costs are optimized.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Discuss Fleet Accounting',
       btnLink: '#contact-form'
     },
@@ -345,14 +345,14 @@ export const industriesConfig = {
       title: 'Accounting for Expatriates',
       para1: 'Moving to or from the UK involves complex tax rules. Taxaccolega offers expert cross-border tax advice for expatriates.',
       para2: 'From claiming split-year treatment and navigating double taxation treaties to foreign income reporting, we ensure your cross-border tax affairs are fully compliant.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2024/06/Taxation.webp',
+      img: '/wp-content/uploads/2024/06/Taxation.webp',
       btnText: 'Manage My Expat Tax',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Simplifying Cross-Border Taxation',
       para: 'We provide specialized advice on split-year treatment claims, foreign tax credits, and UK tax compliance for expats, ensuring you don\'t pay more tax than necessary.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Talk to an Expat Expert',
       btnLink: '#contact-form'
     },
@@ -375,14 +375,14 @@ export const industriesConfig = {
       title: 'Specialized Accounting for Charities',
       para1: 'Charities face strict compliance requirements, from SORP reporting to Gift Aid optimization. Taxaccolega ensures you stay focused on your mission.',
       para2: 'We manage fund accounting (restricted vs. unrestricted), prepare accounts per SORP guidelines, and help you maximize Gift Aid recoveries from HMRC.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Optimize My Charity',
       btnLink: '#contact-form'
     },
     sec2: {
       title: 'Maintaining Compliance & Maximizing Impact',
       para: 'Our charity accounting services cover non-profit exemption verification, SORP-compliant reporting, and efficient fund management to keep your organization running smoothly.',
-      img: 'https://www.taxaccolega.co.uk/wp-content/uploads/2025/08/TAL-aboust-us.webp',
+      img: '/wp-content/uploads/2025/08/TAL-aboust-us.webp',
       btnText: 'Discuss Charity Finance',
       btnLink: '#contact-form'
     },

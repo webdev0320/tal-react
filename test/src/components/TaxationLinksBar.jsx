@@ -7,7 +7,7 @@ const links = [
   { label: 'Tax Investigation',           to: '/taxation/tax-investigation-insurance' },
   { label: 'Capital Gains Tax',           to: '/taxation/capital-gains-tax-accountants' },
   { label: 'Estate Tax Planning',         to: '/taxation/estate-property-tax-planning' },
-  { label: 'Research & Development',      to: 'https://www.taxaccolega.co.uk/taxation/rd/', external: true },
+  { label: 'Research & Development',      to: '/taxation/rd/', external: true },
   { label: 'Tax Advisory',               to: '/taxation/tax-advisors' },
   { label: 'EMI Scheme',                 to: '/taxation/emi-schemes' },
   { label: 'SEIS and EIS Accountants',   to: '/taxation/seis-tax-relief' },
@@ -102,3 +102,4 @@ const TaxationLinksBar = () => {
 };
 
 export default TaxationLinksBar;
+

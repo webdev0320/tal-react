@@ -16,7 +16,7 @@ const tagRoutes = {
   'Tax Investigation': '/taxation/tax-investigation-insurance',
   'Capital Gains Tax': '/taxation/capital-gains-tax-accountants',
   'Estate Tax Planning': '/taxation/estate-property-tax-planning',
-  'Research & Development': 'https://www.taxaccolega.co.uk/taxation/rd/', // Keep external link for now
+  'Research & Development': '/taxation/rd/', // Keep external link for now
   'Tax Advisory': '/taxation/tax-advisors',
   'EMI Scheme': '/taxation/emi-schemes',
   'SEIS and EIS Accountants': '/taxation/seis-tax-relief',
@@ -86,7 +86,7 @@ const tertiaryServices = [
     title: 'Research & Development',
     img: '/images/2024/07/19.jpg',
     desc: 'Taxaccolega specialises in R&D tax credits, identifying qualifying activities and expenditures to maximise your company\'s research and development tax relief claims.',
-    link: 'https://www.taxaccolega.co.uk/taxation/rd/',
+    link: '/taxation/rd/',
   },
   {
     title: 'Tax Advisory',
@@ -397,7 +397,7 @@ const Taxation = () => (
               Our team of seasoned chartered accountants and tax consultants extends beyond tax liability management. Our approach involves delivering personalised tax advice tailored to each client's desired tax status, ensuring compliance and financial efficiency.
             </p>
             <a
-              href="https://www.taxaccolega.co.uk/contact-us/"
+              href="/contact-us/"
               className="btn btn-lg px-5 btn-brand"
             >
               Contact Us
@@ -522,3 +522,4 @@ const Taxation = () => (
 );
 
 export default Taxation;
+

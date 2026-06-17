@@ -32,7 +32,7 @@ const Charities = () => {
       <h1 className="text-4xl font-bold mb-4">Charities</h1>
       <p className="text-xl text-gray-600 mb-6">Empowering Your Mission, Managing Your Finances.</p>
       
-      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/08/Untitled-design-6.png" alt="Charity Support" className="w-full max-w-2xl mb-8" />
+      <img src="/wp-content/uploads/2023/08/Untitled-design-6.png" alt="Charity Support" className="w-full max-w-2xl mb-8" />
       
       <section className="mb-12">
         <h2 className="text-3xl font-bold mb-4">How do we help Charities?</h2>
@@ -55,7 +55,7 @@ const Charities = () => {
         </div>
       </section>
 
-      <img src="https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/fooddrive.webp" alt="Food Drive" className="w-full mb-12" />
+      <img src="/wp-content/uploads/2023/06/fooddrive.webp" alt="Food Drive" className="w-full mb-12" />
 
       <section className="mb-12">
         <h2 className="text-3xl font-bold mb-4">Our Recent Google Reviews</h2>
