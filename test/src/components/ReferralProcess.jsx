@@ -1,38 +1,27 @@
 import React from 'react';
 
 const ReferralProcess = () => {
-  const steps = [
-    { title: "Refer", desc: "Share your referral link or introduce us to someone needing expert accounting." },
-    { title: "Connect", desc: "We contact them and provide a free, no-obligation consultation." },
-    { title: "Earn", desc: "Once they sign up as a client, you receive your reward payment." }
-  ];
-
   return (
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">How Does the Refer and Earn Program Work?</h2>
-            <div className="space-y-8">
-              {steps.map((step, idx) => (
-                <div key={idx} className="flex gap-4">
-                  <div className="w-12 h-12 flex-shrink-0 bg-[#d2601a] text-white rounded-full flex items-center justify-center font-bold text-xl">
-                    {idx + 1}
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-[#1D3C45] mb-2">{step.title}</h4>
-                    <p className="text-slate-600">{step.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+        <div className="row align-items-stretch g-5">
+          <div className="col-lg-6 d-flex flex-column justify-content-center">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#1D3C45] mb-6">Helping You Earn While Helping Others</h2>
+            <p className="text-slate-600 mb-6 leading-relaxed">
+              At Taxaccolega, we believe that success is best when shared. Whether you are an old client, a first-time visitor, or someone only checking our services, our Refer and Earn program lets you earn a decent reward by simply informing others about our professional accounting services.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-0">
+              We know how strong positive word-of-mouth referrals can be. If you have already availed Taxaccolega’s top rated accounting services, then you know how much of a difference we can make in the lives of small businesses and individuals. Now, we’re giving you the chance to earn if you can share your positive experience.
+            </p>
           </div>
-          <div className="rounded-3xl overflow-hidden shadow-2xl">
-            <img 
-              src="https://www.taxaccolega.co.uk/wp-content/uploads/2024/11/entrepreneur-man-brainstorming-management-strategy-working-hard-meeting-office-scaled.jpg" 
-              alt="How it works" 
-              className="w-full h-full object-cover"
-            />
+          <div className="col-lg-6">
+            <div className="rounded-3xl overflow-hidden shadow-2xl h-100">
+              <img 
+                src="/images/2024/11/modern-business-scaled.jpg" 
+                alt="How it works" 
+                className="w-100 h-100 object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
