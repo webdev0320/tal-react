@@ -1,3 +1,4 @@
+"use client";
 const SwitchAccountantsCTA = () => {
   return (
     <section className="parallax-section" style={{ backgroundImage: "url('/wp-content/uploads/2025/08/Switch-Accountant.webp')" }}>

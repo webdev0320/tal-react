@@ -1,3 +1,4 @@
+"use client";
 const TopBar = () => {
   return (
     <div className="bg-light py-2 border-bottom d-none d-md-block">

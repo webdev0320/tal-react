@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const HeroBanner = () => {
   return (
@@ -19,8 +20,7 @@ const HeroBanner = () => {
           {/* CTA Buttons */}
          {/* CTA Buttons Row 1 */}
          <div className="flex flex-nowrap items-center gap-2">
-           <Link 
-             to="/contact-us/" 
+           <Link href="/contact-us/" 
              className="flex-1 px-4 py-2 text-sm bg-[#d2601a] text-white font-semibold rounded-full hover:bg-[#b55216] transition-all duration-300 shadow-md hover:shadow-lg text-center no-underline"
            >
              <i className="fas fa-quote-right me-2"></i> Get an Instant Quote

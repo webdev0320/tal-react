@@ -1,3 +1,4 @@
+"use client";
 const ContactSection = () => {
   return (
     <section className="py-5">

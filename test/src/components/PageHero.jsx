@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+"use client";
+import Link from 'next/link';
 
 const PageHero = ({ title, subtitle, breadcrumbs = [], sidebarItems = [] }) => {
     return (
@@ -27,7 +28,7 @@ const PageHero = ({ title, subtitle, breadcrumbs = [], sidebarItems = [] }) => {
                             <ol className={`breadcrumb ${sidebarItems.length > 0 ? 'justify-content-center justify-content-lg-start' : 'justify-content-center'} mb-0 small`} style={{ background: 'transparent' }}>
                                 {breadcrumbs.map((crumb, i) => (
                                     <li key={i} className={`breadcrumb-item ${crumb.active ? 'active text-white-50' : ''}`}>
-                                        {crumb.active ? crumb.label : <Link to={crumb.link} className="text-decoration-none text-brand-orange">{crumb.label}</Link>}
+                                        {crumb.active ? crumb.label : <Link href={crumb.link} className="text-decoration-none text-brand-orange">{crumb.label}</Link>}
                                     </li>
                                 ))}
                             </ol>
@@ -41,7 +42,7 @@ const PageHero = ({ title, subtitle, breadcrumbs = [], sidebarItems = [] }) => {
                                 <h5 className="text-white fw-bold mb-4 text-center border-bottom pb-2" style={{ fontFamily: "'Outfit', sans-serif" }}>Quick Navigation</h5>
                                 <div className="d-flex flex-column gap-3">
                                     {sidebarItems.map((item, idx) => (
-                                        <Link key={idx} to={item.link} className="card border-0 shadow rounded-3 p-3 text-decoration-none bg-white hover-shadow transition" style={{ transition: 'all 0.3s' }}>
+                                        <Link key={idx} href={item.link} className="card border-0 shadow rounded-3 p-3 text-decoration-none bg-white hover-shadow transition" style={{ transition: 'all 0.3s' }}>
                                             <div className="d-flex justify-content-between align-items-center">
                                                 <span className="fw-bold text-brand-dark" style={{ fontSize: '0.95rem' }}>{item.title}</span>
                                                 <span className="text-brand-orange fw-bold">READ MORE &raquo;</span>

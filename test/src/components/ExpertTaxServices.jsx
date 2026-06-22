@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const ExpertTaxServices = ({ taxTags, tagRoutes }) => {
   return (
@@ -14,8 +15,8 @@ const ExpertTaxServices = ({ taxTags, tagRoutes }) => {
             return route ? (
               <Link
                 key={tag}
-                to={route}
-                className="industry-badge text-decoration-none"
+                href={route}
+                className="industry-badge text-decoration-none btn btn-brand"
               >
                 {tag}
               </Link>
@@ -23,7 +24,7 @@ const ExpertTaxServices = ({ taxTags, tagRoutes }) => {
               <a
                 key={tag}
                 href="#"
-                className="industry-badge"
+                className="industry-badge text-decoration-none btn btn-brand"
               >
                 {tag}
               </a>

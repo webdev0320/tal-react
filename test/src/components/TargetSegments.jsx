@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+"use client";
+import Link from 'next/link';
 
 const TargetSegments = () => {
   const industries = [
@@ -31,7 +32,7 @@ const TargetSegments = () => {
                         {industries.map((industry, index) => (
                             <Link 
                                 key={index} 
-                                to={industry.link} 
+                                href={industry.link} 
                                 className="group inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-white border border-slate-200 text-slate-800 hover:!bg-[#d2601a] hover:!text-white hover:!border-[#d2601a] transition-all duration-300 shadow-sm hover:shadow-md font-semibold text-sm"
                             >
                                 <i className={`${industry.icon} text-[#d2601a] transition-colors duration-300 group-hover:!text-white`}></i> 

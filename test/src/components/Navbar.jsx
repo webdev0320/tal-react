@@ -1,9 +1,12 @@
-import { Link } from 'react-router-dom';
+"use client";
+import Link from 'next/link';
 import { useState } from 'react';
 import MegaMenu from './MegaMenu';
 
 const Navbar = () => {
     const [showMegaMenu, setShowMegaMenu] = useState(false);
+    const [showAssistMenu, setShowAssistMenu] = useState(false);
+    const [showPackagesMenu, setShowPackagesMenu] = useState(false);
     return (
         <>
             <style>{`
@@ -66,7 +69,7 @@ const Navbar = () => {
       `}</style>
             <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" href="/">
                         <img src="/images/logo/tal-logo.png" alt="Taxaccolega Logo" height="60" />
                     </Link>
                     <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +78,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="mainNav">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">Home</Link>
+                                <Link className="nav-link" href="/">Home</Link>
                             </li>
 
                             {/* Services Dropdown */}
@@ -86,34 +89,34 @@ const Navbar = () => {
                                 {showMegaMenu && <MegaMenu />}
                             </li>
 
-                            {/* Who We Assist */}
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {/* Who We Assist */}
+                    <li className="nav-item dropdown position-relative" onMouseEnter={() => setShowAssistMenu(true)} onMouseLeave={() => setShowAssistMenu(false)}>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" aria-expanded={showAssistMenu}>
                             Who We Assist
                         </a>
-                        <ul className="dropdown-menu" style={{ width: '280px' }}>
-                            <li><Link className="dropdown-item" to="/industries/it-professionals">IT Professionals & Contractors</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/real-estate">Real Estate & Property</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/ecommerce">Ecommerce</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/construction">Construction</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/automobile">Automobile & Dealerships</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/restaurants">Restaurants & Catering</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/wholesellers-retailers">Wholesalers & Retailers</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/healthcare-professionals">Healthcare Professionals</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/leisure-industry">Leisure Industry</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/non-uk-resident-taxation">Non-UK Resident Taxation</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/logistics">Logistics & Transport</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/expatriates">Expatriates</Link></li>
-                            <li><Link className="dropdown-item" to="/industries/charities">Charities</Link></li>
+                        <ul className={`dropdown-menu ${showAssistMenu ? 'show' : ''}`} style={{ width: '280px' }}>
+                            <li><Link className="dropdown-item" href="/industries/it-professionals">IT Professionals & Contractors</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/real-estate">Real Estate & Property</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/ecommerce">Ecommerce</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/construction">Construction</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/automobile">Automobile & Dealerships</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/restaurants">Restaurants & Catering</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/wholesellers-retailers">Wholesalers & Retailers</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/healthcare-professionals">Healthcare Professionals</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/leisure-industry">Leisure Industry</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/non-uk-resident-taxation">Non-UK Resident Taxation</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/logistics">Logistics & Transport</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/expatriates">Expatriates</Link></li>
+                            <li><Link className="dropdown-item" href="/industries/charities">Charities</Link></li>
                         </ul>
                     </li>
 
                     {/* Packages */}
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropdown position-relative" onMouseEnter={() => setShowPackagesMenu(true)} onMouseLeave={() => setShowPackagesMenu(false)}>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" aria-expanded={showPackagesMenu}>
                             Packages
                         </a>
-                        <ul className="dropdown-menu" style={{ width: '260px' }}>
+                        <ul className={`dropdown-menu ${showPackagesMenu ? 'show' : ''}`} style={{ width: '260px' }}>
                             {[
                                 { to: '/packages/sole-trader-pricing',   label: 'Sole Trader' },
                                 { to: '/packages/ltd-company-pricing',   label: 'LTD Company' },
@@ -122,16 +125,16 @@ const Navbar = () => {
                                 { to: '/packages/spvs-ltd-pricing',      label: 'SPVs & Property LTDs' },
                                 { to: '/packages/charities-pricing',     label: 'Charities & Non-Profits' },
                             ].map(item => (
-                                <li key={item.to}><Link className="dropdown-item" to={item.to}>{item.label}</Link></li>
+                                <li key={item.to}><Link className="dropdown-item" href={item.to}>{item.label}</Link></li>
                             ))}
                         </ul>
                     </li>
 
-                    <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/about-us">About Us</Link></li>
+                    <li className="nav-item"><Link className="nav-link" href="/blog">Blog</Link></li>
+                    <li className="nav-item"><Link className="nav-link" href="/about-us">About Us</Link></li>
                 </ul>
                 <div className="d-flex align-items-center">
-                    <Link to="/contact-us" className="btn btn-brand">Contact Us</Link>
+                    <Link href="/contact-us" className="btn btn-brand">Contact Us</Link>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const AboutUsSection = () => {
   // Use the same image URL pattern or replace with your actual asset
   const imageUrl = "/images/2025/08/TAL-aboust-us.webp";
@@ -24,7 +25,7 @@ const AboutUsSection = () => {
             Taxaccolega wasn't built to be just another accountancy firm. Since we don't just do the numbers, so it grew from a simple belief: real support goes beyond spreadsheets. It means promptly answering the call when a client's unsure. It means patiently explaining things without using jargons. And it means celebrating growth, not just tracking it.
           </p>
           
-          <Link to="/awards-accolades-accreditations/" className="btn btn-brand btn-lg px-4 py-3">About Us</Link>          
+          <Link href="/about-us/" className="btn btn-brand btn-lg px-4 py-3">About Us</Link>          
         </div>
 
         {/* Right Image Column (Sliced Pillar Effect) */}

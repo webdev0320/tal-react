@@ -1,5 +1,6 @@
+"use client";
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { PieChart, BookOpen, Scale, Code, Landmark } from 'lucide-react';
 
 const menuData = {
@@ -105,7 +106,7 @@ const MegaMenu = () => {
         {Object.keys(menuData).map((category) => (
           <Link
             key={category}
-            to={menuData[category].to}
+            href={menuData[category].to}
             onMouseEnter={() => setActiveCategory(category)}
             className={`relative w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-all duration-200 ease-in-out rounded-xl border-0 no-underline ${
               activeCategory === category
@@ -131,7 +132,7 @@ const MegaMenu = () => {
             {section.items.map((item) => (
               <Link
                 key={item.label}
-                to={item.to}
+                href={item.to}
                 className="group block p-2 rounded-lg hover:bg-slate-50/50 no-underline transition-all duration-200 ease-in-out"
               >
                 <div className="text-[13px] font-semibold text-slate-700 group-hover:text-orange-600 transition-colors duration-200">

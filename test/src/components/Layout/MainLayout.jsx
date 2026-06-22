@@ -1,3 +1,4 @@
+"use client";
 import TopBar from '../TopBar';
 import Navbar from '../Navbar';
 import Footer from '../Footer';

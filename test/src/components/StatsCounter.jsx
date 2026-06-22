@@ -1,3 +1,4 @@
+"use client";
 const StatsCounter = () => {
   const stats = [
     { value: "1544+", label: "Project Completed" },

@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const AccountsServiceGrid = ({ items }) => {
   return (
@@ -7,7 +8,7 @@ const AccountsServiceGrid = ({ items }) => {
       {items.map((item, index) => (
         <Link
           key={index}
-          to={item.link}
+          href={item.link}
           className="bg-[#f28e35] text-white font-bold py-3 px-4 rounded shadow-lg shadow-orange-500/20 hover:bg-[#d2601a] transition-colors text-center"
         >
           {item.title}

@@ -1,9 +1,21 @@
-import React from 'react';
-import { PopupButton } from 'react-calendly';
+"use client";
+import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
+
+// Dynamically import react-calendly with SSR disabled to prevent "auth" context crash
+const PopupButton = dynamic(
+  () => import('react-calendly').then((mod) => mod.PopupButton),
+  { ssr: false }
+);
 
 const FloatingConsultationButton = () => {
-  // Ensure the root element exists before mounting
-  const rootElement = document.getElementById('root') || document.body;
+  const [rootElement, setRootElement] = useState(null);
+
+  useEffect(() => {
+    setRootElement(document.body);
+  }, []);
+
+  if (!rootElement) return null;
 
   return (
     <div className="fixed bottom-6 right-6 z-[9999]">

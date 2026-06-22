@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { PieChart, BookOpen, Scale, Code, Landmark } from 'lucide-react';
 
 const Expertise = () => {
@@ -38,7 +39,7 @@ const Expertise = () => {
                             <h4 className="card-title text-brand-dark h5 mb-3 transition-colors duration-300 group-hover:!text-white">{service.title}</h4>
                             <p className="card-text text-secondary small transition-colors duration-300 group-hover:!text-white">{service.description}</p>
                         </div>
-                        <Link to={service.link} className="text-brand-orange fw-bold text-decoration-none small mt-4 d-inline-block transition-colors duration-300 group-hover:!text-white">Read More <i className="fas fa-arrow-right ms-1"></i></Link>
+                        <Link href={service.link} className="text-brand-orange fw-bold text-decoration-none small mt-4 d-inline-block transition-colors duration-300 group-hover:!text-white">Read More <i className="fas fa-arrow-right ms-1"></i></Link>
                     </div>
                 </div>
               ))}

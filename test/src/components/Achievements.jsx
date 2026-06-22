@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Achievements = () => {
   return (
@@ -13,7 +14,7 @@ const Achievements = () => {
                     <span style={{ fontFamily: '"Pinyon Script", Sans-serif', fontSize: '30px', fontWeight: 400, color: '#1D3C45', textAlign: 'start', display: 'block', marginBottom: '8px' }}>Our Achievements</span>
                     <h2 className="text-brand-dark display-5 mt-2 mb-4 brand-font">Taxaccolega — Award-Winning. Accredited. Trusted.</h2>
                     <p className="text-secondary mb-4" style={{ lineHeight: 1.8 }}>From prestigious ACCA and ICAEW certifications and accreditations to honours from mayors, media, business networks, and industry leaders, Taxaccolega is more than just an accountancy firm. Being the top-rated, we are a symbol of trust, professional excellence and community-driven impact. Our accreditations, recognitions, and awards have backend stories of commitment. They reflect years of dedication to our clients, the people we proudly serve, and our craft. Whether you’re a budding startup, a growing business, managing wealth, or an opportunistic like a seasoned investor, you’re in safe and certified hands backed by top-rated chartered accountants and a team that will always go the extra mile for you.</p>
-                    <Link to="/awards-accolades-accreditations/" className="btn btn-brand btn-lg px-4 py-3">Achievements</Link>
+                    <Link href="/awards-accolades-accreditations/" className="btn btn-brand btn-lg px-4 py-3">Achievements</Link>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const PageHeader = ({
   title,
@@ -47,7 +48,7 @@ const PageHeader = ({
               {breadcrumbItems.map((item, index) => (
                 <React.Fragment key={index}>
                   <li>
-                    <Link to={item.to} className="hover:text-brand-orange transition-colors">
+                    <Link href={item.to} className="hover:text-brand-orange transition-colors">
                       {item.label}
                     </Link>
                   </li>

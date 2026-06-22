@@ -1,10 +1,11 @@
+"use client";
 const TopRatedCTA = () => {
   return (
     <section className="py-5 mt-5">
         <div className="container py-4">
             <div className="row align-items-center g-5">
                 <div className="col-lg-5">
-                    <img src="/wp-content/uploads/2025/08/book-a-call-or-meeting.webp" alt="Book a video or phone meeting with Taxaccolega accountant" className="img-fluid rounded-4 shadow-lg border border-white border-4" />
+                    <img src="/images/2025/08/book-a-call-or-meeting-1024x912.webp" alt="Book a video or phone meeting with Taxaccolega accountant" className="img-fluid rounded-4 shadow-lg border border-white border-4" />
                 </div>
                 <div className="col-lg-7">
                     <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Get Free Advice</span>

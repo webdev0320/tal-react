@@ -1,3 +1,4 @@
+"use client";
 const OnlineAccountants = () => {
   return (
     <section className="py-5 bg-light">

@@ -1,3 +1,4 @@
+"use client";
 const TeamRefer = () => {
   return (
     <section className="py-12 bg-white">
