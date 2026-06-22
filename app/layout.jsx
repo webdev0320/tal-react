@@ -1,0 +1,38 @@
+import '../src/tailwind.css';
+import '../css/styles.css';
+import TopBar from '../src/components/TopBar.jsx';
+import Navbar from '../src/components/Navbar.jsx';
+import FloatingConsultationButton from '../src/components/FloatingConsultationButton.jsx';
+import Footer from '../src/components/Footer.jsx';
+
+export const metadata = {
+  title: 'Taxaccolega',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+        {/* Bootstrap 5.3 CSS CDN */}
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        {/* Font Awesome 6 Icons */}
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+        {/* Google Fonts: Inter and Outfit */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Pinyon+Script&display=swap" rel="stylesheet" />
+      </head>
+      <body style={{ paddingTop: '120px' }}>
+        <TopBar />
+        <Navbar />
+        {children}
+        <FloatingConsultationButton />
+        <Footer />
+        {/* Bootstrap 5 JS Bundle */}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" async />
+      </body>
+    </html>
+  );
+}

@@ -1,0 +1,113 @@
+import DynamicWpPage from '../../test/src/pages/DynamicWpPage';
+import Home from '../../test/src/Home';
+import AboutUs from '../../test/src/pages/AboutUs';
+import Blog from '../../test/src/pages/Blog';
+import SingleBlog from '../../test/src/pages/SingleBlog';
+import PackagePage from '../../test/src/pages/PackagePage';
+import Taxation from '../../test/src/pages/Taxation';
+import TaxationSubPage from '../../test/src/pages/TaxationSubPage';
+import Accounts from '../../test/src/pages/Accounts';
+import BookkeepingServices from '../../test/src/pages/BookkeepingServices';
+import PayrollServices from '../../test/src/pages/PayrollServices';
+import SelfAssessment from '../../test/src/pages/SelfAssessment';
+import Pensions from '../../test/src/pages/Pensions';
+import IndustryPage from '../../test/src/pages/IndustryPage';
+import ContactUs from '../../test/src/pages/ContactUs';
+import SwitchAccountant from '../../test/src/pages/SwitchAccountant';
+import ReferAndEarn from '../../test/src/pages/ReferAndEarn';
+
+export default function CatchAll({ params }) {
+  const slugArray = params.slug || [];
+  if (slugArray.length === 0) return <Home />;
+
+  const first = slugArray[0];
+
+  // /about-us
+  if (first === 'about-us') return <AboutUs />;
+
+  // /contact-us
+  if (first === 'contact-us') return <ContactUs />;
+
+  // /switch-accountant
+  if (first === 'switch-accountant') return <SwitchAccountant />;
+
+  // /refer-and-earn
+  if (first === 'refer-and-earn') return <ReferAndEarn />;
+
+  // /blog and /blog/:slug
+  if (first === 'blog') {
+    if (slugArray[1]) {
+      return <SingleBlog slug={slugArray[1]} />;
+    }
+    return <Blog />;
+  }
+
+  // /packages routes
+  if (first === 'packages') {
+    if (slugArray[1]) {
+      return <PackagePage slug={slugArray[1]} />;
+    }
+    return <DynamicWpPage slug="packages" />;
+  }
+
+  // top-level bookkeeping services pages often exist as their own slugs
+  if (first.startsWith('bookkeeping-services')) {
+    const joined = slugArray.join('/');
+    return <DynamicWpPage slug={joined} />;
+  }
+
+  // some WP exports use a taxation- prefix for static pages
+  if (first.startsWith('taxation-')) {
+    const joined = slugArray.join('/');
+    return <TaxationSubPage slug={joined} />;
+  }
+
+  // /taxation routes
+  if (first === 'taxation') {
+    if (slugArray[1]) {
+      return <TaxationSubPage slug={slugArray[1]} />;
+    }
+    return <Taxation />;
+  }
+
+  // /accounts routes
+  if (first === 'accounts') {
+    if (!slugArray[1]) return <Accounts />;
+    const sub = slugArray[1];
+    if (sub === 'bookkeeping-services') return <BookkeepingServices />;
+    if (sub === 'payroll-services') return <PayrollServices />;
+    if (sub === 'hmrc-self-assessment-tax-returns-accountant') return <SelfAssessment />;
+    if (sub === 'auto-enrolment-pension-contributions') return <Pensions />;
+    // unknown account subpage, delegate to WP extractor
+    return <DynamicWpPage slug={slugArray.join('/')} />;
+  }
+
+  // /industries/:slug
+  if (first === 'industries' && slugArray[1]) {
+    return <IndustryPage slug={slugArray[1]} />;
+  }
+
+  // fallback: join all segments and render DynamicWpPage
+  const joined = slugArray.join('/');
+  return <DynamicWpPage slug={joined} />;
+}
+
+export async function generateMetadata({ params }) {
+  const slugArray = params.slug || [];
+  const first = slugArray[0];
+
+  if (!first) return { title: 'Taxaccolega — Home' };
+  if (first === 'about-us') return { title: 'About Us — Taxaccolega' };
+  if (first === 'contact-us') return { title: 'Contact Us — Taxaccolega' };
+  if (first === 'blog') {
+    if (slugArray[1]) return { title: `${decodeURIComponent(slugArray[1])} — Blog` };
+    return { title: 'Blog — Taxaccolega' };
+  }
+  if (first === 'packages') return { title: 'Packages — Taxaccolega' };
+  if (first === 'taxation') return { title: 'Taxation — Taxaccolega' };
+  if (first === 'accounts') return { title: 'Accounts — Taxaccolega' };
+  if (first === 'industries') return { title: 'Industries — Taxaccolega' };
+
+  // default fallback metadata
+  return { title: `${decodeURIComponent(first)} — Taxaccolega` };
+}

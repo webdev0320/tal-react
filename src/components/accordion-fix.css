@@ -1,0 +1,15 @@
+/* Fix for accordion arrow */
+.accordion-button::after {
+  display: none !important;
+}
+.accordion-button .accordion-arrow {
+  transition: transform 0.3s ease;
+}
+.accordion-button:not(.collapsed) .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+/* Fix Calendly scrollbar issue */
+.calendly-popup-content, .calendly-popup-content iframe {
+  overflow: hidden !important;
+}
