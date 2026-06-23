@@ -52,6 +52,8 @@ import ConsolidatedAccounts from './views/ConsolidatedAccounts';
 import SingleBlog from './views/SingleBlog';
 import MainLayout from './components/Layout/MainLayout';
 import DynamicWpPage from './views/DynamicWpPage';
+import IDVerificationModal from './components/IDVerificationModal';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -129,6 +131,7 @@ function App() {
         {/* Catch-all for imported WordPress Pages */}
         <Route path="*" element={<MainLayout><DynamicWpPage /></MainLayout>} />
       </Routes>
+      <IDVerificationModal />
     </Router>
   );
 }

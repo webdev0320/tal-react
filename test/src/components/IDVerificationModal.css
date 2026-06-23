@@ -1,0 +1,414 @@
+/* ── ID Verification Modal ── */
+.idv-trigger {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #d2601a 0%, #b24e12 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 6px 24px rgba(210, 96, 26, 0.35);
+  transition: transform 0.25s, box-shadow 0.25s;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.idv-trigger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(210, 96, 26, 0.45);
+}
+.idv-trigger svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Overlay */
+.idv-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 999999;
+  backdrop-filter: blur(4px);
+  animation: idvFadeIn 0.2s ease;
+}
+@keyframes idvFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Modal box */
+.idv-box {
+  width: 92%;
+  max-width: 880px;
+  max-height: 92vh;
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  position: relative;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  animation: idvSlideUp 0.3s ease;
+}
+@keyframes idvSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Close button */
+.idv-close {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #1d3c45;
+  background: none;
+  border: none;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s;
+  z-index: 10;
+}
+.idv-close:hover {
+  background: #f3f4f6;
+  color: #d2601a;
+}
+
+/* Heading */
+.idv-box h2 {
+  font-family: 'Outfit', 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 6px;
+  color: #d2601a;
+  padding-right: 40px;
+}
+
+/* Progress bar */
+.idv-progress-track {
+  width: 100%;
+  height: 6px;
+  background: #eee;
+  border-radius: 6px;
+  margin: 12px 0 24px;
+  overflow: hidden;
+}
+.idv-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #d2601a, #e8873a);
+  border-radius: 6px;
+  transition: width 0.35s ease;
+}
+
+/* Step animation */
+.idv-step {
+  animation: idvStepIn 0.25s ease;
+}
+@keyframes idvStepIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+.idv-step h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d3c45;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.idv-step h3 .step-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1d3c45, #254d58);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Form rows */
+.idv-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.idv-col {
+  flex: 1 1 240px;
+  min-width: 180px;
+}
+
+/* Labels */
+.idv-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 5px;
+  display: block;
+}
+.idv-required {
+  color: #ef4444;
+  margin-left: 2px;
+}
+
+/* Inputs */
+.idv-input,
+.idv-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1f2937;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+}
+.idv-input:focus,
+.idv-select:focus {
+  outline: none;
+  border-color: #d2601a;
+  box-shadow: 0 0 0 3px rgba(210, 96, 26, 0.12);
+}
+.idv-input.error,
+.idv-select.error {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+input[type="file"].idv-input {
+  padding: 8px 10px;
+}
+
+/* Checkboxes */
+.idv-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+}
+.idv-checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #d2601a;
+  cursor: pointer;
+}
+
+/* Buttons */
+.idv-actions {
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.idv-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.25s;
+  font-family: inherit;
+}
+.idv-btn-primary {
+  background: linear-gradient(135deg, #d2601a, #b24e12);
+  color: #fff !important;
+}
+.idv-btn-primary:hover {
+  background: linear-gradient(135deg, #1d3c45, #254d58);
+}
+.idv-btn-secondary {
+  background: #f3f4f6;
+  color: #374151 !important;
+  border: 1px solid #d1d5db;
+}
+.idv-btn-secondary:hover {
+  background: #e5e7eb;
+}
+.idv-btn-pay {
+  background: linear-gradient(135deg, #1d3c45, #254d58);
+  color: #fff !important;
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+}
+.idv-btn-pay:hover {
+  background: linear-gradient(135deg, #d2601a, #b24e12);
+}
+
+/* Intro list */
+.idv-intro-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 20px;
+}
+.idv-intro-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+.idv-intro-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #d2601a;
+  font-weight: 700;
+}
+
+/* Terms */
+.idv-terms-toggle {
+  background: none;
+  border: none;
+  color: #d2601a;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  transition: color 0.2s;
+}
+.idv-terms-toggle:hover {
+  color: #1d3c45;
+}
+.idv-terms-box {
+  margin-top: 12px;
+  padding: 14px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+.idv-terms-box p {
+  margin-bottom: 10px;
+}
+
+/* Note */
+.idv-note {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #fef3cd;
+  border-radius: 6px;
+  border-left: 3px solid #d2601a;
+}
+
+/* Price box */
+.idv-price-box {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f9fafb, #f3f4f6);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+.idv-price-regular {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  background: #d2601a;
+  text-decoration: line-through;
+  text-decoration-color: #1d3c45;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.idv-price-sale {
+  display: block;
+  font-size: 36px;
+  color: #1d3c45;
+  font-weight: 800;
+  margin: 8px 0;
+}
+.idv-price-details {
+  font-size: 14px;
+  color: #6b7280;
+}
+.idv-price-details .total {
+  font-weight: 700;
+  color: #1d3c45;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+/* Stripe checkout */
+.idv-stripe-form {
+  margin-top: 16px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+.idv-stripe-form h4 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #1d3c45;
+  font-weight: 700;
+}
+#idv-card-element {
+  padding: 12px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+#idv-card-errors {
+  color: #ef4444;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 12px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .idv-box {
+    padding: 18px;
+    border-radius: 12px;
+  }
+  .idv-actions {
+    flex-direction: column;
+  }
+  .idv-btn {
+    width: 100%;
+  }
+  .idv-trigger {
+    bottom: 20px;
+    left: 14px;
+    right: auto;
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+}

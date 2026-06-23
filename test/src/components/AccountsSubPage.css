@@ -1,0 +1,69 @@
+.accounts-sub-hero {
+  min-height: 420px;
+}
+
+.accounts-sub-content figure.account-section-image {
+  margin: 1.75rem 0 2rem;
+}
+
+.accounts-sub-content figure.account-section-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+  box-shadow: 0 12px 40px rgba(23, 57, 65, 0.12);
+}
+
+.accounts-sub-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #173941;
+  font-weight: 800;
+}
+
+.accounts-sub-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #173941;
+  font-weight: 700;
+}
+
+.accounts-sub-content p,
+.accounts-sub-content li {
+  color: #53666a;
+  line-height: 1.8;
+}
+
+.accounts-sub-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.accounts-sub-content th,
+.accounts-sub-content td {
+  border: 1px solid #e7ded3;
+  padding: 0.85rem 1rem;
+  vertical-align: top;
+}
+
+.accounts-sub-content thead th {
+  background: #173941;
+  color: #fff;
+}
+
+.accounts-sub-content tbody tr:nth-child(even) td {
+  background: #faf7f2;
+}
+
+.accounts-sub-content a {
+  color: #d2601a;
+  font-weight: 600;
+}
+
+.accounts-sub-content blockquote {
+  border-left: 4px solid #d2601a;
+  background: #faf7f2;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}

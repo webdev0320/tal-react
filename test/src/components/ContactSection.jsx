@@ -25,9 +25,9 @@ const ContactSection = () => {
                 <div className="col-lg-7">
                     <div className="card bg-[#1D3C45] text-white p-4 rounded-3 shadow-lg border-0 position-relative overflow-hidden h-100 d-flex flex-column justify-content-center">
                         <div className="position-absolute rounded-circle" style={{ width: "150px", height: "150px", top: "-50px", right: "-50px", opacity: 0.1, backgroundColor: "#d2601a" }}></div>
-                        <h3 className="mb-2 text-white font-bold">Get in Touch</h3>
-                        <p className="text-white mb-2 text-sm">Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity.</p>
-                        <p className="text-white mb-3 text-sm">What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders.</p>
+                        <h3 className="mb-2 text-[#d2601a] font-bold">Get in Touch</h3>
+                        <p className="text-dark mb-2 text-sm">Tax returns, financial strategies, bookkeeping… this all can seem quite intimidating, but we assure you that you don’t have to navigate it alone. We commit to giving you peace of mind by bringing clarity to complexity.</p>
+                        <p className="text-dark mb-3 text-sm">What’s next? Get in touch for a free, no-obligation consultation – no pressure, just real, actionable guidance and let us take the tax stress off your shoulders.</p>
                         
                         <div className="d-flex flex-row flex-wrap justify-content-center gap-3 mb-3">
                             <a href="tel:02081270728" className="d-flex align-items-center text-white text-decoration-none">

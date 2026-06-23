@@ -2,6 +2,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FloatingConsultationButton from '../components/FloatingConsultationButton';
+import IDVerificationModal from '../components/IDVerificationModal';
 import '../tailwind.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -20,6 +21,9 @@ export const metadata = {
     'Expert chartered accountancy services in London. Tax returns, bookkeeping, payroll, VAT, company formation and more. Rated 5-stars on Google & Trustpilot.',
   keywords: ['accountants london', 'chartered accountants', 'tax return', 'bookkeeping'],
   authors: [{ name: 'Tal & Co Accountants' }],
+  icons: {
+    icon: '/images/favicon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_GB',
@@ -39,6 +43,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
         <FloatingConsultationButton />
+        <IDVerificationModal />
       </body>
     </html>
   );
