@@ -27,7 +27,7 @@ const page = {
     "/images/2026/05/Services-Accounts-Bookkeeping-What-Bookkeeping-Actually-Does-in-a-Running-Business.webp",
     "/images/2026/05/Services-Accounts-Bookkeeping-Where-Bookkeeping-Starts-to-Go-Wrong.webp",
     "/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-Services-for-Small.webp",
-    "/images/2024/01/pexels-photo-3756937.jpeg",
+    "/images/2024/01/pexels-photo-3756937.jpg",
     "/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-and-Accounting.webp",
     "/images/2026/05/Services-Accounts-Bookkeeping-Whats-Included-in-Our-Bookkeeping-Services.webp",
     "/images/2026/05/Services-Accounts-Bookkeeping-Bookkeeping-as-a-Foundation-for-Financial-Planning.webp",
