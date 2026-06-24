@@ -6,7 +6,7 @@ import { PieChart, BookOpen, Scale, Code, Landmark } from 'lucide-react';
 const Expertise = () => {
   const services = [
     { icon: "fas fa-user-tie", title: "Self Assessment Tax Accountant", description: "Login made easy. Get help with registering and filing your self-assessment tax return accurately and on time.", link: "/accounts/self-assessment" },
-    { icon: "fas fa-file-invoice-dollar", title: "Payroll Services", description: "Stress-free online payroll outsourcing services for small and medium businesses. Accurate and Compliant.", link: "/accounts/payroll" },
+    { icon: "fas fa-file-invoice-dollar", title: "Payroll Services", description: "Stress-free online payroll outsourcing services for small and medium businesses. Accurate and Compliant.", link: "/accounts/payroll-services" },
     { icon: "fas fa-calculator", title: "Income Tax Accountant", description: "Expert personal income tax accountant services. Top professionals ensuring accurate tax filing and maximum saving.", link: "/taxation/income-tax" },
     { icon: "fas fa-users", title: "Inheritance Tax Planning", description: "Expert inheritance tax advice near you to protect your wealth. Personalised estate planning tips for your family’s future.", link: "/taxation/inheritance-tax" },
     { icon: "fas fa-globe", title: "Worldwide Disclosure Facility", description: "Expert HMRC tax accountant advice to help you safely disclose offshore income in the UK and avoid penalties.", link: "/taxation/worldwide-disclosure" },

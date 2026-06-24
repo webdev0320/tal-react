@@ -48,7 +48,7 @@ const secondaryServices = [
     title: 'Self-Assessment & Tax Return',
     img: '/images/2024/07/14-1.jpg',
     desc: 'Taxaccolega simplifies the process of self-assessment and tax returns, ensuring accuracy and compliance. Our experts meticulously record and interpret your financial data, minimising tax liabilities and ensuring timely submission.',
-    link: '/accounts/self-assessment/',
+    link: '/accounts/self-assessment',
   },
   {
     title: 'Pension & auto Enrolment',

@@ -16,7 +16,7 @@ const ExpertTaxServices = ({ taxTags, tagRoutes }) => {
               <Link
                 key={tag}
                 href={route}
-                className="industry-badge text-decoration-none btn btn-brand"
+                className="taxation-link-pill btn btn-brand"
               >
                 {tag}
               </Link>
@@ -24,7 +24,7 @@ const ExpertTaxServices = ({ taxTags, tagRoutes }) => {
               <a
                 key={tag}
                 href="#"
-                className="industry-badge text-decoration-none btn btn-brand"
+                className="taxation-link-pill btn btn-brand"
               >
                 {tag}
               </a>

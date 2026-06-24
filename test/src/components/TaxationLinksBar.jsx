@@ -39,7 +39,7 @@ const TaxationLinksBar = () => {
                   href={to}
                   target="_blank"
                   rel="noreferrer"
-                  className={`industry-badge text-decoration-none btn btn-brand ${isActive ? 'active' : ''}`}
+                  className={`taxation-link-pill btn btn-brand ${isActive ? 'active' : ''}`}
                 >
                   {label}
                 </a>
@@ -50,7 +50,7 @@ const TaxationLinksBar = () => {
               <Link
                 key={label}
                 href={to}
-                className={`industry-badge text-decoration-none btn btn-brand ${isActive ? 'active' : ''}`}
+                className={`taxation-link-pill btn btn-brand ${isActive ? 'active' : ''}`}
               >
                 {label}
               </Link>

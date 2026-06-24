@@ -2,6 +2,40 @@
 @import "tailwindcss/theme.css";
 @import "tailwindcss/utilities.css";
 
+/* ─── System-wide brand buttons ─── */
+.btn-brand,
+a.btn-brand,
+button.btn-brand {
+  background-color: #d2601a !important;
+  color: #ffffff !important;
+  border: none !important;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-brand:hover,
+.btn-brand:focus,
+.btn-brand:focus-visible,
+a.btn-brand:hover,
+a.btn-brand:focus,
+button.btn-brand:hover,
+button.btn-brand:focus {
+  background-color: #243d45 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  box-shadow: none;
+}
+
+.accounts-link-pill,
+.taxation-link-pill {
+  text-decoration: none !important;
+}
+
+.accounts-link-pill:hover,
+.taxation-link-pill:hover {
+  text-decoration: none !important;
+}
+
 /* ─── Brand Design Tokens ─── */
 /* In Tailwind v4, @theme variables generate utility classes automatically:
    --color-brand-dark  →  bg-brand-dark, text-brand-dark, border-brand-dark, etc.

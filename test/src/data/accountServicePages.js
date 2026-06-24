@@ -1,12 +1,12 @@
 export const accountServiceLinks = [
-  { label: 'Bookkeeping', to: '/accounts/bookkeeping-services/' },
+  { label: 'Bookkeeping', to: '/accounts/bookkeeping-services' },
   { label: 'Statutory Accounts', to: '/accounts/statutory-accounts' },
   { label: 'Management Accounts', to: '/accounts/management-accounts' },
   { label: 'Payroll Services', to: '/accounts/payroll-services' },
-  { label: 'Self-Assessment & Tax Return', to: '/accounts/hmrc-self-assessment-tax-returns-accountant' },
-  { label: 'Pension & Auto Enrolment', to: '/accounts/auto-enrolment-pension-contributions/' },
+  { label: 'Self-Assessment & Tax Return', to: '/accounts/self-assessment' },
+  { label: 'Pension & Auto Enrolment', to: '/accounts/auto-enrolment-pension-contributions' },
   { label: 'Consolidated Accounts', to: '/accounts/consolidated-accounts' },
-  { label: 'Financial Forecasting', to: '/accounts/financial-forecasting/' },
+  { label: 'Financial Forecasting', to: '/accounts/financial-forecasting' },
   { label: 'Cashflow Forecasting', to: '/accounts/cash-flow-forecasting' },
 ];
 

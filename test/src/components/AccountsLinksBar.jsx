@@ -1,11 +1,13 @@
 "use client";
 
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { accountServiceLinks } from '../data/accountServicePages';
 
 const normalizePath = (path) => path.replace(/\/$/, '');
 
 const AccountsLinksBar = () => {
-  const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+  const pathname = usePathname();
 
   return (
     <section className="bg-white border-y border-gray-200 py-6">
@@ -15,13 +17,13 @@ const AccountsLinksBar = () => {
             const isActive = normalizePath(pathname) === normalizePath(to);
 
             return (
-              <a
-                key={label} 
+              <Link
+                key={label}
                 href={to}
-                className={`industry-badge text-decoration-none btn btn-brand ${isActive ? 'active' : ''}`}
+                className={`accounts-link-pill btn btn-brand ${isActive ? 'active' : ''}`}
               >
                 {label}
-              </a>
+              </Link>
             );
           })}
         </div>

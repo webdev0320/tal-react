@@ -43,15 +43,15 @@ const menuData = {
       {
         title: 'Accounting Services',
         items: [
-          { label: 'Bookkeeping', to: '/accounts/bookkeeping' },
-          { label: 'Statutory Accounts', to: '/accounts/statutory' },
-          { label: 'Management Accounts', to: '/accounts/management' },
-          { label: 'Payroll Services', to: '/accounts/payroll' },
+          { label: 'Bookkeeping', to: '/accounts/bookkeeping-services' },
+          { label: 'Statutory Accounts', to: '/accounts/statutory-accounts' },
+          { label: 'Management Accounts', to: '/accounts/management-accounts' },
+          { label: 'Payroll Services', to: '/accounts/payroll-services' },
           { label: 'Self-Assessment & Tax Return', to: '/accounts/self-assessment' },
-          { label: 'Pension & Auto Enrolment', to: '/accounts/pension' },
-          { label: 'Consolidated Accounts', to: '/accounts/consolidated' },
-          { label: 'Financial Forecasting', to: '/accounts/forecasting' },
-          { label: 'Cashflow Forecasting', to: '/accounts/cashflow' },
+          { label: 'Pension & Auto Enrolment', to: '/accounts/auto-enrolment-pension-contributions' },
+          { label: 'Consolidated Accounts', to: '/accounts/consolidated-accounts' },
+          { label: 'Financial Forecasting', to: '/accounts/financial-forecasting' },
+          { label: 'Cashflow Forecasting', to: '/accounts/cash-flow-forecasting' },
         ]
       }
     ]

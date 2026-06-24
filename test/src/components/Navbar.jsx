@@ -44,13 +44,18 @@ const Navbar = () => {
         }
         .btn-brand {
           background-color: #d2601a !important;
-          color: white !important;
+          color: #ffffff !important;
           border-radius: 0.5rem !important;
           padding: 0.5rem 1.25rem !important;
           font-weight: 600;
+          text-decoration: none !important;
+          transition: background-color 0.2s ease, color 0.2s ease;
         }
-        .btn-brand:hover {
-          background-color: #b8500e !important;
+        .btn-brand:hover,
+        .btn-brand:focus {
+          background-color: #243d45 !important;
+          color: #ffffff !important;
+          text-decoration: none !important;
         }
 
         /* Functional Fixes */
