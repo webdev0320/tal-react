@@ -1,0 +1,15 @@
+export const industryServiceLinks = [
+  { label: 'IT Professionals', to: '/industries/it-professionals' },
+  { label: 'Real Estate', to: '/industries/real-estate' },
+  { label: 'E-Commerce', to: '/industries/ecommerce' },
+  { label: 'Construction', to: '/industries/construction' },
+  { label: 'Automobile', to: '/industries/automobile' },
+  { label: 'Restaurants', to: '/industries/restaurants' },
+  { label: 'Wholesalers & Retailers', to: '/industries/wholesellers-retailers' },
+  { label: 'Healthcare', to: '/industries/healthcare-professionals' },
+  { label: 'Leisure Industry', to: '/industries/leisure-industry' },
+  { label: 'Non-UK Resident Tax', to: '/industries/non-uk-resident-taxation' },
+  { label: 'Logistics', to: '/industries/logistics' },
+  { label: 'Expatriates', to: '/industries/expatriates' },
+  { label: 'Charities', to: '/industries/charities' },
+];

@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FloatingConsultationButton from '../components/FloatingConsultationButton';
 import IDVerificationModal from '../components/IDVerificationModal';
+import JsonLd from '../components/JsonLd';
+import { rootMetadata } from '../lib/seo';
 import '../tailwind.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -12,30 +14,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 // libraries from crashing during the Next.js build prerender phase.
 export const dynamic = 'force-dynamic';
 
-export const metadata = {
-  title: {
-    default: 'Tal & Co Accountants | London Chartered Accountants',
-    template: '%s | Tal & Co Accountants',
-  },
-  description:
-    'Expert chartered accountancy services in London. Tax returns, bookkeeping, payroll, VAT, company formation and more. Rated 5-stars on Google & Trustpilot.',
-  keywords: ['accountants london', 'chartered accountants', 'tax return', 'bookkeeping'],
-  authors: [{ name: 'Tal & Co Accountants' }],
-  icons: {
-    icon: '/images/favicon.png',
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_GB',
-    url: 'https://taxaccolega.co.uk',
-    siteName: 'Tal & Co Accountants',
-  },
-};
+export const metadata = rootMetadata;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en-GB">
       <body className="antialiased">
+        <JsonLd />
         <TopBar />
         <Navbar />
         <main>
@@ -48,4 +33,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

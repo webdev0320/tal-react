@@ -5,58 +5,8 @@ import PageHero from '../components/PageHero';
 import ContactForm from '../components/ContactForm';
 import ReviewsSlider from '../components/ReviewsSlider';
 import FAQSection from '../components/FAQSection';
+import { cleanContent, extractHeading } from '../lib/wp-content';
 import './wp-content.css';
-
-/**
- * Strips HTML tags from a string and returns plain text.
- */
-const stripTags = (html) =>
-  html.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
-
-/**
- * Extracts the heading text to use in the PageHero.
- * ONLY uses the <h1><a href="...">Title</a></h1> pattern — this is
- * uniquely the WordPress post title injected by the theme template.
- * Bare <h1> tags inside content are section headings, not page titles,
- * so we leave them alone and fall back to data.title instead.
- */
-const extractHeading = (html) => {
-  const linkedH1 = html.match(/<h1[^>]*>\s*<a[^>]*>([\s\S]*?)<\/a>\s*<\/h1>/i);
-  if (linkedH1) return stripTags(linkedH1[1]);
-  return null;
-};
-
-/**
- * Cleans raw WordPress HTML for display:
- * - Removes the linked <h1><a> title block (shown in PageHero instead)
- * - Removes WP shortcodes
- * - Removes theme-injected "Your path to success" subtitle
- * - Removes leading empty <p> tags
- * Bare <h1> section headings are left untouched.
- * Also removes broken hardcoded FAQ section.
- */
-const cleanContent = (html) => {
-  let c = html;
-
-  // Remove ONLY the linked-anchor h1 (WordPress post title — shown in hero)
-  c = c.replace(/<h1[^>]*>\s*<a[^>]*>[\s\S]*?<\/a>\s*<\/h1>/gi, '');
-
-  // WP shortcodes
-  c = c.replace(/\[rank_math_breadcrumb\]/g, '');
-  c = c.replace(/\[insert phone number\]/gi, '020 8127 0728');
-  c = c.replace(/\[[^\]]+\]/g, '');
-
-  // Theme subtitle injected by Elementor/theme
-  c = c.replace(/<p[^>]*>\s*Your path to success\s*<\/p>/gi, '');
-
-  // Leading empty paragraphs
-  c = c.replace(/^(\s*<p[^>]*>\s*<\/p>\s*)*/i, '');
-
-  // Remove FAQ section
-  c = c.replace(/<h2>FAQs<\/h2>[\s\S]*?<a href="tel:02081270728"/gi, '<a href="tel:02081270728"');
-
-  return c.trim();
-};
 
 const DynamicWpPage = ({ slug: propSlug }) => {
   const pathname = usePathname();
