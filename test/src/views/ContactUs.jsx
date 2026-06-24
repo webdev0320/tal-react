@@ -1,8 +1,6 @@
 "use client";
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import ContactSection from '../components/ContactSection';
-import HomeContact from '../components/HomeContact';
 import StatsCounter from '../components/StatsCounter';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
@@ -12,7 +10,7 @@ const ContactUs = () => {
       <div className="container">
         <div className="row g-5">
           <div className="col-lg-12">
-            <HomeContact />
+            <ContactForm source="ContactUs" />
           </div>
           <div className="col-lg-12">
               <StatsCounter />

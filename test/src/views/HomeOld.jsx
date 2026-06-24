@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import ContactForm from '../components/ContactForm';
 
 // Reusable Star SVG
 const StarIcon = () => (
@@ -443,83 +444,7 @@ const HomeOld = () => {
         />
       </section>
 
-      {/* Get in Touch (Contact Section) */}
-      <section className="my-12 bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-4xl font-extrabold mb-8 text-center">Get in Touch</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <ContactItem
-            icon={() => (
-              <svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-blue-600 fill-current">
-                <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path>
-              </svg>
-            )}
-            title="Phone Number"
-            value="020 8127 0728"
-            href="tel:02081270728"
-          />
-          <ContactItem
-            icon={() => (
-              <svg aria-hidden="true" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-green-500 fill-current">
-                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
-              </svg>
-            )}
-            title="Whatsapp"
-            value="074 7117 0484"
-            href="https://wa.me/07471170484"
-          />
-          <ContactItem
-            icon={() => (
-              <svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-red-600 fill-current">
-                <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
-              </svg>
-            )}
-            title="Email"
-            value="info@taxaccolega.co.uk"
-            href="mailto:info@taxaccolega.co.uk"
-          />
-          <ContactItem
-            icon={() => (
-              <svg aria-hidden="true" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-gray-700 fill-current">
-                <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
-              </svg>
-            )}
-            title="Address"
-            value="187a London Road, Croydon, Surrey, CR0 2RJ"
-          />
-        </div>
-
-        <div className="my-8">
-          <iframe
-            loading="lazy"
-            src="https://maps.google.com/maps?q=187a%20London%20Road%2C%20Croydon%2C%20Surrey%2C%20CR0%202RJ&#038;t=m&#038;z=11&#038;output=embed&#038;iwloc=near"
-            title="187a London Road, Croydon, Surrey, CR0 2RJ"
-            aria-label="187a London Road, Croydon, Surrey, CR0 2RJ"
-            className="w-full h-80 rounded-lg shadow-inner"
-          ></iframe>
-        </div>
-
-        <h2 className="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
-        <form method="post" name="New Form" className="max-w-xl mx-auto space-y-4">
-          <input type="hidden" name="post_id" value="12" />
-          <input type="hidden" name="form_id" value="9633850" />
-          <input type="hidden" name="referer_title" value="" />
-          <div>
-            <label htmlFor="form-field-name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-            <input type="text" name="form_fields[name]" id="form-field-name" placeholder="Name" className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" />
-          </div>
-          <div>
-            <label htmlFor="form-field-email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-            <input type="email" name="form_fields[email]" id="form-field-email" placeholder="Email" required aria-required="true" className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" />
-          </div>
-          <div>
-            <label htmlFor="form-field-message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-            <textarea name="form_fields[message]" id="form-field-message" rows="7" placeholder="Message" className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
-          </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
-            Send
-          </button>
-        </form>
-      </section>
+      <ContactForm source="HomeOld" />
 
       {/* Who Do WE Help */}
       <section className="my-12">
@@ -742,28 +667,7 @@ const HomeOld = () => {
             </a>
         </div>
 
-
-        <h2 className="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
-        <form method="post" name="New Form Footer" className="max-w-xl mx-auto space-y-4">
-          <input type="hidden" name="post_id" value="12" />
-          <input type="hidden" name="form_id" value="977bb50" />
-          <input type="hidden" name="referer_title" value="" />
-          <div>
-            <label htmlFor="form-field-name-footer" className="block text-sm font-medium text-gray-200 mb-1">Name</label>
-            <input type="text" name="form_fields[name]" id="form-field-name-footer" placeholder="Name" className="w-full p-2 border border-gray-600 rounded-md bg-gray-700 text-white focus:ring-blue-500 focus:border-blue-500" />
-          </div>
-          <div>
-            <label htmlFor="form-field-email-footer" className="block text-sm font-medium text-gray-200 mb-1">Email</label>
-            <input type="email" name="form_fields[email]" id="form-field-email-footer" placeholder="Email" required aria-required="true" className="w-full p-2 border border-gray-600 rounded-md bg-gray-700 text-white focus:ring-blue-500 focus:border-blue-500" />
-          </div>
-          <div>
-            <label htmlFor="form-field-message-footer" className="block text-sm font-medium text-gray-200 mb-1">Message</label>
-            <textarea name="form_fields[message]" id="form-field-message-footer" rows="7" placeholder="Message" className="w-full p-2 border border-gray-600 rounded-md bg-gray-700 text-white focus:ring-blue-500 focus:border-blue-500"></textarea>
-          </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
-            Send
-          </button>
-        </form>
+        <ContactForm source="HomeOldFooter" />
       </footer>
     </div>
   );

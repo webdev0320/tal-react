@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Section from '../components/Layout/Section';
-import TwoColumnGrid from '../components/Layout/TwoColumnGrid';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import ContactForm from '../components/ContactForm';
 
 const PlaceholderImage = () => <div className="bg-gray-200 h-64 w-full flex items-center justify-center text-gray-500">Image Placeholder</div>;
 
@@ -333,29 +333,7 @@ const LetPropertyCampaign = () => {
         <p className="text-lg font-bold">The objective is not simply closing a tax issue. It is regaining clarity around a property position that often became progressively more complicated over time.</p>
       </Section>
 
-      {/* Section 18: Form */}
-      <Section bg="bg-brand-panel-light-grey">
-        <TwoColumnGrid 
-          left={
-            <div>
-              <h3 className="text-2xl font-bold text-brand-teal mb-4">Get in Touch</h3>
-              <p>Phone Number: 020 8127 0728</p>
-              <p>Whatsapp: 074 7117 0484</p>
-              <p>Email: info@taxaccolega.co.uk</p>
-              <p>Address: 187a London Road, Croydon, Surrey, CR0 2RJ</p>
-            </div>
-          }
-          right={
-            <div className="bg-white p-6 shadow">
-              <h3 className="text-2xl font-bold text-brand-teal mb-4">Send Us a Message</h3>
-              <input placeholder="Name" className="w-full p-2 border border-gray-300 mb-4" />
-              <input placeholder="Email" className="w-full p-2 border border-gray-300 mb-4" />
-              <textarea placeholder="Message" className="w-full p-2 border border-gray-300 mb-4 h-32" />
-              <button className="bg-brand-orange-custom text-white px-6 py-2">Send Us a Message</button>
-            </div>
-          }
-        />
-      </Section>
+      <ContactForm source="LetPropertyCampaign" />
 
       {/* Section 19: FAQ */}
       <Section>

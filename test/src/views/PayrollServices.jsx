@@ -3,30 +3,16 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
+import ContactForm from '../components/ContactForm';
 import AccountsLinksBar from '../components/AccountsLinksBar';
 import { CheckIcon } from '../components/accounts/AccountsPageIcons';
 
 const PayrollServices = () => {
   const [activeFaqIndex, setActiveFaqIndex] = useState(null);
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const handleInputChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    setFormSubmitted(true);
-    setTimeout(() => {
-      setFormSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', message: '' });
-    }, 5000);
-  };
 
   const quickNav = [
                     { title: 'Bookkeeping', link: '/accounts/bookkeeping-services' },
@@ -529,91 +515,7 @@ const PayrollServices = () => {
 
       <ReviewsSlider />
 
-      <section id="contact-block" className="py-5 bg-light border-top border-bottom border-light">
-        <div className="container">
-          <div className="row g-5">
-            <div className="col-lg-5">
-              <span className="text-brand-orange fw-bold text-uppercase small tracking-wider">Contact</span>
-              <h2 className="text-brand-dark display-5 mt-2 mb-4" style={{ fontFamily: "'Outfit', sans-serif" }}>Get in Touch</h2>
-              <p className="text-secondary mb-4">Connect directly with our customer response desk or drop by our physical consultation offices.</p>
-              <div className="d-flex flex-column gap-3">
-                <div className="card border-0 bg-white p-3 rounded-3 d-flex flex-row align-items-center gap-3 shadow-sm">
-                  <div className="bg-brand-orange text-white rounded-circle d-flex align-items-center justify-content-center" style={{ width: '50px', height: '50px', minWidth: '50px' }}>
-                    <i className="fas fa-phone-alt fs-5"></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Phone Number</span>
-                    <a href="tel:02081270728" className="fw-bold text-brand-dark text-decoration-none fs-5">020 8127 0728</a>
-                  </div>
-                </div>
-                <div className="card border-0 bg-white p-3 rounded-3 d-flex flex-row align-items-center gap-3 shadow-sm">
-                  <div className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center" style={{ width: '50px', height: '50px', minWidth: '50px' }}>
-                    <i className="fab fa-whatsapp fs-4"></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Whatsapp Chat</span>
-                    <a href="https://wa.me/447471170484" target="_blank" rel="noreferrer" className="fw-bold text-brand-dark text-decoration-none fs-5">074 7117 0484</a>
-                  </div>
-                </div>
-                <div className="card border-0 bg-white p-3 rounded-3 d-flex flex-row align-items-center gap-3 shadow-sm">
-                  <div className="bg-brand-dark text-white rounded-circle d-flex align-items-center justify-content-center" style={{ width: '50px', height: '50px', minWidth: '50px' }}>
-                    <i className="fas fa-envelope fs-5"></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Email Support</span>
-                    <a href="mailto:info@taxaccolega.co.uk" className="fw-bold text-brand-dark text-decoration-none fs-5">info@taxaccolega.co.uk</a>
-                  </div>
-                </div>
-                <div className="card border-0 bg-white p-3 rounded-3 d-flex flex-row align-items-center gap-3 shadow-sm">
-                  <div className="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center" style={{ width: '50px', height: '50px', minWidth: '50px' }}>
-                    <i className="fas fa-map-marker-alt fs-5"></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Office Address</span>
-                    <span className="fw-bold text-brand-dark fs-6">187a London Road, Croydon, Surrey, CR0 2RJ</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="card p-4 p-md-5 border-0 shadow-lg rounded-4 bg-white h-100">
-                <h3 className="mb-2 text-brand-dark" style={{ fontFamily: "'Outfit', sans-serif" }}>Send Us a Message</h3>
-                <p className="text-secondary small mb-4">Request a call back or drop details of your accounts enquiry.</p>
-                {formSubmitted ? (
-                  <div className="alert alert-success py-4 rounded-3" role="alert">
-                    <h6 className="alert-heading fw-bold mb-1">Enquiry Successfully Dispatched!</h6>
-                    <p className="mb-0 small">Thank you. An expert advisor will reply within 2 working hours.</p>
-                  </div>
-                ) : (
-                  <form onSubmit={handleFormSubmit}>
-                    <div className="row g-3">
-                      <div className="col-md-6">
-                        <label className="form-label small fw-semibold">Name <span className="text-danger">*</span></label>
-                        <input type="text" name="name" value={formData.name} onChange={handleInputChange} className="form-control" placeholder="Your Name" required />
-                      </div>
-                      <div className="col-md-6">
-                        <label className="form-label small fw-semibold">Email <span className="text-danger">*</span></label>
-                        <input type="email" name="email" value={formData.email} onChange={handleInputChange} className="form-control" placeholder="Your Email" required />
-                      </div>
-                      <div className="col-12">
-                        <label className="form-label small fw-semibold">Phone Number</label>
-                        <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} className="form-control" placeholder="Contact Number" />
-                      </div>
-                      <div className="col-12">
-                        <label className="form-label small fw-semibold">Message <span className="text-danger">*</span></label>
-                        <textarea name="message" value={formData.message} onChange={handleInputChange} rows="4" className="form-control" placeholder="How can we assist you today?" required></textarea>
-                      </div>
-                      <div className="col-12 mt-4">
-                        <button type="submit" className="btn btn-brand w-100 py-3 fw-bold">Submit Message</button>
-                      </div>
-                    </div>
-                  </form>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactForm source="PayrollServices" />
 
       <section className="py-5 bg-white border-bottom">
         <div className="container">

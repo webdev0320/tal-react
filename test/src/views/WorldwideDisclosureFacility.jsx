@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import ContactForm from '../components/ContactForm';
 
 const WorldwideDisclosureFacility = () => {
   return (
@@ -320,25 +321,7 @@ const WorldwideDisclosureFacility = () => {
             </div>
         </section>
 
-        {/* [COMPONENT INDEX 17]: Contact Intake Panel */}
-        <section className="py-16 px-4 bg-white mb-16">
-            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 border-2 p-8">
-                <div>
-                    <h3 className="text-xl font-bold mb-4 text-teal-900">Get in Touch</h3>
-                    <p className="mb-2"><strong>Phone Number:</strong> 020 8127 0728</p>
-                    <p className="mb-2"><strong>Whatsapp:</strong> 074 7117 0484</p>
-                    <p className="mb-2"><strong>Email:</strong> info@taxaccolega.co.uk</p>
-                    <p><strong>Address:</strong> 187a London Road, Croydon, Surrey, CR0 2RJ</p>
-                </div>
-                <div className="border p-6 shadow-sm bg-gray-50">
-                    <h3 className="text-xl font-bold mb-4 text-teal-900">Send Us a Message</h3>
-                    <input className="border p-2 w-full mb-2" placeholder="Name" />
-                    <input className="border p-2 w-full mb-2" placeholder="Email" />
-                    <textarea className="border p-2 w-full mb-4 h-24" placeholder="Message" />
-                    <button className="bg-orange-600 text-white p-3 font-bold w-full">Send Us a Message</button>
-                </div>
-            </div>
-        </section>
+        <ContactForm source="WorldwideDisclosureFacility" />
 
         {/* [COMPONENT INDEX 18]: Structural Closing Summary */}
         <section className="py-16 bg-teal-900 text-white px-4 text-center mb-16">

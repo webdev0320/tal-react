@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import ContactForm from '../components/ContactForm';
 
 const FilmTaxRelief = () => {
   const [activeFAQ, setActiveFAQ] = useState(null);
@@ -113,23 +114,7 @@ const FilmTaxRelief = () => {
           </div>
         </section>
 
-        {/* Component Index 8: Conversion Engine Contact Form Panel */}
-        <section className="container mx-auto px-6 py-16 grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-3xl font-bold text-teal-900 mb-6">Contact - Us</h2>
-            <p>Address: 187a London Road, Croydon, Surrey, CR0 2RJ</p>
-            <p>Phone No: 02081446811 | 020 8127 0728</p>
-            <p>Email: info@taxaccolega.co.uk</p>
-            <p>Opening Hours: Monday - Friday | 9:00 am - 5:30 pm</p>
-          </div>
-          <form className="space-y-4">
-            <input type="text" placeholder="Name" className="w-full p-2 border rounded" />
-            <input type="email" placeholder="Email" className="w-full p-2 border rounded" />
-            <input type="text" placeholder="Subject" className="w-full p-2 border rounded" />
-            <textarea placeholder="Message" className="w-full p-2 border rounded h-32"></textarea>
-            <button className="bg-teal-900 text-white px-6 py-3 rounded">Send</button>
-          </form>
-        </section>
+        <ContactForm source="FilmTaxRelief" />
 
         {/* Component Index 9: Collaborative Partner Carousel Strip 2 */}
         <section className="bg-gray-100 py-8">

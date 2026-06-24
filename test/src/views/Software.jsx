@@ -4,6 +4,7 @@ import TopBar from '../components/TopBar';
 import Navbar from '../components/Navbar';
 import Partners from '../components/Partners';
 import ReviewsSlider from '../components/ReviewsSlider';
+import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
 /* ─────────────────────────────────────────────
@@ -40,56 +41,6 @@ const AccordionItem = ({ id, title, icon, content, isOpen, onClick }) => (
   </div>
 );
 
-const InlineContactForm = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
-  const handleSubmit = (e) => { e.preventDefault(); alert('Message sent!'); };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <div className="mb-3">
-        <input
-          type="text"
-          name="name"
-          className="form-control form-control-sm border"
-          placeholder="Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <input
-          type="email"
-          name="email"
-          className="form-control form-control-sm border"
-          placeholder="Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <textarea
-          name="message"
-          rows="4"
-          className="form-control form-control-sm border"
-          placeholder="Message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <button type="submit" className="btn w-100" style={{ background: '#e07b39', color: '#fff', fontWeight: 600 }}>
-        Send
-      </button>
-    </form>
-  );
-};
-
-/* ─────────────────────────────────────────────
-   MAIN PAGE
-───────────────────────────────────────────── */
 const Software = () => {
   const [openAccordionId, setOpenAccordionId] = useState(1);
 
@@ -293,74 +244,7 @@ const Software = () => {
         </div>
       </section>
 
-      {/* ── 10. Get In Touch + Send Us a Message ── */}
-      <section className="py-5 bg-white">
-        <div className="container">
-          <div className="row g-5">
-            {/* Left: contact info + map */}
-            <div className="col-lg-5">
-              <h4 className="fw-bold mb-4" style={{ color: '#1a2332' }}>Get in Touch</h4>
-              <div className="d-flex flex-column gap-3 mb-4">
-                <div className="d-flex align-items-center gap-3">
-                  <div className="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style={{ width: 42, height: 42, background: '#e07b3920' }}>
-                    <i className="fas fa-phone-alt small" style={{ color: '#e07b39' }}></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Phone Number</span>
-                    <a href="tel:02081270728" className="fw-semibold text-decoration-none" style={{ color: '#1a2332' }}>020 8127 0728</a>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-3">
-                  <div className="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style={{ width: 42, height: 42, background: '#25d36620' }}>
-                    <i className="fab fa-whatsapp small text-success"></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Whatsapp</span>
-                    <a href="https://wa.me/447471170484" target="_blank" rel="noreferrer" className="fw-semibold text-decoration-none" style={{ color: '#1a2332' }}>074 7117 0484</a>
-                  </div>
-                </div>
-                <div className="d-flex align-items-center gap-3">
-                  <div className="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0" style={{ width: 42, height: 42, background: '#e07b3920' }}>
-                    <i className="fas fa-envelope small" style={{ color: '#e07b39' }}></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Email</span>
-                    <a href="mailto:info@taxaccolega.co.uk" className="fw-semibold text-decoration-none" style={{ color: '#1a2332' }}>info@taxaccolega.co.uk</a>
-                  </div>
-                </div>
-                <div className="d-flex align-items-start gap-3">
-                  <div className="rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style={{ width: 42, height: 42, background: '#e07b3920' }}>
-                    <i className="fas fa-map-marker-alt small" style={{ color: '#e07b39' }}></i>
-                  </div>
-                  <div>
-                    <span className="text-muted small d-block">Address</span>
-                    <span className="fw-semibold small" style={{ color: '#1a2332' }}>187a London Road, Croydon, Surrey, CR0 2RJ</span>
-                  </div>
-                </div>
-              </div>
-              {/* Embedded map */}
-              <div className="rounded-3 overflow-hidden border" style={{ height: '200px' }}>
-                <iframe
-                  title="Taxaccolega Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.2!2d-0.0922!3d51.3727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876056bd5f35c5f%3A0x5d3b14c5da9f0def!2s187a%20London%20Rd%2C%20Croydon%20CR0%202RJ!5e0!3m2!1sen!2suk!4v1234567890"
-                  width="100%"
-                  height="200"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </div>
-            </div>
-
-            {/* Right: message form */}
-            <div className="col-lg-7">
-              <h4 className="fw-bold mb-4" style={{ color: '#1a2332' }}>Send Us a Message</h4>
-              <InlineContactForm />
-            </div>
-          </div>
-        </div>
-      </section>
+    <ContactForm source="Software" />
 
       {/* ── 11. TAXCALC Segment ── */}
       <section className="py-5 bg-light">

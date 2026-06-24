@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Partners from '../components/Partners';
+import ContactForm from '../components/ContactForm';
 
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,12 +70,7 @@ const Charities = () => {
         <FAQItem question="What is Lorem Ipsum?" answer="Lorem Ipsum is simply dummy text of the printing and typesetting industry..." />
       </section>
 
-      <section className="bg-gray-900 text-white p-8 rounded-lg mb-12">
-        <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-        <p><strong>Phone:</strong> 020 8127 0728</p>
-        <p><strong>Email:</strong> info@taxaccolega.co.uk</p>
-        <p><strong>Address:</strong> 187a London Road, Croydon, Surrey, CR0 2RJ</p>
-      </section>
+      <ContactForm source="Charities" />
     </div>
   );
 };

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import PageHero from '../components/PageHero';
 import Partners from '../components/Partners';
 import TaxationLinksBar from '../components/TaxationLinksBar';
+import ContactForm from '../components/ContactForm';
 import { CheckCircle, ChevronDown, ChevronUp, Star } from 'lucide-react';
 
 const InheritanceTaxPlanning = () => {
@@ -232,12 +233,7 @@ const InheritanceTaxPlanning = () => {
         </div>
       </main>
 
-      <section className="py-16 bg-slate-950 text-white">
-        <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-            <p>Send us a message or call us today.</p>
-        </div>
-      </section>
+      <ContactForm source="InheritanceTaxPlanning" />
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4 max-w-4xl">
