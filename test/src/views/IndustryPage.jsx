@@ -201,6 +201,132 @@ const ContactUs = () => {
   );
 };
 
+const LongFormSection = ({ section, bg, imgRight }) => {
+  const textCol = (
+    <div className="col-lg-7">
+      {section.eyebrow && (
+        <span className="text-muted text-uppercase small tracking-wider d-block mb-2">
+          {section.eyebrow}
+        </span>
+      )}
+      <div className="border-start border-3 border-warning ps-3 mb-3">
+        <h3 className="fw-bold mb-0" style={{ color: '#1a2332' }}>
+          {section.title}
+        </h3>
+      </div>
+      {(() => {
+        let bulletsInserted = false;
+        return section.paragraphs?.map((p, i) => {
+          const shouldInsertBullets =
+            !bulletsInserted &&
+            section.bullets &&
+            p.trim().endsWith(':');
+          if (shouldInsertBullets) {
+            bulletsInserted = true;
+          }
+          return (
+            <div key={i}>
+              <p
+                className="text-secondary mb-3"
+                style={{ lineHeight: 1.8 }}
+              >
+                {p}
+              </p>
+              {shouldInsertBullets && (
+                <ul className="list-unstyled mb-3">
+                  {section.bullets.map((b, idx) => (
+                    <li
+                      key={idx}
+                      className="d-flex align-items-start gap-2 mb-2 text-secondary"
+                      style={{ lineHeight: 1.6 }}
+                    >
+                      <i
+                        className="fas fa-circle"
+                        style={{
+                          color: '#e07b39',
+                          fontSize: '6px',
+                          marginTop: '8px',
+                          flexShrink: 0
+                        }}
+                      />
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          );
+        });
+      })()}
+      {section.paragraphsAfter?.map((p, i) => (
+        <p
+          key={`pa-${i}`}
+          className="text-secondary mb-3"
+          style={{ lineHeight: 1.8 }}
+        >
+          {p}
+        </p>
+      ))}
+      {section.bullets2 && (
+        <ul className="list-unstyled mb-3">
+          {section.bullets2.map((b, i) => (
+            <li
+              key={`b2-${i}`}
+              className="d-flex align-items-start gap-2 mb-2 text-secondary"
+              style={{ lineHeight: 1.6 }}
+            >
+              <i
+                className="fas fa-circle"
+                style={{
+                  color: '#e07b39',
+                  fontSize: '6px',
+                  marginTop: '8px',
+                  flexShrink: 0
+                }}
+              ></i>
+              <span>{b}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {section.paragraphsAfter2?.map((p, i) => (
+        <p
+          key={`pb-${i}`}
+          className="text-secondary mb-3"
+          style={{ lineHeight: 1.8 }}
+        >
+          {p}
+        </p>
+      ))}
+    </div>
+  );
+
+  const imgCol = section.img ? (
+    <div className="col-lg-5 text-center">
+      <img
+        src={section.img}
+        alt={section.title}
+        className="img-fluid rounded-3 shadow"
+        style={{ maxHeight: '380px', objectFit: 'cover', width: '100%' }}
+      />
+    </div>
+  ) : null;
+
+  return (
+    <section className={`py-5 ${bg === 'light' ? 'bg-light' : 'bg-white'}`}>
+      <div className="container">
+        <div className="row g-5 align-items-center">
+          {imgRight ? (
+            <>{textCol}{imgCol}</>
+          ) : (
+            <>{imgCol}{textCol}</>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 /* ─────────────────────────────────────────────
    MAIN DYNAMIC COMPONENT
 ───────────────────────────────────────────── */
@@ -210,12 +336,12 @@ const IndustryPage = ({ slug: propSlug }) => {
 
   const data = industriesConfig[slug];
 
+  const [openAccordionId, setOpenAccordionId] = useState(1);
+  const [openFaqId, setOpenFaqId] = useState(1);
+
   if (!data) {
     return <DynamicWpPage slug={`industries/${slug}`} />;
   }
-
-  const [openAccordionId, setOpenAccordionId] = useState(1);
-  const [openFaqId, setOpenFaqId] = useState(1);
 
   const accordionData = [
     {
@@ -328,9 +454,24 @@ const IndustryPage = ({ slug: propSlug }) => {
             </div>
             <div className="col-lg-7">
               <h3 className="fw-bold mb-3" style={{ color: '#1a2332' }}>{data.sec2.title}</h3>
-              <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
-                {data.sec2.para}
-              </p>
+              {data.sec2.para1 || data.sec2.para2 ? (
+                <>
+                  {data.sec2.para1 && (
+                    <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
+                      {data.sec2.para1}
+                    </p>
+                  )}
+                  {data.sec2.para2 && (
+                    <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
+                      {data.sec2.para2}
+                    </p>
+                  )}
+                </>
+              ) : (
+                <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
+                  {data.sec2.para}
+                </p>
+              )}
               <a
                 href={data.sec2.btnLink}
                 className="btn px-4 py-2 text-white"
@@ -343,13 +484,59 @@ const IndustryPage = ({ slug: propSlug }) => {
         </div>
       </section>
 
+      {data.sec3 && (
+        <section className="py-5 bg-white" id="secondary-details-3">
+          <div className="container">
+            <div className="row g-5 align-items-center">
+              <div className="col-lg-5">
+                <img
+                  src={data.sec3.img}
+                  alt={data.sec3.title}
+                  className="img-fluid rounded-3 shadow"
+                />
+              </div>
+              <div className="col-lg-7">
+                <h3 className="fw-bold mb-3" style={{ color: '#1a2332' }}>{data.sec3.title}</h3>
+                {data.sec3.para1 && (
+                  <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
+                    {data.sec3.para1}
+                  </p>
+                )}
+                {data.sec3.para2 && (
+                  <p className="text-secondary mb-4" style={{ lineHeight: 1.8, whiteSpace: 'pre-line' }}>
+                    {data.sec3.para2}
+                  </p>
+                )}
+                <a
+                  href={data.sec3.btnLink}
+                  className="btn px-4 py-2 text-white"
+                  style={{ background: '#e07b39', fontWeight: 600, borderRadius: '4px' }}
+                >
+                  {data.sec3.btnText}
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── 7b. Long-Form Content Sections (full article content) ── */}
+      {data.sections && data.sections.map((section, idx) => (
+        <LongFormSection
+          key={idx}
+          section={section}
+          bg={idx % 2 === 0 ? 'white' : 'light'}
+          imgRight={idx % 2 !== 0}
+        />
+      ))}
+
       {/* ── 8. Why Choose Us Section (Section 3) ── */}
       <section className="py-5 bg-white">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 text-center">
               <img
-                src="/images/2025/08/book-a-call-or-meeting.webp"
+                src="/images/whychooseus.png"
                 alt="Why Choose Us"
                 className="img-fluid rounded-3 shadow-sm"
                 style={{ maxHeight: '420px', objectFit: 'cover' }}

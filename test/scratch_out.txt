@@ -1,0 +1,95 @@
+              <p class='['elementor-heading-title', 'elementor-size-default']'>: Wholesellers & Retailers
+              <p class='[]'>: Servicing Wholesalers and Retailers
+            <p class='[]'>: Home / Industries / Wholesellers & Retailers
+              <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/10/thumbnail_1536x1536.webp', alt=''
+              <h2 class='['elementor-heading-title', 'elementor-size-default']'>: How do we help Wholesalers & Retailers?
+              <p class='[]'>: We at Taxaccolega are aware of the distinct operational and financial landscapes that retailers and wholesalers must navigate. Our experienced team provides tailored solutions to enhance your financial status and streamline business operations. We support your sector in the ways listed below:
+              <h3 class='[]'>: Customised Tax Solutions
+              <p class='[]'>: To minimise liabilities and optimise deductions, we create and execute customised tax plans for wholesalers and retailers.
+              <h2 class='['elementor-heading-title', 'elementor-size-default']'>: Our Clients and Collaborative Partners
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/A.webp', alt='A'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/ACCA.webp', alt='ACCA'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/BTC-Softwares.webp', alt='BTC Softwares'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Croydon-Chamber.webp', alt='Croydon Chamber'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Croydon.webp', alt='Croydon'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Dext.webp', alt='Dext'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Go-Cardless.webp', alt='Go Cardless'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Intuit-Quick-Books.webp', alt='Intuit Quick Books'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Lewisham.webp', alt='Lewisham'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Simply-Business.webp', alt='Simply Business'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/SME-News.webp', alt='SME News'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/TAXCALC-1.webp', alt='TAXCALC (1)'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Three-Best-Rated.webp', alt='Three Best Rated'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/VT-Software.webp', alt='VT Software'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/XERO-1.webp', alt='XERO (1)'
+                      <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2023/06/Xpert-SM.webp', alt='Xpert SM'
+          <p class='['elementor-heading-title', 'elementor-size-default']'>: Wholesalers & Retailers
+                      <h2 class='[]'>: Unlocking Growth for Wholesalers & Retailers
+                      <p class='[]'>: Our goal at Taxaccolega is to help retailers and wholesalers succeed financially and operationally. We provide useful solutions and strategic counsel that promotes corporate expansion. Among our offerings are:
+              <h2 class='['elementor-heading-title', 'elementor-size-default']'>: Our Recent Google Reviews
+                          <img>: src='https://www.taxaccolega.co.uk/wp-content/uploads/2024/07/Googleeeeeeeeeeee-300x46.png', alt=''
+                          <h3 class='['elementor-image-box-title']'>: 5.0 | 187 reviews
+            <p class='[]'>: Services
+            <p class='['elementor-heading-title', 'elementor-size-default']'>: Why Choose Us
+                    <h3 class='['wpr-acc-title-text']'>: Dedicated Local & Online Accountant
+                    <p class='[]'>: Taxaccolega provides personalised assistance. You get a dedicated accountant when you work with us who fully knows the ins and outs of your finances. No call centers, no general advice, but a real expert focusing on your specific tax and accounting needs.
+                    <h3 class='['wpr-acc-title-text']'>: Optimized Taxation
+                    <p class='[]'>: Have been paying too much tax? We will optimise and curtail your unnecessary payable taxes. While we plan and structure strategically and carefully, we help you maximize tax efficiency, claim available reliefs, and avoid unnecessary liabilities, all while staying HMRC-compliant.
+                    <h3 class='['wpr-acc-title-text']'>: Accredited Chartered Accountant
+                    <p class='[]'>: Your finances are in the hands of qualified accountants and credible experts since we are licensed and regulated by ICAEW and ACCA. Whether it's tax planning, accounting advice, or compliance, we 100% guarantee everything is done honestly, accurately, and completely aligned with UK tax laws.
+                    <h3 class='['wpr-acc-title-text']'>: Timely Reminders
+                    <p class='[]'>: Deadlines creep up fast, but we won't let you miss them. We provide timely reminders for tax filings, payments, and compliance requirements, so you never have to worry about penalties or last-minute stress ever again.
+                    <h3 class='['wpr-acc-title-text']'>: Total Transparency​
+                    <p class='[]'>: No hidden fees. No surprise charges. We believe in clear, upfront pricing and full transparency in our work. We also use reliable, industry-leading accounting softwares like Xero, Taxcalc, btc, & VT to ensure your tax and financial security, total accuracy and efficiency.
+                    <h3 class='['wpr-acc-title-text']'>: Expert Value Added Guidance
+                    <p class='[]'>: Beyond just the numbers, we provide cashflow forecasting to help you plan for the future. Tax-saving opportunities, investment structuring, or business growth tactics, we're here to guide you toward smarter tax-saving decisions.
+              <h2 class='['elementor-heading-title', 'elementor-size-default']'>: FAQs
+                  <h3 class='['elementor-tab-title']'>: 1. How can Taxaccolega help improve cash flow for my retail business?
+                    <p class='[]'>: In order to ensure that your company has enough liquidity to pay for operating costs and make investments in growth opportunities, we offer tailored strategies to optimise cash flow.
+                  <h3 class='['elementor-tab-title']'>: 2. What inventory management solutions does Taxaccolega offer?
+                            <p class='[]'>: To improve your cash flow and operational efficiency, we provide knowledgeable guidance on preserving ideal stock levels, cutting holding costs, and raising turnover rates.
+                  <h3 class='['elementor-tab-title']'>: 3. How does Taxaccolega assist wholesalers with tax compliance?
+                    <p class='[]'>: Our payroll services ensure timely and accurate salary calculations, tax withholdings, and compliance with employment regulations. This helps you manage your staff efficiently and avoid any payroll-related issues.
+                  <h3 class='['elementor-tab-title']'>: 4. Why is financial planning crucial for wholesalers and retailers?
+                        <p class='[]'>: We assist you inlocating and maximising tax deductions for home improvements and renovations. Our professionals make sure you take advantage of all available tax breaks, which lowers your overall tax liability and supports your improvement investment in real estate.
+                  <h3 class='['elementor-tab-title']'>: 5. What VAT services does Taxaccolega provide for wholesale and retail businesses?
+                    <p class='[]'>: Our services help you manage VAT effectively and stay out of trouble by assisting with VAT registration, preparing quarterly returns, and guaranteeing complete compliance with HMRC regulations.
+                  <p class='['elementor-icon-box-title']'>: Phone:
+                  <p class='['elementor-icon-box-description']'>: 020 8127 0728
+                  <h3 class='['elementor-icon-box-title']'>: Email Address:
+                  <p class='['elementor-icon-box-description']'>: [email protected]
+                  <h3 class='['elementor-icon-box-title']'>: Address
+                  <p class='['elementor-icon-box-description']'>: 187a London Road, Croydon, Surrey, CR0 2RJ
+                  <h3 class='['elementor-icon-box-title']'>: Email
+                  <p class='['elementor-icon-box-description']'>: [email protected]
+                  <h3 class='['elementor-icon-box-title']'>: Phone No
+                  <p class='['elementor-icon-box-description']'>: 020 8127 0728 074 7117 0484
+                  <h3 class='['elementor-icon-box-title']'>: Opening Hours
+                  <p class='['elementor-icon-box-description']'>: Monday - Friday 9:00 am - 5:00 pm
+                  <h1 class='[]'>: ID Verification Form For Companies House
+                      <p class='[]'>: From 18 November 2025, UK law will require all company Directors and Persons with Significant Control (PSCs) to verify their identity with Companies House.
+                        <li class='[]'>: Companies House will issue a personal code to PSCs.
+                        <li class='[]'>: Taxaccolega (ACSP) can help collect data and assist.
+                        <li class='[]'>: Please answer the questions and upload documents.
+                      <h3 class='[]'>: Personal Details
+                      <h3 class='[]'>: Contact Details
+                      <h3 class='[]'>: Role in the Company *
+                      <h3 class='[]'>: Identity Documents
+                      <h3 class='[]'>: Additional (Overseas)
+                      <p class='['note']'>: An additional fee of £10 + VAT will apply.
+                      <h3 class='[]'>: Privacy & Consent
+                      <p class='[]'>: You are declaring that all documents and information provided by you are true and correct, you are consenting to use and store your personal data and consenting for Taxaccolega Chartered Accountants to act as Authorised Corporate Service Provider (ACSP) on your behalf.
+                      <p class='[]'>: I confirm that I have read and agree to the above Terms & Conditions and consent to the processing of my data by Taxaccolega Chartered Accountants for the purposes of identity verification with Companies House.
+                      <p class='[]'>: Terms & Conditions – Identity Verification Process
+                      <p class='[]'>: By submitting, you authorise Taxaccolega to process your data for ID verification with Companies House.
+                        <p class='[]'>: 1. Purpose of this Agreement 1.1 These Terms & Conditions apply to the collection and processing of personal data and identity documents required under the Economic Crime and Corporate Transparency Act 2023 and Companies House identity verification rules effective from 18 November 2025. 1.2 By submitting your details through our online form, you authorise Taxaccolega Chartered Accountants (as an Authorised Corporate Service Provider – ACSP) to process your information for the sole purpose of fulfilling the identity verification obligations set by Companies House.
+                        <p class='[]'>: 2. Client Responsibilities 2.1 You confirm that all information and documents you provide are true, accurate, complete, and current. 2.2 You accept full responsibility for any false, misleading, or incomplete information supplied, and acknowledge that this may lead to penalties or rejection of your verification by Companies House. 2.3 You must notify us promptly of any change in your details (such as name, address, or role in the company) which may affect the verification process.
+                        <p class='[]'>: 3. Our Role & Limitation 3.1 We act solely as an intermediary in submitting your information to Companies House. 3.2 We do not guarantee the acceptance, speed, or outcome of any identity verification by Companies House. The final decision rests solely with Companies House. 3.3 We shall not be liable for any loss, delay, penalty, or consequence arising from: * (a) inaccurate or incomplete information provided by you, * (b) delays or failures within Companies House systems, * (c) rejection or failure of verification by Companies House, or * (d) events outside our reasonable control. 3.4 Nothing in these Terms excludes liability for death, personal injury, fraud, or any liability which cannot be excluded under law..
+                        <p class='[]'>: 4. Data Protection 4.1 We will process your personal data in accordance with the UK GDPR and the Data Protection Act 2018. 4.2 Your data will be used solely for the purpose of identity verification and related compliance requirements. 4.3 We will retain your information only as long as required by law or regulatory obligations. 4.4 We will not disclose your information to third parties other than Companies House or other parties legally entitled to it.
+                        <p class='[]'>: 5. Client Consent By ticking the consent box and submitting your details, you confirm that: • You have read, understood, and agreed to these Terms & Conditions. • You consent to Taxaccolega Chartered Accountants acting as your Authorised Corporate Service Provider (ACSP) for identity verification purposes. • You consent to the processing, storage, and transfer of your personal data and documents in accordance with Section 4 above..
+                        <p class='[]'>: 6. Governing Law & Jurisdiction These Terms & Conditions are governed by and construed in accordance with the laws of England and Wales, and any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.
+                      <h3 class='[]'>: Checkout
+                          <p class='[]'>: Net Amount: £35.00
+                          <p class='[]'>: VAT @ 20%: £7.00
+                          <p class='['total']'>: Total: £42.00
+                    <h2 class='[]'>: Secure Payment
